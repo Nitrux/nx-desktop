@@ -1,0 +1,206 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Nomad desktop
+Task-Extended-Description: The Nomad environment using KDE Plasma Desktop
+Task-Key: nomad-desktop
+Task-Seeds: desktop-common
+
+= NXOS CORE =
+ * base-files
+ * nomad-grub-theme
+ * plymouth-theme-nomad-text
+ * plymouth-theme-nomad-logo
+
+= Hardware and Architecture Support =
+
+== Architecture-independent ==
+
+ * pm-utils
+
+Bluetooth:
+
+ * (pulseaudio-module-bluetooth) # Bluetooth audio devices by default
+
+= Network Services =
+
+Basic network services and Windows integration.
+
+ * (avahi-autoipd)     # IPv4 link-local interface configuration support
+ * (mobile-broadband-provider-info)
+
+= GUI infrastructure =
+
+Extra fonts (should be common, but not so for space reasons):
+
+ * (fonts-noto-cjk)
+ * (fonts-nanum)
+ * (fonts-liberation)
+ * (fonts-oxygen)
+
+Input methods:
+
+ * (im-config)
+ * (ibus-qt4)  # ibus support
+
+== Phonon and Frameworks ==
+
+ * (pulseaudio)
+ * (phonon-backend-gstreamer) # upstream recommends vlc but also says vlc is flakey and gstreamer fits better with the rest of ubuntu
+ * (phonon4qt5-backend-gstreamer)
+ * (gstreamer1.0-pulseaudio)
+ * (gstreamer-qapt)
+ * (frameworkintegration)
+ * (kimageformat-plugins)
+ * (qt5-image-formats-plugins)
+
+== Plasma ==
+
+ * baloo-kf5
+ * breeze
+ * kde-cli-tools
+ * khelpcenter
+ * khotkeys
+ * kinfocenter
+ * kio
+ * kio-extras
+ * kmenuedit
+ * ksysguard
+ * kwin
+ * kwrited
+ * oxygen-sounds
+ * plasma-desktop
+ * powerdevil
+ * systemsettings
+ * (plasma-widgets-addons)
+ * (kde-config-gtk-style) #GTK setup
+ * (kde-config-gtk-style-preview) # brings in the gtk libraries
+ * (plasma-discover)
+ * (plasma-discover-updater)
+ * (polkit-kde-agent-1) # needed by discover but is an option compared to gtk polkit for gnome users
+ * (ksshaskpass)
+ * (bluedevil)
+ * (kwin-addons)
+ * (plasma-dataengines-addons)
+ * (plasma-runners-addons)
+ * (plasma-wallpapers-addons)
+ * (kscreen)
+ * (milou)
+ * (plasma-nm)
+ * (kde-config-sddm)
+ * (user-manager)
+ * (plasma-pa)
+
+== Nomad Customization Layer ==
+ 
+ * nomad-gtk-themes
+ * nomad-plasma-look-and-feel
+ * nomad-desktop-settings
+ * kvantum
+ * kvantum-theme-kvnomad
+ * luv-icon-theme
+
+ # Widgets
+ * nomad-simplemenu
+ * nomad-systemtray
+ * nomad-networkmanagement-applet
+ * nomad-notifications-applet
+ * nomad-clock-applet
+ 
+ 
+== KDE Applications ==
+
+ * (konsole)
+ * (gwenview)
+ * (krdc)
+ * ark
+ * (kwalletmanager)
+ * (kcalc)
+ * dolphin
+ * (ksystemlog)
+ * (akregator)
+ * (kaddressbook)
+ * (kdepim-runtime)
+ * (kontact)
+ * (korganizer)
+ * kde-spectacle
+ * okular
+ * (kdegraphics-strigi-analyzer)
+ * (okular-extra-backends)
+ * (kdenetwork-filesharing)
+ * (kate)
+ * (print-manager)
+
+== Nomad Applications ==
+ 
+ * latte-dock
+ * nomad-firewall
+ * nx-software-center
+ * babe
+
+== Other KDE Software ==
+
+ * (baloo-utils) # kdelibs4 kioslaves
+ * (kde-telepathy)
+ * software-properties-kde
+ * (apport-kde)
+ * (kubuntu-driver-manager)
+ * (kubuntu-settings-desktop)
+ * (kubuntu-notification-helper)
+ * (qapt-deb-installer)
+ * (oxygen5-icon-theme)
+ * (apturl-kde)
+ * (partitionmanager)
+ * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
+ * (kde-config-whoopsie)
+ * (libpam-kwallet4) # Needs to be seeded as otherwise kwallet4 using apps will need user unlocking.
+ * (libpam-kwallet5)
+ * (gtk2-engines-oxygen)
+ * (gtk3-engines-breeze) 
+ * (k3b)
+ * (konversation)
+ * (ktorrent)
+ * (pinentry-qt) # for SMIME e-mail support
+ * (gnupg-agent) # for SMIME e-mail support
+ * (gpgsm) # SMIME engine
+ * (skanlite)
+# * (kde-config-tablet) #does not exist post vivid.
+# * (usb-creator-kde) [i386 amd64] # disabled cos it's broken
+ * (kio-mtp)
+ * (kdeconnect-plasma)
+
+Documentation:
+
+= Other =
+
+ * (cryptsetup) #needed for encrypted devices, also in d-i-requirements seed but might be needed for 3rd party drives
+
+Here we provide a minimal development environment sufficient to build kernel
+drivers, so that this is possible on the live CD and in scenarios where
+it is problematic to get these packages onto the installed system in order
+to compile a driver. -mdz
+-- taken from xubuntu core - yofel
+
+ * (gcc)
+ * (make)
+
+= Other Desktop GUI Apps =
+
+ * (chromium-browser) # Because it is a cool and secure browser.
+
+== supporting bits ==
+
+ * (upower)
+ * (udisks2)
+ * (xdg-utils)         # useful utilities
+ * (cdrdao)
+ * (libqca2-plugin-ossl)
+ * (qtdeclarative5-xmllistmodel-plugin)
+ * (libqt5qml-graphicaleffects)
+ * xdg-user-dirs
+ * sddm-theme-nomad
+
+== Blacklist ==
+
+libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007-01-02).
+
+ * !libavcodec*

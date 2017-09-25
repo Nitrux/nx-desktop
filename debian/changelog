@@ -1,0 +1,28 @@
+nxos-meta (2) UNRELEASED; urgency=medium
+
+  * Refreshed dependencies
+  * Added chromium-browser to nxos-desktop-recommends
+  * Added nomad-networkmanagement-applet to nxos-desktop
+  * Removed amarok from nxos-desktop-recommends
+  * Removed dragonplayer from nxos-desktop-recommends
+  * Removed firefox from nxos-desktop-recommends
+  * Removed kmail from nxos-desktop-recommends
+  * Removed knotes from nxos-desktop-recommends
+  * Removed kubuntu-web-shortcuts from nxos-desktop-recommends
+  * Removed libreoffice-base from nxos-desktop-recommends
+  * Removed libreoffice-calc from nxos-desktop-recommends
+  * Removed libreoffice-impress from nxos-desktop-recommends
+  * Removed libreoffice-kde from nxos-desktop-recommends
+  * Removed libreoffice-style-oxygen from nxos-desktop-recommends
+  * Removed libreoffice-writer from nxos-desktop-recommends
+  * Removed plymouth-theme-kubuntu-logo from nxos-desktop-recommends
+  * Removed plymouth-theme-kubuntu-text from nxos-desktop-recommends
+  * Removed sddm-theme-breeze from nxos-desktop
+
+ -- Alexis L?pez Zubieta <azubieta90@gmail.com>  Tue, 26 Sep 2017 01:44:46 -0500
+
+nxos-meta (1) nxos; urgency=medium
+
+  * Initial package
+
+ -- Alexis Lpez Zubieta <azubieta90@gmail.com>  Mon, 26 Sep 2017 16:05:12 +0000

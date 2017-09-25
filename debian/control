@@ -1,0 +1,18 @@
+Source: nxos-meta
+Section: metapackages
+Priority: optional
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18), devscripts, debootstrap, bzip2, unzip
+Vcs-Git: https://github.com/nomad-desktop/nxos-meta.git
+Maintainer: Alexis Lopez Zubieta <azubieta90@gmail.com>
+
+Package: nxos-desktop
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: NOMAD Plasma Desktop system
+ This package depends on a sensible desktop for Nomad. Installing this
+ package will include the default NOMAD Desktop.
+ .
+ This package is also used by the updater to upgrade to new versions.
+
