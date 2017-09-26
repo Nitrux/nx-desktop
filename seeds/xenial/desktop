@@ -31,7 +31,6 @@ Basic network services and Windows integration.
 Extra fonts (should be common, but not so for space reasons):
 
  * (fonts-noto-cjk)
- * (fonts-nanum)
  * (fonts-liberation)
  * (fonts-oxygen)
 
@@ -133,7 +132,6 @@ Input methods:
 == Other KDE Software ==
 
  * (baloo-utils) # kdelibs4 kioslaves
- * (kde-telepathy)
  * software-properties-kde
  * (apport-kde)
  * (qapt-deb-installer)

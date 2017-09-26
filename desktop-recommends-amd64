@@ -20,7 +20,6 @@ fonts-khmeros-core
 fonts-lao
 fonts-liberation
 fonts-lklug-sinhala
-fonts-nanum
 fonts-noto-cjk
 fonts-oxygen
 fonts-sil-abyssinica
@@ -48,7 +47,6 @@ kde-config-gtk-style
 kde-config-gtk-style-preview
 kde-config-sddm
 kde-config-whoopsie
-kde-telepathy
 kdeconnect-plasma
 kdegraphics-strigi-analyzer
 kdenetwork-filesharing

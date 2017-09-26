@@ -1,3 +1,11 @@
+nxos-meta (4) nxos; urgency=medium
+
+  * Refreshed dependencies
+  * Removed fonts-nanum from desktop-recommends
+  * Removed kde-telepathy from desktop-recommends
+
+ -- Alexis López Zubieta <azubieta90@gmail.com>  Tue, 26 Sep 2017 15:04:37 -0500
+
 nxos-meta (3) nxos; urgency=medium
 
   * Refreshed dependencies
