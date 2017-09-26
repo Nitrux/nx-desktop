@@ -6,10 +6,8 @@ Task-Key: nomad-desktop
 Task-Seeds: desktop-common
 
 = NXOS CORE =
- * base-files
- * nomad-grub-theme
- * plymouth-theme-nomad-text
- * plymouth-theme-nomad-logo
+ * grub2-theme-nomad
+ * plymouth-theme-nomad
 
 = Hardware and Architecture Support =
 
@@ -100,7 +98,7 @@ Input methods:
  * luv-icon-theme
 
  # Widgets
- * nomad-simplemenu
+ * plasma-widget-nomad-simplemenu
  * nomad-systemtray
  * nomad-networkmanagement-applet
  * nomad-notifications-applet
@@ -197,7 +195,6 @@ to compile a driver. -mdz
  * (qtdeclarative5-xmllistmodel-plugin)
  * (libqt5qml-graphicaleffects)
  * xdg-user-dirs
- * sddm-theme-nomad
 
 == Blacklist ==
 
