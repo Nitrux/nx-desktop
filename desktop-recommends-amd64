@@ -1,5 +1,4 @@
 acpi-support
-akregator
 apport-kde
 apturl-kde
 avahi-autoipd
@@ -34,7 +33,6 @@ fwupd
 fwupdate
 fwupdate-signed
 gcc
-gnupg-agent
 gpgsm
 gstreamer-qapt
 gstreamer1.0-pulseaudio
@@ -44,8 +42,6 @@ gwenview
 hplip
 ibus-qt4
 im-config
-k3b
-kaddressbook
 kate
 kcalc
 kde-config-gtk-style
@@ -56,22 +52,15 @@ kde-telepathy
 kdeconnect-plasma
 kdegraphics-strigi-analyzer
 kdenetwork-filesharing
-kdepim-runtime
 kerneloops-daemon
 kimageformat-plugins
 kio-mtp
 konsole
-kontact
-konversation
-korganizer
 krdc
 kscreen
 ksshaskpass
 ksystemlog
 ktorrent
-kubuntu-driver-manager
-kubuntu-notification-helper
-kubuntu-settings-desktop
 kwalletmanager
 kwin-addons
 laptop-detect
@@ -89,7 +78,6 @@ partitionmanager
 pcmciautils
 phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
-pinentry-qt
 plasma-dataengines-addons
 plasma-discover
 plasma-discover-updater
@@ -115,7 +103,6 @@ python-qt4-dbus
 qapt-deb-installer
 qt5-image-formats-plugins
 qtdeclarative5-xmllistmodel-plugin
-skanlite
 snapd
 ttf-ancient-fonts-symbola
 ttf-ubuntu-font-family

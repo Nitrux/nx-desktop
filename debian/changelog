@@ -1,4 +1,4 @@
-nxos-meta (2) UNRELEASED; urgency=medium
+nxos-meta (3) nxos; urgency=medium
 
   * Refreshed dependencies
   * Added chromium-browser to nxos-desktop-recommends
@@ -18,8 +18,22 @@ nxos-meta (2) UNRELEASED; urgency=medium
   * Removed plymouth-theme-kubuntu-logo from nxos-desktop-recommends
   * Removed plymouth-theme-kubuntu-text from nxos-desktop-recommends
   * Removed sddm-theme-breeze from nxos-desktop
+  * Refreshed dependencies
+  * Removed akregator from desktop-recommends
+  * Removed gnupg-agent from desktop-recommends
+  * Removed k3b from desktop-recommends
+  * Removed kaddressbook from desktop-recommends
+  * Removed kdepim-runtime from desktop-recommends
+  * Removed kontact from desktop-recommends
+  * Removed konversation from desktop-recommends
+  * Removed korganizer from desktop-recommends
+  * Removed kubuntu-driver-manager from desktop-recommends
+  * Removed kubuntu-notification-helper from desktop-recommends
+  * Removed kubuntu-settings-desktop from desktop-recommends
+  * Removed pinentry-qt from desktop-recommends
+  * Removed skanlite from desktop-recommends
 
- -- Alexis L?pez Zubieta <azubieta90@gmail.com>  Tue, 26 Sep 2017 01:44:46 -0500
+ -- Alexis López Zubieta <azubieta90@gmail.com>  Tue, 26 Sep 2017 14:28:02 -0500
 
 nxos-meta (1) nxos; urgency=medium
 

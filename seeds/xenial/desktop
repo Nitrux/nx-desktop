@@ -115,11 +115,6 @@ Input methods:
  * (kcalc)
  * dolphin
  * (ksystemlog)
- * (akregator)
- * (kaddressbook)
- * (kdepim-runtime)
- * (kontact)
- * (korganizer)
  * kde-spectacle
  * okular
  * (kdegraphics-strigi-analyzer)
@@ -141,9 +136,6 @@ Input methods:
  * (kde-telepathy)
  * software-properties-kde
  * (apport-kde)
- * (kubuntu-driver-manager)
- * (kubuntu-settings-desktop)
- * (kubuntu-notification-helper)
  * (qapt-deb-installer)
  * (oxygen5-icon-theme)
  * (apturl-kde)
@@ -154,14 +146,8 @@ Input methods:
  * (libpam-kwallet5)
  * (gtk2-engines-oxygen)
  * (gtk3-engines-breeze) 
- * (k3b)
- * (konversation)
  * (ktorrent)
- * (pinentry-qt) # for SMIME e-mail support
- * (gnupg-agent) # for SMIME e-mail support
  * (gpgsm) # SMIME engine
- * (skanlite)
-# * (kde-config-tablet) #does not exist post vivid.
 # * (usb-creator-kde) [i386 amd64] # disabled cos it's broken
  * (kio-mtp)
  * (kdeconnect-plasma)
