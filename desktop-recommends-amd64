@@ -18,10 +18,9 @@ fonts-guru
 fonts-kacst-one
 fonts-khmeros-core
 fonts-lao
-fonts-liberation
 fonts-lklug-sinhala
+fonts-nomad-desktop
 fonts-noto-cjk
-fonts-oxygen
 fonts-sil-abyssinica
 fonts-sil-padauk
 fonts-takao-pgothic
@@ -54,11 +53,8 @@ kerneloops-daemon
 kimageformat-plugins
 kio-mtp
 konsole
-krdc
 kscreen
 ksshaskpass
-ksystemlog
-ktorrent
 kwalletmanager
 kwin-addons
 laptop-detect

@@ -1,3 +1,22 @@
+nxos-meta (6) UNRELEASED; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-nomad-desktop to desktop-recommends
+  * Removed fonts-liberation from desktop-recommends
+  * Removed fonts-oxygen from desktop-recommends
+
+ -- Alexis <alexis@k1>  Wed, 27 Sep 2017 14:04:34 -0500
+
+nxos-meta (5) nxos; urgency=medium
+
+  * Refreshed dependencies
+  * Added sddm to desktop
+  * Removed krdc from desktop-recommends
+  * Removed ksystemlog from desktop-recommends
+  * Removed ktorrent from desktop-recommends
+
+ -- Alexis López Zubieta <azubieta90@gmail.com>  Tue, 26 Sep 2017 16:55:14 -0500
+
 nxos-meta (4) nxos; urgency=medium
 
   * Refreshed dependencies

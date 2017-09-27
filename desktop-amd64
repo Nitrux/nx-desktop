@@ -50,6 +50,7 @@ pm-utils
 powerdevil
 printer-driver-pnm2ppa
 rfkill
+sddm
 software-properties-kde
 systemsettings
 ubuntu-drivers-common
