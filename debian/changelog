@@ -1,3 +1,24 @@
+nxos-meta (12) UNRELEASED; urgency=medium
+
+  * Refreshed dependencies
+  * Added acpi-support to desktop
+  * Added acpid to desktop
+  * Added alsa-base to desktop
+  * Added bluez-cups to desktop
+  * Added dc to desktop
+  * Added fwupd to desktop
+  * Added fwupdate to desktop
+  * Added fwupdate-signed to desktop
+  * Added linux-sound-base to desktop
+  * Added rfkill to desktop
+  * Added sbsigntool to desktop
+  * Added ubuntu-drivers-common to desktop
+  * Added x11-session-utils to desktop
+  * Added xinit to desktop
+  * Added xorg to desktop
+
+ -- Alexis Lopez Zubieta <azubieta90@gmail.com>  Sat, 30 Sep 2017 00:31:01 -0500
+
 nxos-meta (11) nxos; urgency=medium
 
   [ Alexis ]

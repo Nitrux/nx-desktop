@@ -8,6 +8,22 @@ Task-Seeds: standard
 = NXOS CORE =
  * grub2-theme-nomad
  * plymouth-theme-nomad
+ * ubuntu-drivers-common
+ * x11-session-utils
+ * xinit
+ * xorg
+ * acpi-support
+ * acpid
+ * alsa-base
+ * bluez-cups
+ * dc 
+ * linux-sound-base
+ * rfkill
+ * sbsigntool
+
+ * fwupd
+ * fwupdate
+ * fwupdate-signed
 
 = Hardware and Architecture Support =
 
