@@ -5,6 +5,8 @@ Task-Extended-Description: The Nomad environment using KDE Plasma Desktop
 Task-Key: nomad-desktop
 Task-Seeds: desktop-common
 
+* Feature: no-follow-recommends
+
 = NXOS CORE =
  * grub2-theme-nomad
  * plymouth-theme-nomad
@@ -164,6 +166,7 @@ libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007
  * !printer-driver-pxljr*
  * !printer-driver-sag-gdi*
  * !printer-driver-splix*
+ * !printer-driver-pnm2ppa*
  * !acl*
  * !acpi-support*
  * !acpid*
@@ -199,31 +202,31 @@ libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007
  * !kubuntu-driver-manager*
  * !kubuntu-notification-helper*
  * !kwalletmanager*
-* !libaccounts-glib0*
-* !libaccounts-qt5-1*
-* !libakonadi-kde4*
-* !libakonadi-kmime4*
-* !libakonadiprotocolinternals1*
-* !libao-common*
-* !libao4*
-* !libappstream-glib8*
-* !libapt-pkg-perl*
-* !libasprintf0v5*
-* !libbaloocore4*
-* !libbaloofiles4*
-* !libbalooxapian4*
-libc6-dbg
-libc6-i386
-libcamel-1.2-54
-libcanberra-pulse
-libcfitsio2
-libchm1
-libchromaprint0
-libcolorhug2
-libcupsfilters1
-libcupsimage2
-libcupsppdc1
-libdfu1
-libdirectfb-1.2-9
-libdjvulibre-text
-libdjvulibre21
+ * !libaccounts-glib0*
+ * !libaccounts-qt5-1*
+ * !libakonadi-kde4*
+ * !libakonadi-kmime4*
+ * !libakonadiprotocolinternals1*
+ * !libao-common*
+ * !libao4*
+ * !libappstream-glib8*
+ * !libapt-pkg-perl*
+ * !libasprintf0v5*
+ * !libbaloocore4*
+ * !libbaloofiles4*
+ * !libbalooxapian4*
+ * !libc6-dbg
+ * !libc6-i386
+ * !libcamel-1.2-54
+ * !libcanberra-pulse
+ * !libcfitsio2
+ * !libchm1
+ * !libchromaprint0
+ * !libcolorhug2
+ * !libcupsfilters1
+ * !libcupsimage2
+ * !libcupsppdc1
+ * !libdfu1
+ * !libdirectfb-1.2-9
+ * !libdjvulibre-text
+ * !libdjvulibre21

@@ -32,10 +32,9 @@ hplip
 kate
 kde-config-gtk-style
 kde-config-sddm
-kdeconnect-plasma
+kdeconnect
 kerneloops-daemon
 kimageformat-plugins
-kio-mtp
 konsole
 kscreen
 kwin-addons
