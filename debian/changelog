@@ -1,11 +1,45 @@
-nxos-meta (6) UNRELEASED; urgency=medium
+nxos-meta (7) UNRELEASED; urgency=medium
 
+  [ Alexis ]
   * Refreshed dependencies
   * Added fonts-nomad-desktop to desktop-recommends
   * Removed fonts-liberation from desktop-recommends
   * Removed fonts-oxygen from desktop-recommends
 
- -- Alexis <alexis@k1>  Wed, 27 Sep 2017 14:04:34 -0500
+  [ Uri Herrera ]
+  * Refreshed dependencies
+  * Added ktorrent to desktop-recommends
+  * Added oxygen-icon-theme to desktop-recommends
+  * Removed apport-kde from desktop-recommends
+  * Removed apturl-kde from desktop-recommends
+  * Removed baloo-utils from desktop-recommends
+  * Removed fonts-nomad-desktop from desktop-recommends
+  * Removed fonts-noto-cjk from desktop-recommends
+  * Removed gstreamer-qapt from desktop-recommends
+  * Removed gwenview from desktop-recommends
+  * Removed ibus-qt4 from desktop-recommends
+  * Removed im-config from desktop-recommends
+  * Removed kcalc from desktop-recommends
+  * Removed kde-config-gtk-style-preview from desktop-recommends
+  * Removed kdegraphics-strigi-analyzer from desktop-recommends
+  * Removed kdenetwork-filesharing from desktop-recommends
+  * Removed ksshaskpass from desktop-recommends
+  * Removed kwalletmanager from desktop-recommends
+  * Removed kwrited from desktop
+  * Removed okular from desktop
+  * Removed okular-extra-backends from desktop-recommends
+  * Removed oxygen5-icon-theme from desktop-recommends
+  * Removed phonon4qt5-backend-gstreamer from desktop-recommends
+  * Removed plasma-dataengines-addons from desktop-recommends
+  * Removed plasma-discover from desktop-recommends
+  * Removed plasma-discover-updater from desktop-recommends
+  * Removed plasma-runners-addons from desktop-recommends
+  * Removed plasma-wallpapers-addons from desktop-recommends
+  * Removed print-manager from desktop-recommends
+  * Removed sddm from desktop
+  * Removed software-properties-kde from desktop
+
+ -- Uri Herrera <uri@600t>  Fri, 29 Sep 2017 19:48:52 -0500
 
 nxos-meta (5) nxos; urgency=medium
 
