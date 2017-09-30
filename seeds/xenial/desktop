@@ -3,9 +3,7 @@ Task-Section: user
 Task-Description: Nomad desktop
 Task-Extended-Description: The Nomad environment using KDE Plasma Desktop
 Task-Key: nomad-desktop
-Task-Seeds: desktop-common
-
-* Feature: no-follow-recommends
+Task-Seeds: standard
 
 = NXOS CORE =
  * grub2-theme-nomad
@@ -148,85 +146,3 @@ to compile a driver. -mdz
 libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007-01-02).
 
  * !libavcodec*
- * !fonts-guru*
- * !fonts-kacst-one*
- * !fonts-khmeros-core*
- * !fonts-lao*
- * !fonts-lklug-sinhala*
- * !fonts-sil-abyssinica*
- * !fonts-sil-padauk*
- * !fonts-takao-pgothic*
- * !fonts-thai-tlwg*
- * !fonts-tibetan-machine*
- * !printer-driver-brlaser*
- * !printer-driver-c2esp*
- * !printer-driver-foo2zjs*
- * !printer-driver-min12xxw*
- * !printer-driver-ptouch*
- * !printer-driver-pxljr*
- * !printer-driver-sag-gdi*
- * !printer-driver-splix*
- * !printer-driver-pnm2ppa*
- * !acl*
- * !acpi-support*
- * !acpid*
- * !alsa-base*
- * !anacron*
- * !appstream*
- * !at-spi2-core*
- * !bc*
- * !colord*
- * !cups-bsd*
- * !dc*
- * !enchant*
- * !evolution-data-server-common*
- * !foomatic-filters*
- * !freerdp-x11*
- * !gdbserver*
- * !gdisk*
- * !gsfonts*
- * !hplip*
- * !hwinfo*
- * !i965-va-driver*
- * !icoutils*
- * !im-config*
- * !inputattach*
- * !intel-microcode*
- * !ippusbxd*
- * !kaccounts-providers*
- * !kactivities-bin*
- * !kdegraphics-strigi-analyzer*
- * !kdenetwork-filesharing*
- * !kdoctools5*
- * !kerneloops-daemon*
- * !kubuntu-driver-manager*
- * !kubuntu-notification-helper*
- * !kwalletmanager*
- * !libaccounts-glib0*
- * !libaccounts-qt5-1*
- * !libakonadi-kde4*
- * !libakonadi-kmime4*
- * !libakonadiprotocolinternals1*
- * !libao-common*
- * !libao4*
- * !libappstream-glib8*
- * !libapt-pkg-perl*
- * !libasprintf0v5*
- * !libbaloocore4*
- * !libbaloofiles4*
- * !libbalooxapian4*
- * !libc6-dbg
- * !libc6-i386
- * !libcamel-1.2-54
- * !libcanberra-pulse
- * !libcfitsio2
- * !libchm1
- * !libchromaprint0
- * !libcolorhug2
- * !libcupsfilters1
- * !libcupsimage2
- * !libcupsppdc1
- * !libdfu1
- * !libdirectfb-1.2-9
- * !libdjvulibre-text
- * !libdjvulibre21

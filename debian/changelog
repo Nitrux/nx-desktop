@@ -1,4 +1,4 @@
-nxos-meta (10) UNRELEASED; urgency=medium
+nxos-meta (11) nxos; urgency=medium
 
   [ Alexis ]
   * Refreshed dependencies
@@ -55,7 +55,7 @@ nxos-meta (10) UNRELEASED; urgency=medium
   * Removed kdeconnect-plasma from desktop-recommends
   * Removed kio-mtp from desktop-recommends
 
- -- Alexis Lopez Zubieta <azubieta90@gmail.com>  Fri, 29 Sep 2017 23:08:10 -0500
+ -- Alexis Lopez Zubieta <azubieta90@gmail.com>  Sat, 30 Sep 2017 00:07:03 -0500
 
 nxos-meta (5) nxos; urgency=medium
 
