@@ -23,9 +23,7 @@ Bluetooth:
 
 Basic network services and Windows integration.
 
- * (avahi-autoipd)     # IPv4 link-local interface configuration support
  * (mobile-broadband-provider-info)
- * (wireless-tools) #Enables wireless
 
 = GUI infrastructure =
 
@@ -47,7 +45,6 @@ Input methods:
  * baloo-kf5
  * breeze
  * kde-cli-tools
- * khelpcenter
  * khotkeys
  * kinfocenter
  * kio
@@ -109,15 +106,10 @@ Input methods:
  * (oxygen-icon-theme)
  * (partitionmanager)
  * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
- * (kde-config-whoopsie)
- * (libpam-kwallet4) # Needs to be seeded as otherwise kwallet4 using apps will need user unlocking.
- * (libpam-kwallet5)
  * (gtk2-engines-oxygen)
  * (gtk3-engines-breeze) 
- * (ktorrent)
- * (gpgsm) # SMIME engine
- * (kio-mtp)
- * (kdeconnect-plasma)
+ * (kdeconnect)
+ * (qpdfview)
 
 Documentation:
 
@@ -154,3 +146,84 @@ to compile a driver. -mdz
 libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007-01-02).
 
  * !libavcodec*
+ * !fonts-guru*
+ * !fonts-kacst-one*
+ * !fonts-khmeros-core*
+ * !fonts-lao*
+ * !fonts-lklug-sinhala*
+ * !fonts-sil-abyssinica*
+ * !fonts-sil-padauk*
+ * !fonts-takao-pgothic*
+ * !fonts-thai-tlwg*
+ * !fonts-tibetan-machine*
+ * !printer-driver-brlaser*
+ * !printer-driver-c2esp*
+ * !printer-driver-foo2zjs*
+ * !printer-driver-min12xxw*
+ * !printer-driver-ptouch*
+ * !printer-driver-pxljr*
+ * !printer-driver-sag-gdi*
+ * !printer-driver-splix*
+ * !acl*
+ * !acpi-support*
+ * !acpid*
+ * !alsa-base*
+ * !anacron*
+ * !appstream*
+ * !at-spi2-core*
+ * !bc*
+ * !colord*
+ * !cups-bsd*
+ * !dc*
+ * !enchant*
+ * !evolution-data-server-common*
+ * !foomatic-filters*
+ * !freerdp-x11*
+ * !gdbserver*
+ * !gdisk*
+ * !gsfonts*
+ * !hplip*
+ * !hwinfo*
+ * !i965-va-driver*
+ * !icoutils*
+ * !im-config*
+ * !inputattach*
+ * !intel-microcode*
+ * !ippusbxd*
+ * !kaccounts-providers*
+ * !kactivities-bin*
+ * !kdegraphics-strigi-analyzer*
+ * !kdenetwork-filesharing*
+ * !kdoctools5*
+ * !kerneloops-daemon*
+ * !kubuntu-driver-manager*
+ * !kubuntu-notification-helper*
+ * !kwalletmanager*
+* !libaccounts-glib0*
+* !libaccounts-qt5-1*
+* !libakonadi-kde4*
+* !libakonadi-kmime4*
+* !libakonadiprotocolinternals1*
+* !libao-common*
+* !libao4*
+* !libappstream-glib8*
+* !libapt-pkg-perl*
+* !libasprintf0v5*
+* !libbaloocore4*
+* !libbaloofiles4*
+* !libbalooxapian4*
+libc6-dbg
+libc6-i386
+libcamel-1.2-54
+libcanberra-pulse
+libcfitsio2
+libchm1
+libchromaprint0
+libcolorhug2
+libcupsfilters1
+libcupsimage2
+libcupsppdc1
+libdfu1
+libdirectfb-1.2-9
+libdjvulibre-text
+libdjvulibre21

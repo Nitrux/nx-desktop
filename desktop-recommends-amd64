@@ -1,5 +1,4 @@
 acpi-support
-avahi-autoipd
 avahi-daemon
 bluedevil
 bluez
@@ -26,7 +25,6 @@ fwupd
 fwupdate
 fwupdate-signed
 gcc
-gpgsm
 gstreamer1.0-pulseaudio
 gtk2-engines-oxygen
 gtk3-engines-breeze
@@ -34,19 +32,15 @@ hplip
 kate
 kde-config-gtk-style
 kde-config-sddm
-kde-config-whoopsie
 kdeconnect-plasma
 kerneloops-daemon
 kimageformat-plugins
 kio-mtp
 konsole
 kscreen
-ktorrent
 kwin-addons
 laptop-detect
 libnss-mdns
-libpam-kwallet4
-libpam-kwallet5
 libqca2-plugin-ossl
 libqt5qml-graphicaleffects
 make
@@ -73,6 +67,7 @@ pulseaudio
 pulseaudio-module-bluetooth
 python-qt4-dbus
 qapt-deb-installer
+qpdfview
 qt5-image-formats-plugins
 qtdeclarative5-xmllistmodel-plugin
 snapd

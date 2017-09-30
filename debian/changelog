@@ -1,4 +1,4 @@
-nxos-meta (7) UNRELEASED; urgency=medium
+nxos-meta (9) UNRELEASED; urgency=medium
 
   [ Alexis ]
   * Refreshed dependencies
@@ -38,8 +38,18 @@ nxos-meta (7) UNRELEASED; urgency=medium
   * Removed print-manager from desktop-recommends
   * Removed sddm from desktop
   * Removed software-properties-kde from desktop
+  * Refreshed dependencies
+  * Removed gpgsm from desktop-recommends
+  * Removed kde-config-whoopsie from desktop-recommends
+  * Removed khelpcenter from desktop
+  * Removed ktorrent from desktop-recommends
+  * Removed libpam-kwallet4 from desktop-recommends
+  * Removed libpam-kwallet5 from desktop-recommends
+  * Refreshed dependencies
+  * Added qpdfview to desktop-recommends
+  * Removed avahi-autoipd from desktop-recommends
 
- -- Uri Herrera <uri@600t>  Fri, 29 Sep 2017 19:48:52 -0500
+ -- Uri Herrera <uri@600t>  Fri, 29 Sep 2017 21:12:37 -0500
 
 nxos-meta (5) nxos; urgency=medium
 
