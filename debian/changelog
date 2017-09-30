@@ -1,4 +1,4 @@
-nxos-meta (12) UNRELEASED; urgency=medium
+nxos-meta (13) UNRELEASED; urgency=medium
 
   * Refreshed dependencies
   * Added acpi-support to desktop
@@ -16,8 +16,15 @@ nxos-meta (12) UNRELEASED; urgency=medium
   * Added x11-session-utils to desktop
   * Added xinit to desktop
   * Added xorg to desktop
+  * Refreshed dependencies
+  * Added inputattach to desktop
+  * Added kerneloops-daemon to desktop
+  * Added memtest86+ to desktop
+  * Added mscompress to desktop
+  * Added pcmciautils to desktop
+  * Added policykit-desktop-privileges to desktop
 
- -- Alexis Lopez Zubieta <azubieta90@gmail.com>  Sat, 30 Sep 2017 00:31:01 -0500
+ -- Alexis Lopez Zubieta <azubieta90@gmail.com>  Sat, 30 Sep 2017 00:39:55 -0500
 
 nxos-meta (11) nxos; urgency=medium
 

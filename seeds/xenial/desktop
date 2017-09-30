@@ -20,6 +20,12 @@ Task-Seeds: standard
  * linux-sound-base
  * rfkill
  * sbsigntool
+ * inputattach
+ * kerneloops-daemon
+ * memtest86+
+ * mscompress
+ * pcmciautils
+ * policykit-desktop-privileges
 
  * fwupd
  * fwupdate
