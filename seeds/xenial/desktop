@@ -8,7 +8,6 @@ Task-Seeds: desktop-common
 = NXOS CORE =
  * grub2-theme-nomad
  * plymouth-theme-nomad
- * sddm
 
 = Hardware and Architecture Support =
 
@@ -26,26 +25,19 @@ Basic network services and Windows integration.
 
  * (avahi-autoipd)     # IPv4 link-local interface configuration support
  * (mobile-broadband-provider-info)
+ * (wireless-tools) #Enables wireless
 
 = GUI infrastructure =
 
 Extra fonts (should be common, but not so for space reasons):
 
- * (fonts-noto-cjk)
- * (fonts-nomad-desktop)
-
 Input methods:
-
- * (im-config)
- * (ibus-qt4)  # ibus support
 
 == Phonon and Frameworks ==
 
  * (pulseaudio)
  * (phonon-backend-gstreamer) # upstream recommends vlc but also says vlc is flakey and gstreamer fits better with the rest of ubuntu
- * (phonon4qt5-backend-gstreamer)
  * (gstreamer1.0-pulseaudio)
- * (gstreamer-qapt)
  * (frameworkintegration)
  * (kimageformat-plugins)
  * (qt5-image-formats-plugins)
@@ -63,23 +55,15 @@ Input methods:
  * kmenuedit
  * ksysguard
  * kwin
- * kwrited
  * oxygen-sounds
  * plasma-desktop
  * powerdevil
  * systemsettings
  * (plasma-widgets-addons)
  * (kde-config-gtk-style) #GTK setup
- * (kde-config-gtk-style-preview) # brings in the gtk libraries
- * (plasma-discover)
- * (plasma-discover-updater)
  * (polkit-kde-agent-1) # needed by discover but is an option compared to gtk polkit for gnome users
- * (ksshaskpass)
  * (bluedevil)
  * (kwin-addons)
- * (plasma-dataengines-addons)
- * (plasma-runners-addons)
- * (plasma-wallpapers-addons)
  * (kscreen)
  * (milou)
  * (plasma-nm)
@@ -107,18 +91,10 @@ Input methods:
 == KDE Applications ==
 
  * (konsole)
- * (gwenview)
  * ark
- * (kwalletmanager)
- * (kcalc)
  * dolphin
  * kde-spectacle
- * okular
- * (kdegraphics-strigi-analyzer)
- * (okular-extra-backends)
- * (kdenetwork-filesharing)
  * (kate)
- * (print-manager)
 
 == Nomad Applications ==
  
@@ -129,12 +105,8 @@ Input methods:
 
 == Other KDE Software ==
 
- * (baloo-utils) # kdelibs4 kioslaves
- * software-properties-kde
- * (apport-kde)
  * (qapt-deb-installer)
- * (oxygen5-icon-theme)
- * (apturl-kde)
+ * (oxygen-icon-theme)
  * (partitionmanager)
  * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
  * (kde-config-whoopsie)
@@ -142,8 +114,8 @@ Input methods:
  * (libpam-kwallet5)
  * (gtk2-engines-oxygen)
  * (gtk3-engines-breeze) 
+ * (ktorrent)
  * (gpgsm) # SMIME engine
-# * (usb-creator-kde) [i386 amd64] # disabled cos it's broken
  * (kio-mtp)
  * (kdeconnect-plasma)
 
