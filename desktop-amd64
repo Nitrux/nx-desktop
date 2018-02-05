@@ -19,6 +19,7 @@ ftp
 fwupd
 fwupdate
 fwupdate-signed
+grub2-common
 grub2-theme-nomad
 hdparm
 info

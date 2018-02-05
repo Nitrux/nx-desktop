@@ -6,6 +6,7 @@ Task-Key: nomad-desktop
 Task-Seeds: standard
 
 = NXOS CORE =
+ * grub2-common
  * grub2-theme-nomad
  * plymouth-theme-nomad
  * ubuntu-drivers-common
