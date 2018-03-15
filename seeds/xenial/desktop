@@ -6,6 +6,7 @@ Task-Key: nomad-desktop
 Task-Seeds: standard
 
 = NXOS CORE =
+ * base-files
  * grub2-common
  * grub2-theme-nomad
  * plymouth-theme-nomad
@@ -19,6 +20,7 @@ Task-Seeds: standard
  * bluez-cups
  * dc 
  * linux-sound-base
+ * linux-image-generic
  * rfkill
  * sbsigntool
  * inputattach
@@ -65,6 +67,7 @@ Input methods:
 
 == Plasma ==
 
+ * sddm
  * baloo-kf5
  * breeze
  * kde-cli-tools
@@ -111,6 +114,7 @@ Input methods:
 == KDE Applications ==
 
  * (konsole)
+ * kcalc
  * ark
  * dolphin
  * kde-spectacle

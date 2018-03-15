@@ -25,6 +25,7 @@ hdparm
 info
 inputattach
 iptables
+kcalc
 kde-cli-tools
 kde-spectacle
 kerneloops-daemon
@@ -40,6 +41,7 @@ kwin
 language-selector-common
 latte-dock
 libpam-systemd
+linux-image-generic
 linux-sound-base
 logrotate
 lshw
@@ -74,6 +76,7 @@ psmisc
 rfkill
 rsync
 sbsigntool
+sddm
 strace
 systemd-sysv
 systemsettings

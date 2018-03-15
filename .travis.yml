@@ -1,0 +1,7 @@
+sudo: required
+
+script:
+  - sh ./build.sh
+
+on_success:
+  - echo Success. # Do something.

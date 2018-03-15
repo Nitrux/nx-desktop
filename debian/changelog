@@ -1,5 +1,6 @@
-nxos-meta (13) UNRELEASED; urgency=medium
+nxos-meta (14) UNRELEASED; urgency=medium
 
+  [ Alexis Lopez Zubieta ]
   * Refreshed dependencies
   * Added acpi-support to desktop
   * Added acpid to desktop
@@ -24,7 +25,13 @@ nxos-meta (13) UNRELEASED; urgency=medium
   * Added pcmciautils to desktop
   * Added policykit-desktop-privileges to desktop
 
- -- Alexis Lopez Zubieta <azubieta90@gmail.com>  Sat, 30 Sep 2017 00:39:55 -0500
+  [ Miguel Lavaire ]
+  * Refreshed dependencies
+  * Added kcalc to desktop
+  * Added linux-image-generic to desktop
+  * Added sddm to desktop
+
+ -- Miguel Lavaire <me@bar>  Wed, 14 Mar 2018 16:09:09 -0600
 
 nxos-meta (11) nxos; urgency=medium
 
