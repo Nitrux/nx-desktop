@@ -1,7 +1,16 @@
-sudo: required
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get -qq install -y equivs
 
 script:
-  - sh ./build.sh
+  - sudo ./build.sh
 
-on_success:
-  - echo Success. # Do something.
+after_success:
+  - curl -T *.deb https://transfer.sh
+
+branches:
+  except:
+    - /^(?i:continuous)$/
+
+notifications:
+  email: false
