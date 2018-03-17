@@ -1,0 +1,12 @@
+
+Section: misc
+Priority: optional
+Homepage: https://nxos.org
+
+Package: nxos-meta
+Version: 1.1.0
+Maintainer: Luis Lavaire <llavaire01@gmail.com>
+Depends: base-files,grub2-common,grub2-theme-nomad,plymouth-theme-nomad,ubuntu-drivers-common,x11-session-utils,xinit,xorg,acpi-support,acpid,alsa-base,bluez-cups,dc,linux-sound-base,linux-image-generic,rfkill,sbsigntool,inputattach,kerneloops-daemon,memtest86+,mscompress,pcmciautils,policykit-desktop-privileges,fwupd,fwupdate,fwupdate-signed,pm-utils,pulseaudio-module-bluetooth,mobile-broadband-provider-info,pulseaudio,phonon-backend-gstreamer,gstreamer1.0-pulseaudio,frameworkintegration,kimageformat-plugins,qt5-image-formats-plugins,sddm,baloo-kf5,breeze,kde-cli-tools,khotkeys,kinfocenter,kio,kio-extras,kmenuedit,ksysguard,kwin,oxygen-sounds,plasma-desktop,powerdevil,systemsettings,plasma-widgets-addons,kde-config-gtk-style,polkit-kde-agent-1,bluedevil,kwin-addons,kscreen,milou,plasma-nm,kde-config-sddm,user-manager,plasma-pa,nomad-gtk-themes,nomad-plasma-look-and-feel,nomad-desktop-settings,kvantum,kvantum-theme-kvnomad,luv-icon-theme,plasma-widget-nomad-simplemenu,nomad-systemtray,nomad-networkmanagement-applet,nomad-notifications-applet,nomad-clock-applet,konsole,kcalc,ark,dolphin,kde-spectacle,kate,latte-dock,nomad-firewall,nx-software-center,babe,qapt-deb-installer,oxygen-icon-theme,partitionmanager,python-qt4-dbus,gtk2-engines-oxygen,gtk3-engines-breeze,kdeconnect,qpdfview,cryptsetup,gcc,make,chromium-browser,upower,udisks2,xdg-utils,cdrdao,libqca2-plugin-ossl,qtdeclarative5-xmllistmodel-plugin,libqt5qml-graphicaleffects,xdg-user-dirs
+Architecture: amd64
+Description: Nomad desktop metapackage.
+

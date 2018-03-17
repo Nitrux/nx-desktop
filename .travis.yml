@@ -6,7 +6,7 @@ script:
   - sh ./build.sh
 
 after_success:
-  - curl -T *.deb https://transfer.sh
+  - curl -T package/*.deb https://transfer.sh
 
 branches:
   except:
