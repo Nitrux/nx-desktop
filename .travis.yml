@@ -3,7 +3,7 @@ before_install:
   - sudo apt-get -qq install -y equivs
 
 script:
-  - sudo ./build.sh
+  - sh ./build.sh
 
 after_success:
   - curl -T *.deb https://transfer.sh

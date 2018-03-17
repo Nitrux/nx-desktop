@@ -1,8 +1,8 @@
 #! /bin/sh
 
-DEPENDS=$( echo $(sed -e '/^#.*$/d; /^$/d; /^[[:space:]].*$/d' dependencies) | tr ' ' ',')
+cd package/
 
-mkdir -p build
+DEPENDS=$( echo $(sed -e '/^#.*$/d; /^$/d; /^[[:space:]].*$/d' dependencies) | tr ' ' ',')
 
 echo "
 Section: misc
@@ -15,6 +15,7 @@ Maintainer: Luis Lavaire <llavaire01@gmail.com>
 Depends: $DEPENDS
 Architecture: amd64
 Description: Nomad desktop metapackage.
-" > build/package
+" > configuration
 
-equivs-build build/package
+equivs-build configuration
+
