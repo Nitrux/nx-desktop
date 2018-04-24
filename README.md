@@ -1,4 +1,4 @@
-# Nitrux Nomad Desktop metapackage[![Build Status](https://travis-ci.org/nomad-desktop//nxos-meta.svg?branch=master)](https://travis-ci.org/nomad-desktop//nxos-meta)
+# Nitrux Nomad Desktop Metapackage [![Build Status](https://travis-ci.org/nomad-desktop//nxos-meta.svg?branch=master)](https://travis-ci.org/nomad-desktop//nxos-meta)
 
 This repository contains the source to create the `nxos-desktop` metapackage.
 
