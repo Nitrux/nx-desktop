@@ -1,0 +1,16 @@
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get -qq install -y equivs
+
+script:
+  - sh ./build.sh
+
+after_success:
+  - curl -T package/*.deb https://transfer.sh
+
+branches:
+  except:
+    - /^(?i:continuous)$/
+
+notifications:
+  email: false
