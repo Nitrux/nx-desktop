@@ -1,3 +1,7 @@
+# Nitrux Nomad Desktop metapackage[![Build Status](https://travis-ci.org/nomad-desktop//nxos-meta.svg?branch=master)](https://travis-ci.org/nomad-desktop//nxos-meta)
+
+This repository contains the source to create the `nxos-desktop` metapackage.
+
 Run the "update" script to automatically generate new dependency
 lists.  The result will be based on the published seed lists, filtered
 by:
@@ -8,3 +12,8 @@ by:
   to ubuntu-base)
 
 Push to Git before running ./update and pushing to Git again to create the package
+
+# Issues
+If you find problems with the contents of this repository please create an issue.
+
+©2018 Nitrux Latinoamericana S.C.
