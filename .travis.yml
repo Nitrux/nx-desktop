@@ -14,7 +14,7 @@ install:
   - chmod +x nxos-repository-util.sh
 
 script:
- - docker run --rm -v $(pwd)/:/build/ -w /build/ ubuntu:bionic /bin/bash build.sh
+ - docker run --rm -v $(pwd)/:/build/ -w /build/ ubuntu:bionic /bin/bash travis-build.sh
 
 branches:
   only:
