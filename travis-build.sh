@@ -12,7 +12,7 @@ Section: misc
 Priority: optional
 Homepage: https://nxos.org
 
-Package: nxos-meta
+Package: nxos-desktop
 Version: 1.1.0
 Maintainer: Luis Lavaire <llavaire01@gmail.com>
 Depends: $DEPENDS
