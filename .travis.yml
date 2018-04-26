@@ -23,13 +23,13 @@ branches:
 
 deploy:
   - provider: script
-    script: ./nxos-repository-util.sh upload testing *.deb
+    script: ./nxos-repository-util.sh upload testing package/*.deb
     skip_cleanup: true
     on:
       branch: master
       
   - provider: script
-    script: ./nxos-repository-util.sh upload development *.deb
+    script: ./nxos-repository-util.sh upload development package/*.deb
     skip_cleanup: true
     on:
       branch: development

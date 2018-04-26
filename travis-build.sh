@@ -21,6 +21,3 @@ Description: Nomad desktop metapackage.
 " > configuration
 
 equivs-build configuration
-
-ls ./
-ls ../
