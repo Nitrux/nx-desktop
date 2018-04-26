@@ -1,16 +1,38 @@
-before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get -qq install -y equivs
+sudo: required
+
+services:
+  - docker
+
+addons:
+  apt:
+    packages:
+      - realpath
+
+install:
+  - docker pull ubuntu:bionic
+  - wget https://raw.githubusercontent.com/nomad-desktop/nxos-repository-util/master/nxos-repository-util.sh -O nxos-repository-util.sh
+  - chmod +x nxos-repository-util.sh
 
 script:
-  - sh ./build.sh
-
-after_success:
-  - curl -T package/*.deb https://transfer.sh
+ - docker run --rm -v $(pwd)/:/build/ -w /build/ ubuntu:bionic /bin/bash build.sh
 
 branches:
-  except:
-    - /^(?i:continuous)$/
+  only:
+    - master
+    - development
+
+deploy:
+  - provider: script
+    script: ./source/nxos-repository-util.sh upload testing *.deb
+    skip_cleanup: true
+    on:
+      branch: master
+      
+  - provider: script
+    script: ./source/nxos-repository-util.sh upload development *.deb
+    skip_cleanup: true
+    on:
+      branch: development
 
 notifications:
   email: false

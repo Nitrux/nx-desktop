@@ -1,5 +1,8 @@
 #! /bin/sh
 
+apt-get --yes update
+apt-get --yes install wget equivs curl
+
 cd package/
 
 DEPENDS=$( echo $(sed -e '/^#.*$/d; /^$/d; /^[[:space:]].*$/d' dependencies) | tr ' ' ',')
