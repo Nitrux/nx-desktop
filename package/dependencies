@@ -5,6 +5,8 @@
 
 base-files
 grub2-common
+grub2-efi-amd64
+grub2-efi-amd64-bin
 grub2-theme-nomad
 plymouth-theme-nomad
 ubuntu-drivers-common
@@ -17,7 +19,12 @@ alsa-base
 bluez-cups
 dc 
 linux-sound-base
-linux-image-generic
+
+# Current ISOs are shipped with the newest kernel available from
+# http://kernel.ubuntu.com/~kernel-ppa/mainline/
+# This package will install the package available from the Ubuntu repository.
+# linux-image-generic
+
 rfkill
 sbsigntool
 inputattach
@@ -52,9 +59,13 @@ mobile-broadband-provider-info
 
 pulseaudio
 phonon-backend-gstreamer
+phonon-backend-gstreamer-common
 gstreamer1.0-pulseaudio
 frameworkintegration
-kimageformat-plugins
+
+# Do we actually need this?
+# kimageformat-plugins
+
 qt5-image-formats-plugins
 
 #    == Plasma ==
@@ -76,6 +87,7 @@ powerdevil
 systemsettings
 plasma-widgets-addons
 kde-config-gtk-style
+kde-config-screenlocker
 polkit-kde-agent-1
 bluedevil
 kwin-addons
@@ -94,7 +106,6 @@ nomad-desktop-settings
 kvantum
 kvantum-theme-kvnomad
 luv-icon-theme
-
 plasma-widget-nomad-simplemenu
 nomad-systemtray
 nomad-networkmanagement-applet
@@ -110,6 +121,8 @@ ark
 dolphin
 kde-spectacle
 kate
+kinfocenter
+systemsettings
 
 
 
@@ -117,6 +130,7 @@ kate
 
 latte-dock
 nomad-firewall
+nx-software-updater
 nx-software-center
 babe
 
@@ -124,10 +138,13 @@ babe
 
 qapt-deb-installer
 oxygen-icon-theme
-partitionmanager
+
+# KDE Partition Manager doesn't launch unless kdesu is installed 
+# partitionmanager
+
 python-qt4-dbus
-gtk2-engines-oxygen
 gtk3-engines-breeze
+gtk2-engines-murrine
 kdeconnect
 qpdfview
 
@@ -148,7 +165,6 @@ chromium-browser
 upower
 udisks2
 xdg-utils
-cdrdao
 libqca2-plugin-ossl
 qtdeclarative5-xmllistmodel-plugin
 libqt5qml-graphicaleffects
