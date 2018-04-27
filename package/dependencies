@@ -4,9 +4,7 @@
 #    = NXOS CORE =
 
 base-files
-grub2-common
-grub2-efi-amd64
-grub2-efi-amd64-bin
+grub-efi
 grub2-theme-nomad
 plymouth-theme-nomad
 ubuntu-drivers-common
@@ -132,7 +130,9 @@ latte-dock
 nomad-firewall
 nx-software-updater
 nx-software-center
-babe
+appimage-desktop-integration-first-run
+appimage-desktop-integration-user-apps-monitor
+
 
 #    == Other KDE Software ==
 
@@ -162,10 +162,10 @@ chromium-browser
 
 #    == supporting bits ==
 
+appimagethumbs
 upower
 udisks2
 xdg-utils
-libqca2-plugin-ossl
+libqca2-plugins
 qtdeclarative5-xmllistmodel-plugin
-libqt5qml-graphicaleffects
 xdg-user-dirs
