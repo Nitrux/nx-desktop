@@ -35,21 +35,15 @@ fwupd
 fwupdate
 fwupdate-signed
 
-
-
 #    = Hardware and Architecture Support =
 #    == Architecture-independent ==
 
 pm-utils
 pulseaudio-module-bluetooth
 
-
-
 #    = Network Services =
 
 mobile-broadband-provider-info
-
-
 
 #    = GUI infrastructure =
 #    == Phonon and Frameworks ==
@@ -59,10 +53,7 @@ phonon-backend-gstreamer
 phonon-backend-gstreamer-common
 gstreamer1.0-pulseaudio
 frameworkintegration
-
-# Do we actually need this?
-# kimageformat-plugins
-
+# kimageformat-plugins -- Do we actually need this?
 qt5-image-formats-plugins
 
 #    == Plasma ==
@@ -106,6 +97,17 @@ kate
 kinfocenter
 systemsettings
 
+#    == Other KDE Software ==
+
+qapt-deb-installer
+oxygen-icon-theme
+# partitionmanager -- KDE Partition Manager doesn't launch unless kdesu is installed and it's only needed for the Live session
+python-qt4-dbus
+gtk3-engines-breeze
+gtk2-engines-murrine
+kdeconnect
+qpdfview
+
 #    == Nomad Customization Layer ==
 
 nomad-gtk-themes
@@ -129,21 +131,6 @@ nx-software-center
 appimage-desktop-integration-first-run
 appimage-desktop-integration-user-apps-monitor
 
-
-#    == Other KDE Software ==
-
-qapt-deb-installer
-oxygen-icon-theme
-
-# KDE Partition Manager doesn't launch unless kdesu is installed 
-# partitionmanager
-
-python-qt4-dbus
-gtk3-engines-breeze
-gtk2-engines-murrine
-kdeconnect
-qpdfview
-
 #    = Other =
 
 cryptsetup
@@ -155,7 +142,7 @@ preload
 
 chromium-browser
 
-#    == supporting bits ==
+#    == Supporting bits ==
 
 appimagethumbs
 upower
