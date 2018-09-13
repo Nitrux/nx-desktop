@@ -31,7 +31,6 @@ memtest86+
 mscompress
 pcmciautils
 policykit-desktop-privileges
-
 fwupd
 fwupdate
 fwupdate-signed
@@ -96,6 +95,17 @@ kde-config-sddm
 user-manager
 plasma-pa
 
+#    == KDE Applications ==
+
+konsole
+kcalc
+ark
+dolphin
+kde-spectacle
+kate
+kinfocenter
+systemsettings
+
 #    == Nomad Customization Layer ==
 
 nomad-gtk-themes
@@ -109,20 +119,6 @@ nomad-systemtray
 nomad-networkmanagement-applet
 nomad-notifications-applet
 nomad-clock-applet
-
-
-#    == KDE Applications ==
-
-konsole
-kcalc
-ark
-dolphin
-kde-spectacle
-kate
-kinfocenter
-systemsettings
-
-
 
 #    == Nomad Applications ==
 
@@ -153,8 +149,7 @@ qpdfview
 cryptsetup
 gcc
 make
-
-
+preload
 
 #    = Other Desktop GUI Apps =
 

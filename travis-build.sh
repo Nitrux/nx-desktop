@@ -14,7 +14,7 @@ Section: misc
 Priority: optional
 Homepage: https://nxos.org
 
-Package: nxos-desktop
+Package: nomad-desktop
 Version: 1.2.1-${GIT_COMMIT}
 Maintainer: Luis Lavaire <llavaire01@gmail.com>
 Depends: $DEPENDS
