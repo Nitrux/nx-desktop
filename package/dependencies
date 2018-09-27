@@ -1,42 +1,33 @@
 # Comments start with a '#'.
 # Empty lines are ignored.
 
-#    = NXOS CORE =
+#    = Nitrux OS CORE =
 
-base-files
-grub-efi
-grub2-theme-nomad
-plymouth-theme-nomad
-ubuntu-drivers-common
-x11-session-utils
-xinit
-xorg
 acpi-support
 acpid
 alsa-base
+base-files
 bluez-cups
-dc 
-linux-sound-base
-
-# Current ISOs are shipped with the newest kernel available from
-# http://kernel.ubuntu.com/~kernel-ppa/mainline/
-# This package will install the package available from the Ubuntu repository.
-# linux-image-generic
-
-rfkill
-sbsigntool
+dc
+fwupd
+fwupdate
+fwupdate-signed
+grub-efi-amd64
+grub-efi-amd64-bin
 inputattach
-kerneloops-daemon
+linux-sound-base
 memtest86+
 mscompress
 pcmciautils
 policykit-desktop-privileges
-fwupd
-fwupdate
-fwupdate-signed
+rfkill
+sbsigntool
+ubuntu-drivers-common
+x11-session-utils
+xinit
+xorg
 
 #    = Hardware and Architecture Support =
-#    == Architecture-independent ==
 
 pm-utils
 pulseaudio-module-bluetooth
@@ -46,97 +37,99 @@ pulseaudio-module-bluetooth
 mobile-broadband-provider-info
 
 #    = GUI infrastructure =
-#    == Phonon and Frameworks ==
 
+frameworkintegration
+gstreamer1.0-pulseaudio
 pulseaudio
 phonon-backend-gstreamer
 phonon-backend-gstreamer-common
-gstreamer1.0-pulseaudio
-frameworkintegration
-# kimageformat-plugins -- Do we actually need this?
 qt5-image-formats-plugins
 
 #    == Plasma ==
 
-sddm
 baloo-kf5
-breeze
+bluedevil
+breeze-icon-theme
 kde-cli-tools
-khotkeys
-kinfocenter
-kio
-kio-extras
-kmenuedit
-ksysguard
-kwin
-oxygen-sounds
-plasma-desktop
-powerdevil
-systemsettings
-plasma-widgets-addons
 kde-config-gtk-style
 kde-config-screenlocker
-polkit-kde-agent-1
-bluedevil
+kde-config-sddm
+khotkeys
+kio
+kio-extras
+kwin
 kwin-addons
 kscreen
-milou
+oxygen-sounds
+plasma-desktop
+plasma-workspace
+plasma-framework
+plasma-widgets-addons
 plasma-nm
-kde-config-sddm
-user-manager
 plasma-pa
+plasma-vaults
+powerdevil
+polkit-kde-agent-1
+user-manager
+system-config-printer
 
 #    == KDE Applications ==
 
-konsole
-kcalc
 ark
 dolphin
-kde-spectacle
+gwenview
 kate
 kinfocenter
+kcalc
+kde-spectacle
+konsole
+kinfocenter
+ksysguard
 systemsettings
 
-#    == Other KDE Software ==
+#    == Other KDE or Qt Software ==
 
-qapt-deb-installer
-oxygen-icon-theme
-# partitionmanager -- KDE Partition Manager doesn't launch unless kdesu is installed and it's only needed for the Live session
-python-qt4-dbus
 gtk3-engines-breeze
 gtk2-engines-murrine
 kdeconnect
+kmenuedit
+latte-dock
+qapt-deb-installer
+oxygen-icon-theme
+python-qt4-dbus
 qpdfview
+sddm
 
 #    == Nomad Customization Layer ==
 
-nomad-gtk-themes
-nomad-plasma-look-and-feel
-nomad-desktop-settings
+appimage-desktop-integration-first-run
+appimage-desktop-integration-user-apps-monitor
+fonts-nomad-desktop
+grub2-theme-nomad
 kvantum
 kvantum-theme-kvnomad
 luv-icon-theme
 plasma-widget-nomad-simplemenu
-nomad-systemtray
+nomad-audio-applet
+nomad-clock-applet
+nomad-desktop-settings
+nomad-firewall
+nomad-gtk-themes
 nomad-networkmanagement-applet
 nomad-notifications-applet
-nomad-clock-applet
-
-#    == Nomad Applications ==
-
-latte-dock
-nomad-firewall
+nomad-plasma-look-and-feel
+nomad-separator-applet
+nomad-systemtray
 nx-software-updater
 nx-software-center
-appimage-desktop-integration-first-run
-appimage-desktop-integration-user-apps-monitor
+plymouth-theme-nomad
 
-#    = Other =
+#    = Other Software =
 
-cryptsetup
 gcc
 make
 preload
+firejail
 
 #    = Other Desktop GUI Apps =
 
@@ -145,9 +138,19 @@ chromium-browser
 #    == Supporting bits ==
 
 appimagethumbs
+libqca2-plugins
+mesa-va-drivers
+mesa-vdpau-drivers
+mesa-vulkan-drivers
+qtdeclarative5-xmllistmodel-plugin
 upower
 udisks2
 xdg-utils
-libqca2-plugins
-qtdeclarative5-xmllistmodel-plugin
 xdg-user-dirs
+xserver-xorg-input-all
+xserver-xorg-input-libinput
+xserver-xorg-input-void
+xserver-xorg-video-amdgpu
+xserver-xorg-video-intel
+xserver-xorg-video-nouveau
+xserver-xorg-video-vmware

@@ -15,11 +15,11 @@ Priority: optional
 Homepage: https://nxos.org
 
 Package: nomad-desktop
-Version: 1.2.2-${GIT_COMMIT}
+Version: 1.3.0-${GIT_COMMIT}
 Maintainer: Luis Lavaire <llavaire01@gmail.com>
 Depends: $DEPENDS
 Architecture: amd64
-Description: Nomad desktop metapackage.
+Description: Nomad Desktop metapackage for Nitrux.
 " > configuration
 
 equivs-build configuration
