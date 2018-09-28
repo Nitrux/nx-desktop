@@ -1,6 +1,8 @@
 # Comments start with a '#'.
 # Empty lines are ignored.
 
+Feature: no-install-recommends
+
 #    = Nitrux OS CORE =
 
 acpi-support
@@ -14,8 +16,8 @@ fwupdate
 grub-efi-amd64
 grub-efi-amd64-bin
 inputattach
-linux-sound-base
 linux-image-generic
+linux-sound-base
 memtest86+
 mscompress
 pcmciautils
@@ -125,10 +127,12 @@ plymouth-theme-nomad
 
 #    = Other Software =
 
+dkms
+firejail
 gcc
 make
 preload
-firejail
+thermald
 
 #    = Other Desktop GUI Apps =
 
@@ -137,6 +141,8 @@ chromium-browser
 #    == Supporting bits ==
 
 appimagethumbs
+laptop-detect
+laptop-mode-tools
 libqca2-plugins
 mesa-va-drivers
 mesa-vdpau-drivers
@@ -153,3 +159,5 @@ xserver-xorg-video-amdgpu
 xserver-xorg-video-intel
 xserver-xorg-video-nouveau
 xserver-xorg-video-vmware
+
+== Blacklist ==
