@@ -120,7 +120,7 @@ nomad-plasma-look-and-feel
 nomad-separator-applet
 nomad-systemtray
 nx-software-updater
-nx-software-center
+#    nx-software-center -- don't install until it's fixed
 plymouth-theme-nomad
 
 #    = Other Software =
@@ -159,3 +159,6 @@ xserver-xorg-video-nouveau
 xserver-xorg-video-vmware
 
 #   == Blacklist ==
+!plasma-discover
+!xpra
+!kwalletmanager
