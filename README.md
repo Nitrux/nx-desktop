@@ -1,4 +1,4 @@
-# Nitrux Nomad Desktop Metapackage [![Build Status](https://travis-ci.org/Nitrux/nitrux-meta.svg?branch=master)](https://travis-ci.org/Nitrux/nitrux-meta)
+# Nitrux Nomad Desktop Meta package [![Build Status](https://travis-ci.org/Nitrux/nomad-desktop.svg?branch=master)](https://travis-ci.org/Nitrux/nitrux-meta)
 
 This repository contains the source to create the `nomad-desktop` metapackage.
 
