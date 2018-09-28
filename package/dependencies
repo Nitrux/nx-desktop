@@ -158,4 +158,4 @@ xserver-xorg-video-intel
 xserver-xorg-video-nouveau
 xserver-xorg-video-vmware
 
-== Blacklist ==
+#   == Blacklist ==
