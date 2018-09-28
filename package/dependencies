@@ -1,8 +1,6 @@
 # Comments start with a '#'.
 # Empty lines are ignored.
 
-Feature: no-install-recommends
-
 #    = Nitrux OS CORE =
 
 acpi-support
