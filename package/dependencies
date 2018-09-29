@@ -60,7 +60,7 @@ kwin
 kwin-addons
 kscreen
 oxygen-sounds
-plasma-desktop
+#   plasma-desktop -- This is the Plasma 5 meta package. To only install the "Desktop" aka plasmashell use plasma-workspace
 plasma-workspace
 plasma-framework
 plasma-widgets-addons
@@ -120,7 +120,7 @@ nomad-plasma-look-and-feel
 nomad-separator-applet
 nomad-systemtray
 nx-software-updater
-#    nx-software-center -- don't install until it's fixed
+#   nx-software-center -- don't install until it's fixed
 plymouth-theme-nomad
 
 #    = Other Software =
@@ -157,8 +157,3 @@ xserver-xorg-video-amdgpu
 xserver-xorg-video-intel
 xserver-xorg-video-nouveau
 xserver-xorg-video-vmware
-
-#   == Blacklist ==
-!plasma-discover*
-!xpra*
-!kwalletmanager*
