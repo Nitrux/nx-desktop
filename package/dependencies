@@ -126,7 +126,7 @@ plymouth-theme-nomad
 #    = Other Software =
 
 dkms
-# firejail -- firejail is used to sandbox AppImages. However, an extra package "xpra" is being installed with it which we don't need.
+firejail
 gcc
 make
 preload
@@ -139,8 +139,6 @@ chromium-browser
 #    == Supporting bits ==
 
 appimagethumbs
-laptop-detect
-laptop-mode-tools
 libqca2-plugins
 mesa-va-drivers
 mesa-vdpau-drivers
