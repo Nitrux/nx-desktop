@@ -159,6 +159,6 @@ xserver-xorg-video-nouveau
 xserver-xorg-video-vmware
 
 #   == Blacklist ==
-!plasma-discover
-!xpra
-!kwalletmanager
+!plasma-discover*
+!xpra*
+!kwalletmanager*
