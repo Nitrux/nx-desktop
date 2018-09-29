@@ -126,7 +126,7 @@ plymouth-theme-nomad
 #    = Other Software =
 
 dkms
-firejail
+# firejail -- firejail is used to sandbox AppImages. However, an extra package "xpra" is being installed with it which we don't need.
 gcc
 make
 preload
