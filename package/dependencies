@@ -130,7 +130,6 @@ plymouth-theme-nomad
 #    = Other Software =
 
 dkms
-firejail
 gcc
 make
 preload
