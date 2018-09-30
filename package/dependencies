@@ -96,6 +96,7 @@ kdeconnect
 kdialog
 kmenuedit
 latte-dock
+libqt5websockets5
 qapt-deb-installer
 oxygen-icon-theme
 python-qt4-dbus
