@@ -6,7 +6,8 @@
 acpi-support
 acpid
 alsa-base
-base-files
+# base-files -- use our version
+bash-completion
 bluez-cups
 dc
 fwupd
@@ -18,6 +19,7 @@ linux-image-generic
 linux-sound-base
 memtest86+
 mscompress
+nano
 pcmciautils
 policykit-desktop-privileges
 rfkill
@@ -91,6 +93,7 @@ systemsettings
 gtk3-engines-breeze
 gtk2-engines-murrine
 kdeconnect
+kdialog
 kmenuedit
 latte-dock
 qapt-deb-installer
@@ -143,6 +146,10 @@ libqca2-plugins
 mesa-va-drivers
 mesa-vdpau-drivers
 mesa-vulkan-drivers
+fonts-ubuntu
+plymouth
+plymouth-label
+plymouth-themes
 qtdeclarative5-xmllistmodel-plugin
 upower
 udisks2
