@@ -77,8 +77,8 @@ system-config-printer
 #    == KDE Applications ==
 
 ark
-#   dolphin -- Use Index
-#   gwenview -- Use Pix
+dolphin
+gwenview
 kate
 kinfocenter
 kcalc
@@ -148,6 +148,7 @@ mesa-va-drivers
 mesa-vdpau-drivers
 mesa-vulkan-drivers
 fonts-ubuntu
+libboost-filesystem1.65.1
 plymouth
 plymouth-label
 plymouth-themes
