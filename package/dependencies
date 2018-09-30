@@ -15,7 +15,7 @@ fwupdate
 grub-efi-amd64
 grub-efi-amd64-bin
 inputattach
-linux-image-generic
+# linux-image-generic -- We use the latest stable kernel
 linux-sound-base
 memtest86+
 mscompress
