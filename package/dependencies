@@ -77,8 +77,8 @@ system-config-printer
 #    == KDE Applications ==
 
 ark
-dolphin
-gwenview
+#   dolphin -- Use Index
+#   gwenview -- Use Pix
 kate
 kinfocenter
 kcalc
@@ -123,7 +123,7 @@ nomad-notifications-applet
 nomad-plasma-look-and-feel
 nomad-separator-applet
 nomad-systemtray
-nx-software-updater
+#   nx-software-updater -- deprecated in favor of znx
 #   nx-software-center -- don't install until it's fixed
 plymouth-theme-nomad
 
