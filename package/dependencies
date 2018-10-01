@@ -31,8 +31,10 @@ iputils-tracepath
 irqbalance
 install-info
 inputattach
+kmod
 # linux-image-generic -- We use the latest stable kernel
 linux-firmware
+linux-base
 less
 locales
 logrotate
@@ -40,6 +42,7 @@ lp-solve
 lshw
 lsof
 ltrace
+libelf1
 linux-sound-base
 manpages
 mlocate
