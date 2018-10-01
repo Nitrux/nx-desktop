@@ -5,19 +5,24 @@
 
 acpi-support
 acpid
+apparmor
 alsa-base
 # base-files -- use our version
 bash-completion
 bluez-cups
+busybox-static
 dc
 dmidecode
 dnsutils
+cups-bsd
 fwupd
 fwupdate
 grub-efi-amd64
 grub-efi-amd64-bin
 haveged
 ifupdown
+info
+install-info
 inputattach
 # linux-image-generic -- We use the latest stable kernel
 linux-firmware
@@ -28,6 +33,7 @@ lshw
 lsof
 ltrace
 linux-sound-base
+manpages
 mlocate
 net-tools
 netcat-openbsd
@@ -47,12 +53,29 @@ usb-modeswitch
 usb-modeswitch-data
 x11-session-utils
 xinit
-xorg
 
 #    = Hardware and Architecture Support =
 
 pm-utils
 pulseaudio-module-bluetooth
+
+#    = Printers =
+
+openprinting-ppds
+print-manager
+printer-driver-brlaser
+printer-driver-c2esp 
+printer-driver-foo2zjs 
+printer-driver-foo2zjs-common 
+printer-driver-hpcups 
+printer-driver-m2300w 
+printer-driver-min12xxw 
+printer-driver-pnm2ppa
+printer-driver-postscript-hp
+printer-driver-ptouch 
+printer-driver-pxljr 
+printer-driver-sag-gdi 
+printer-driver-splix
 
 #    = Network Services =
 
@@ -74,6 +97,7 @@ bluedevil
 kde-cli-tools
 kde-config-gtk-style
 kde-config-screenlocker
+kde-config-plymouth
 kde-config-sddm
 khotkeys
 kio
@@ -162,6 +186,8 @@ amd64-microcode
 appimagethumbs
 command-not-found
 command-not-found-data
+desktop-file-utils
+ghostscript-x
 exfat-fuse
 exfat-utils
 firejail
@@ -195,7 +221,6 @@ plymouth-label
 plymouth-themes
 python-cairo
 python-gi-cairo
-print-manager
 secureboot-db
 ssh-askpass
 rsync
@@ -205,10 +230,19 @@ upower
 udisks2
 xdg-utils
 xdg-user-dirs
+
+#    = XORG =
+
+xorg
 xserver-xorg-input-all
+xserver-xorg-input-evdev
 xserver-xorg-input-libinput
+xserver-xorg-input-synaptics
 xserver-xorg-input-void
 xserver-xorg-video-amdgpu
 xserver-xorg-video-intel
+xserver-xorg-video-intel-arbiter
+xserver-xorg-video-intel-native-modesetting
+xserver-xorg-video-radeon
 xserver-xorg-video-nouveau
 xserver-xorg-video-vmware
