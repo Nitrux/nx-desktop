@@ -11,21 +11,29 @@ alsa-base
 bash-completion
 bluez-cups
 busybox-static
+command-not-found
+command-not-found-data
 dc
 dmidecode
 dnsutils
 cups-bsd
+ftp
 fwupd
 fwupdate
+gnupg-agent
 grub-efi-amd64
 grub-efi-amd64-bin
 haveged
 ifupdown
 info
+intel-microcode
+iputils-tracepath
+irqbalance
 install-info
 inputattach
 # linux-image-generic -- We use the latest stable kernel
 linux-firmware
+less
 locales
 logrotate
 lp-solve
@@ -40,10 +48,12 @@ netcat-openbsd
 memtest86+
 mscompress
 nano
+preload
 pcmciautils
 policykit-desktop-privileges
 strace
 tcpdump
+thermald
 time
 rfkill
 sbsigntool
@@ -118,7 +128,7 @@ polkit-kde-agent-1
 user-manager
 system-config-printer
 
-#    == KDE Applications ==
+#    = KDE Applications =
 
 ark
 dolphin
@@ -132,7 +142,7 @@ kinfocenter
 ksysguard
 systemsettings
 
-#    == Other KDE or Qt Software ==
+#   = Other KDE or Qt Software =
 
 gtk3-engines-breeze
 gtk2-engines-murrine
@@ -147,7 +157,7 @@ python-qt4-dbus
 qpdfview
 sddm
 
-#    == Nomad Customization Layer ==
+#    = Nomad Customization Layer =
 
 appimage-desktop-integration-first-run
 appimage-desktop-integration-user-apps-monitor
@@ -156,7 +166,8 @@ grub2-theme-nomad
 kvantum
 kvantum-theme-kvnomad
 luv-icon-theme
-plasma-widget-nomad-simplemenu
+libappimage
+#   plasma-widget-nomad-simplemenu -- use new package
 nomad-audio-applet
 nomad-clock-applet
 nomad-desktop-settings
@@ -166,26 +177,20 @@ nomad-networkmanagement-applet
 nomad-notifications-applet
 nomad-plasma-look-and-feel
 nomad-separator-applet
+noamd-simplemenu-applet
 nomad-systemtray
 #   nx-software-updater -- deprecated in favor of znx
 #   nx-software-center -- don't install until it's fixed
 plymouth-theme-nomad
 
-#    = Other Software =
-
-preload
-thermald
-
 #    = Other Desktop GUI Apps =
 
 chromium-browser
 
-#    == Supporting bits ==
+#    = Supporting bits =
 
 amd64-microcode
 appimagethumbs
-command-not-found
-command-not-found-data
 desktop-file-utils
 ghostscript-x
 exfat-fuse
@@ -199,21 +204,15 @@ fonts-ipafont-mincho
 fonts-liberation
 fonts-opensymbol
 fonts-unfonts-core
-ftp
-gnupg-agent
-intel-microcode
-iputils-tracepath
-irqbalance
+fonts-ubuntu
 iucode-tool
 language-selector-common
 laptop-detect
-less
 libqca2-plugins
 mesa-va-drivers
 mesa-vdpau-drivers
 mesa-vulkan-drivers
 netplan.io
-fonts-ubuntu
 libboost-filesystem1.65.1
 libboost-system1.65.1
 plymouth
@@ -221,11 +220,11 @@ plymouth-label
 plymouth-themes
 python-cairo
 python-gi-cairo
-secureboot-db
-ssh-askpass
+qtdeclarative5-xmllistmodel-plugin
 rsync
 rsyslog
-qtdeclarative5-xmllistmodel-plugin
+secureboot-db
+ssh-askpass
 upower
 udisks2
 xdg-utils
