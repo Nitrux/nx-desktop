@@ -56,6 +56,7 @@ preload
 pcmciautils
 policykit-desktop-privileges
 strace
+sudo
 tcpdump
 thermald
 time
@@ -181,7 +182,7 @@ nomad-networkmanagement-applet
 nomad-notifications-applet
 nomad-plasma-look-and-feel
 nomad-separator-applet
-noamd-simplemenu-applet
+nomad-simplemenu-applet
 nomad-systemtray
 #   nx-software-updater -- deprecated in favor of znx
 #   nx-software-center -- don't install until it's fixed
@@ -195,6 +196,7 @@ chromium-browser
 
 amd64-microcode
 appimagethumbs
+binutils-multiarch
 desktop-file-utils
 ghostscript-x
 exfat-fuse
