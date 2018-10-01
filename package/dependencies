@@ -18,6 +18,7 @@ dmidecode
 dnsutils
 cups-bsd
 ftp
+fuse
 fwupd
 fwupdate
 gnupg-agent
