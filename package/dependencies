@@ -10,21 +10,41 @@ alsa-base
 bash-completion
 bluez-cups
 dc
+dmidecode
+dnsutils
 fwupd
 fwupdate
 grub-efi-amd64
 grub-efi-amd64-bin
+haveged
+ifupdown
 inputattach
 # linux-image-generic -- We use the latest stable kernel
+linux-firmware
+locales
+logrotate
+lp-solve
+lshw
+lsof
+ltrace
 linux-sound-base
+mlocate
+net-tools
+netcat-openbsd
 memtest86+
 mscompress
 nano
 pcmciautils
 policykit-desktop-privileges
+strace
+tcpdump
+time
 rfkill
 sbsigntool
 ubuntu-drivers-common
+update-inetd
+usb-modeswitch
+usb-modeswitch-data
 x11-session-utils
 xinit
 xorg
@@ -129,9 +149,6 @@ plymouth-theme-nomad
 
 #    = Other Software =
 
-dkms
-gcc
-make
 preload
 thermald
 
@@ -141,17 +158,48 @@ chromium-browser
 
 #    == Supporting bits ==
 
+amd64-microcode
 appimagethumbs
+command-not-found
+command-not-found-data
+exfat-fuse
+exfat-utils
+firejail
+firejail-profiles
+fonts-arphic-ukai
+fonts-arphic-uming
+fonts-ipafont-gothic
+fonts-ipafont-mincho
+fonts-liberation
+fonts-opensymbol
+fonts-unfonts-core
+ftp
+gnupg-agent
+intel-microcode
+iputils-tracepath
+irqbalance
+iucode-tool
+language-selector-common
+laptop-detect
+less
 libqca2-plugins
 mesa-va-drivers
 mesa-vdpau-drivers
 mesa-vulkan-drivers
+netplan.io
 fonts-ubuntu
 libboost-filesystem1.65.1
 libboost-system1.65.1
 plymouth
 plymouth-label
 plymouth-themes
+python-cairo
+python-gi-cairo
+print-manager
+secureboot-db
+ssh-askpass
+rsync
+rsyslog
 qtdeclarative5-xmllistmodel-plugin
 upower
 udisks2
