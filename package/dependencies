@@ -172,7 +172,7 @@ kvantum
 kvantum-theme-kvnomad
 luv-icon-theme
 libappimage
-#   plasma-widget-nomad-simplemenu -- use new package
+plasma-widget-nomad-simplemenu
 nomad-audio-applet
 nomad-clock-applet
 nomad-desktop-settings
@@ -182,7 +182,7 @@ nomad-networkmanagement-applet
 nomad-notifications-applet
 nomad-plasma-look-and-feel
 nomad-separator-applet
-nomad-simplemenu-applet
+#   nomad-simplemenu-applet -- replace previous version when available
 nomad-systemtray
 #   nx-software-updater -- deprecated in favor of znx
 #   nx-software-center -- don't install until it's fixed
@@ -247,7 +247,6 @@ xserver-xorg-input-void
 xserver-xorg-video-amdgpu
 xserver-xorg-video-intel
 xserver-xorg-video-intel-arbiter
-xserver-xorg-video-intel-native-modesetting
 xserver-xorg-video-radeon
 xserver-xorg-video-nouveau
 xserver-xorg-video-vmware
