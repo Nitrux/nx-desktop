@@ -13,6 +13,7 @@ bluez-cups
 busybox-static
 command-not-found
 command-not-found-data
+coreutils
 dc
 dmidecode
 dnsutils
@@ -101,6 +102,7 @@ mobile-broadband-provider-info
 frameworkintegration
 gstreamer1.0-pulseaudio
 pulseaudio
+phonon
 phonon-backend-gstreamer
 phonon-backend-gstreamer-common
 qt5-image-formats-plugins
@@ -152,7 +154,7 @@ systemsettings
 gtk3-engines-breeze
 gtk2-engines-murrine
 kdeconnect
-kdialog
+kde-baseapps-bin
 kmenuedit
 latte-dock
 libqt5websockets5
