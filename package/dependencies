@@ -3,75 +3,17 @@
 
 #    = Nitrux OS CORE =
 
-acpi-support
-acpid
-apparmor
-alsa-base
-# base-files -- use our version
-bash-completion
-bluez-cups
-busybox-static
-command-not-found
-command-not-found-data
-coreutils
-dc
-dmidecode
-dnsutils
-cups-bsd
-ftp
-fuse
-fwupd
-fwupdate
-gnupg-agent
-grub-efi-amd64
-grub-efi-amd64-bin
-haveged
-ifupdown
-info
-intel-microcode
-iputils-tracepath
-irqbalance
-install-info
-inputattach
-kmod
-# linux-image-generic -- We use the latest stable kernel
-linux-firmware
-linux-base
-less
-locales
-logrotate
-lp-solve
-lshw
-lsof
-ltrace
-libelf1
-linux-sound-base
-manpages
-mlocate
-net-tools
-netcat-openbsd
-memtest86+
-mscompress
-nano
-preload
-pcmciautils
-policykit-desktop-privileges
-strace
-sudo
-tcpdump
-thermald
-time
-rfkill
-sbsigntool
-ubuntu-drivers-common
-update-inetd
-usb-modeswitch
-usb-modeswitch-data
-x11-session-utils
-xinit
+nitrux-minimal
+nitrux-standard
 
 #    = Hardware and Architecture Support =
 
+dkms
+exfat-fuse
+exfat-utils
+mesa-va-drivers
+mesa-vdpau-drivers
+mesa-vulkan-drivers
 pm-utils
 pulseaudio-module-bluetooth
 
@@ -174,7 +116,6 @@ kvantum
 kvantum-theme-kvnomad
 luv-icon-theme
 libappimage
-plasma-widget-nomad-simplemenu
 nomad-audio-applet
 nomad-clock-applet
 nomad-desktop-settings
@@ -184,7 +125,7 @@ nomad-networkmanagement-applet
 nomad-notifications-applet
 nomad-plasma-look-and-feel
 nomad-separator-applet
-#   nomad-simplemenu-applet -- replace previous version when available
+nomad-simplemenu-applet
 nomad-systemtray
 #   nx-software-updater -- deprecated in favor of znx
 #   nx-software-center -- don't install until it's fixed
@@ -196,13 +137,18 @@ chromium-browser
 
 #    = Supporting bits =
 
+acpi-support
+acpid
+alsa-base
 amd64-microcode
 appimagethumbs
 binutils-multiarch
+bluez-cups
+coreutils
+cups-bsd
 desktop-file-utils
+dc
 ghostscript-x
-exfat-fuse
-exfat-utils
 firejail
 firejail-profiles
 fonts-arphic-ukai
@@ -213,33 +159,51 @@ fonts-liberation
 fonts-opensymbol
 fonts-unfonts-core
 fonts-ubuntu
+fuse
+fwupd
+fwupdate
+gnupg-agent
+haveged
+intel-microcode
+install-info
+inputattach
 iucode-tool
 language-selector-common
 laptop-detect
 libqca2-plugins
-mesa-va-drivers
-mesa-vdpau-drivers
-mesa-vulkan-drivers
-netplan.io
 libboost-filesystem1.65.1
 libboost-system1.65.1
+mscompress
+netplan.io
+pcmciautils
 plymouth
 plymouth-label
 plymouth-themes
+policykit-desktop-privileges
+preload
 python-cairo
 python-gi-cairo
 qtdeclarative5-xmllistmodel-plugin
+rfkill
 rsync
 rsyslog
+sbsigntool
 secureboot-db
 ssh-askpass
-upower
+thermald
+ubuntu-drivers-common
 udisks2
+update-inetd
+upower
+usb-modeswitch
+usb-modeswitch-data
 xdg-utils
 xdg-user-dirs
 
-#    = XORG =
 
+#    = XORG =
+x11-session-utils
+xinit
 xorg
 xserver-xorg-input-all
 xserver-xorg-input-evdev
