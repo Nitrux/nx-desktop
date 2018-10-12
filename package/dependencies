@@ -11,9 +11,11 @@ nitrux-standard
 dkms
 exfat-fuse
 exfat-utils
+go-mtpfs
 mesa-va-drivers
 mesa-vdpau-drivers
 mesa-vulkan-drivers
+ntfs-3g
 pm-utils
 pulseaudio-module-bluetooth
 
@@ -21,23 +23,36 @@ pulseaudio-module-bluetooth
 
 openprinting-ppds
 print-manager
-printer-driver-brlaser
-printer-driver-c2esp 
-printer-driver-foo2zjs 
-printer-driver-foo2zjs-common 
-printer-driver-hpcups 
-printer-driver-m2300w 
-printer-driver-min12xxw 
-printer-driver-pnm2ppa
-printer-driver-postscript-hp
-printer-driver-ptouch 
-printer-driver-pxljr 
-printer-driver-sag-gdi 
-printer-driver-splix
+printer-driver-all
+# printer-driver-foo2zjs - printer driver for ZjStream-based printers
+# printer-driver-foo2zjs-common - printer driver for ZjStream-based printers - common files
+# printer-driver-gutenprint - manejadores de impresoras para CUPS
+# printer-driver-hpcups - Impresión y generación de imágenes HP en Linux - controlador «raster» de CUPS (hpcups)
+# printer-driver-hpijs - HP Linux Printing and Imaging - printer driver (hpijs)
+# printer-driver-m2300w - printer driver for Minolta magicolor 2300W/2400W color laser printers
+# printer-driver-pnm2ppa - printer driver for HP-GDI printers
+# printer-driver-splix - Driver for Samsung and Xerox SPL2 and SPLc laser printers
+# printer-driver-brlaser - printer driver for (some) Brother laser printers
+# printer-driver-c2esp - printer driver for Kodak ESP AiO color inkjet Series
+# printer-driver-min12xxw - printer driver for KonicaMinolta PagePro 1[234]xxW
+# printer-driver-postscript-hp - HP Printers PostScript Descriptions
+# printer-driver-ptouch - printer driver Brother P-touch label printers
+# printer-driver-pxljr - printer driver for HP Color LaserJet 35xx/36xx
+# printer-driver-sag-gdi - printer driver for Ricoh Aficio SP 1000s/SP 1100s
+# gutenprint-locales - locale data files for Gutenprint
+# printer-driver-c2050 - printer driver for Lexmark 2050 Color Jetprinter
+# printer-driver-cjet - printer driver for Canon LBP laser printers
+# printer-driver-cups-pdf - printer driver for PDF writing via CUPS
+# printer-driver-dymo - printer driver for DYMO label printers
+# printer-driver-escpr - printer driver for Epson Inkjet that use ESC/P-R
+# printer-driver-fujixerox - printer driver for Fuji Xerox printers
+# printer-driver-indexbraille - CUPS printing to Index Braille printers
+# printer-driver-oki - printer driver for OKI Data printers
 
 #    = Network Services =
 
 mobile-broadband-provider-info
+kdenetwork-filesharing
 
 #    = GUI infrastructure =
 
@@ -47,6 +62,7 @@ pulseaudio
 phonon
 phonon-backend-gstreamer
 phonon-backend-gstreamer-common
+phonon4qt5-backend-gstreamer
 qt5-image-formats-plugins
 
 #    == Plasma ==
@@ -65,10 +81,11 @@ kwin
 kwin-addons
 kscreen
 oxygen-sounds
+plasma-browser-integration
 #   plasma-desktop -- This is the Plasma 5 meta package. To only install the "Desktop" aka plasmashell use plasma-workspace
 plasma-workspace
 plasma-framework
-plasma-widgets-addons
+# plasma-widgets-addons -- Installs additional widgets
 plasma-nm
 plasma-pa
 plasma-vault
@@ -87,8 +104,8 @@ kinfocenter
 kcalc
 kde-spectacle
 konsole
-kinfocenter
 ksysguard
+sddm
 systemsettings
 
 #   = Other KDE or Qt Software =
@@ -100,11 +117,11 @@ kde-baseapps-bin
 kmenuedit
 latte-dock
 libqt5websockets5
-qapt-deb-installer
+# qapt-deb-installer -- deprecate use of Debian packages in favor of AppImage
 oxygen-icon-theme
 python-qt4-dbus
 qpdfview
-sddm
+vlc
 
 #    = Nomad Customization Layer =
 
@@ -142,6 +159,8 @@ acpid
 alsa-base
 amd64-microcode
 appimagethumbs
+avahi-autoipd
+avahi-daemon
 binutils-multiarch
 bluez-cups
 coreutils
@@ -193,26 +212,41 @@ ssh-askpass
 thermald
 ubuntu-drivers-common
 udisks2
+unzip
 update-inetd
 upower
 usb-modeswitch
 usb-modeswitch-data
+wireless-tools
 xdg-utils
 xdg-user-dirs
+zip
 
 
 #    = XORG =
+
 x11-session-utils
 xinit
 xorg
-xserver-xorg-input-all
-xserver-xorg-input-evdev
-xserver-xorg-input-libinput
-xserver-xorg-input-synaptics
-xserver-xorg-input-void
+xserver-xorg-input-all - Servidor X de X.Org -- metapaquete de controladores de entrada
+# xserver-xorg-input-wacom - Servidor X de X.Org -- controlador de entrada Wacom
+# xserver-xorg-input-libinput - X.Org X server -- libinput input driver
+# xserver-xorg-input-aiptek - X.Org X server -- Aiptek input driver
+# xserver-xorg-input-elographics - X.Org X server -- ELOGraphics input driver
+# xserver-xorg-input-joystick - X.Org X server -- joystick input driver
+# xserver-xorg-input-kbd - X.Org X server -- keyboard input driver
+# xserver-xorg-input-mouse - X.Org X server -- mouse input driver
+# xserver-xorg-input-mutouch - X.Org X server -- muTouch input driver
+# xserver-xorg-input-void - X.Org X server -- void input driver
+# xserver-xorg-input-evdev - X.Org X server -- evdev input driver
+# xserver-xorg-input-mtrack - Multitouch X input driver
+# xserver-xorg-input-multitouch - Multitouch X input driver
+# xserver-xorg-input-synaptics - Synaptics TouchPad driver for X.Org server
+# xserver-xorg-input-xwiimote - X.Org Wii remote input driver
 xserver-xorg-video-amdgpu
 xserver-xorg-video-intel
 xserver-xorg-video-intel-arbiter
 xserver-xorg-video-radeon
-xserver-xorg-video-nouveau
+# xserver-xorg-video-nouveau -- FOSS Nvidia Driver
+xserver-xorg-video-nvidia-390
 xserver-xorg-video-vmware
