@@ -228,7 +228,7 @@ zip
 x11-session-utils
 xinit
 xorg
-xserver-xorg-input-all - Servidor X de X.Org -- metapaquete de controladores de entrada
+xserver-xorg-input-all
 # xserver-xorg-input-wacom - Servidor X de X.Org -- controlador de entrada Wacom
 # xserver-xorg-input-libinput - X.Org X server -- libinput input driver
 # xserver-xorg-input-aiptek - X.Org X server -- Aiptek input driver
