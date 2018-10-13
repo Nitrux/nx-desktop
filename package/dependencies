@@ -98,8 +98,8 @@ system-config-printer
 #    = KDE Applications =
 
 ark
-dolphin
-gwenview
+# dolphin
+# gwenview
 kate
 kinfocenter
 kcalc
@@ -119,7 +119,7 @@ kmenuedit
 latte-dock
 libqt5websockets5
 # qapt-deb-installer -- deprecate use of Debian packages in favor of AppImage
-oxygen-icon-theme
+# oxygen-icon-theme
 python-qt4-dbus
 qpdfview
 vlc
@@ -250,7 +250,8 @@ zip
 
 x11-session-utils
 xinit
-xorg
+# xorg -- Meta package
+xserver-xorg-core
 # xserver-xorg-input-all -- Meta package
 xserver-xorg-input-wacom
 xserver-xorg-input-libinput
