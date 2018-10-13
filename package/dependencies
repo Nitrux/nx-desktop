@@ -15,7 +15,6 @@ go-mtpfs
 mesa-va-drivers
 mesa-vdpau-drivers
 mesa-vulkan-drivers
-ntfs-3g
 pm-utils
 pulseaudio-module-bluetooth
 
@@ -26,30 +25,30 @@ hplip-data
 openprinting-ppds
 print-manager
 # printer-driver-all -- Meta package
-# printer-driver-foo2zjs - printer driver for ZjStream-based printers
-# printer-driver-foo2zjs-common - printer driver for ZjStream-based printers - common files
-printer-driver-gutenprint
-printer-driver-hpcups
+printer-driver-foo2zjs
+printer-driver-foo2zjs-common
+# printer-driver-gutenprint
+# printer-driver-hpcups
 # printer-driver-hpijs
-# printer-driver-m2300w - printer driver for Minolta magicolor 2300W/2400W color laser printers
-printer-driver-pnm2ppa
-printer-driver-splix
-printer-driver-brlaser
-# printer-driver-c2esp - printer driver for Kodak ESP AiO color inkjet Series
-# printer-driver-min12xxw - printer driver for KonicaMinolta PagePro 1[234]xxW
-printer-driver-postscript-hp
-printer-driver-ptouch
-printer-driver-pxljr
-# printer-driver-sag-gdi - printer driver for Ricoh Aficio SP 1000s/SP 1100s
-gutenprint-locales
-printer-driver-c2050
-printer-driver-cjet
+printer-driver-m2300w 
+# printer-driver-pnm2ppa
+# printer-driver-splix
+# printer-driver-brlaser
+printer-driver-c2esp
+printer-driver-min12xxw
+# printer-driver-postscript-hp
+# printer-driver-ptouch
+# printer-driver-pxljr
+printer-driver-sag-gdi
+# gutenprint-locales
+# printer-driver-c2050
+# printer-driver-cjet
 printer-driver-cups-pdf
-# printer-driver-dymo - printer driver for DYMO label printers
-printer-driver-escpr
-printer-driver-fujixerox
-# printer-driver-indexbraille - CUPS printing to Index Braille printers
-# printer-driver-oki - printer driver for OKI Data printers
+# printer-driver-dymo 
+# printer-driver-escpr
+# printer-driver-fujixerox
+# printer-driver-indexbraille
+# printer-driver-oki
 
 #    = Network Services =
 
@@ -148,6 +147,7 @@ nomad-simplemenu-applet
 nomad-systemtray
 #   nx-software-updater -- deprecated in favor of znx
 #   nx-software-center -- don't install until it's fixed
+#   nx-welcome-wizard -- Remove non fucntional buttons
 plymouth-theme-nomad
 
 #    = Other Desktop GUI Apps =
@@ -186,6 +186,7 @@ coreutils
 cups-bsd
 desktop-file-utils
 dc
+dnsmasq
 ghostscript-x
 firejail
 firejail-profiles
@@ -224,6 +225,7 @@ preload
 python-cairo
 python-gi-cairo
 qtdeclarative5-xmllistmodel-plugin
+resolvconf
 rfkill
 rsync
 rsyslog
