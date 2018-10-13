@@ -145,9 +145,9 @@ nomad-plasma-look-and-feel
 nomad-separator-applet
 nomad-simplemenu-applet
 nomad-systemtray
+nomad-welcome-wizard
 #   nx-software-updater -- deprecated in favor of znx
 #   nx-software-center -- don't install until it's fixed
-#   nx-welcome-wizard -- Remove non fucntional buttons
 plymouth-theme-nomad
 
 #    = Other Desktop GUI Apps =
