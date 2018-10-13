@@ -21,31 +21,33 @@ pulseaudio-module-bluetooth
 
 #    = Printers =
 
+hplip
+hplip-data
 openprinting-ppds
 print-manager
-printer-driver-all
+# printer-driver-all -- Meta package
 # printer-driver-foo2zjs - printer driver for ZjStream-based printers
 # printer-driver-foo2zjs-common - printer driver for ZjStream-based printers - common files
-# printer-driver-gutenprint - manejadores de impresoras para CUPS
-# printer-driver-hpcups - Impresión y generación de imágenes HP en Linux - controlador «raster» de CUPS (hpcups)
-# printer-driver-hpijs - HP Linux Printing and Imaging - printer driver (hpijs)
+printer-driver-gutenprint
+printer-driver-hpcups
+# printer-driver-hpijs
 # printer-driver-m2300w - printer driver for Minolta magicolor 2300W/2400W color laser printers
-# printer-driver-pnm2ppa - printer driver for HP-GDI printers
-# printer-driver-splix - Driver for Samsung and Xerox SPL2 and SPLc laser printers
-# printer-driver-brlaser - printer driver for (some) Brother laser printers
+printer-driver-pnm2ppa
+printer-driver-splix
+printer-driver-brlaser
 # printer-driver-c2esp - printer driver for Kodak ESP AiO color inkjet Series
 # printer-driver-min12xxw - printer driver for KonicaMinolta PagePro 1[234]xxW
-# printer-driver-postscript-hp - HP Printers PostScript Descriptions
-# printer-driver-ptouch - printer driver Brother P-touch label printers
-# printer-driver-pxljr - printer driver for HP Color LaserJet 35xx/36xx
+printer-driver-postscript-hp
+printer-driver-ptouch
+printer-driver-pxljr
 # printer-driver-sag-gdi - printer driver for Ricoh Aficio SP 1000s/SP 1100s
-# gutenprint-locales - locale data files for Gutenprint
-# printer-driver-c2050 - printer driver for Lexmark 2050 Color Jetprinter
-# printer-driver-cjet - printer driver for Canon LBP laser printers
-# printer-driver-cups-pdf - printer driver for PDF writing via CUPS
+gutenprint-locales
+printer-driver-c2050
+printer-driver-cjet
+printer-driver-cups-pdf
 # printer-driver-dymo - printer driver for DYMO label printers
-# printer-driver-escpr - printer driver for Epson Inkjet that use ESC/P-R
-# printer-driver-fujixerox - printer driver for Fuji Xerox printers
+printer-driver-escpr
+printer-driver-fujixerox
 # printer-driver-indexbraille - CUPS printing to Index Braille printers
 # printer-driver-oki - printer driver for OKI Data printers
 
@@ -82,10 +84,10 @@ kwin-addons
 kscreen
 oxygen-sounds
 plasma-browser-integration
-#   plasma-desktop -- This is the Plasma 5 meta package. To only install the "Desktop" aka plasmashell use plasma-workspace
+#   plasma-desktop -- This is the Plasma 5 meta package. To only install the "Desktop" aka plasmashell use plasma-workspace.
 plasma-workspace
 plasma-framework
-# plasma-widgets-addons -- Installs additional widgets
+# plasma-widgets-addons -- Installs additional widgets. We don't need them.
 plasma-nm
 plasma-pa
 plasma-vault
@@ -152,6 +154,23 @@ plymouth-theme-nomad
 
 chromium-browser
 
+#    = Locales =
+#   == Unless requested use English by default ==
+
+# language-pack-en
+# language-pack-en-base
+# kde-l10n-en
+# language-pack-es
+# language-pack-es-base
+# kde-l10n-es
+# language-pack-de
+# language-pack-de-base
+# kde-l10n-de
+# language-pack-fr
+# language-pack-fr-base
+# kde-l10n-fr
+language-selector-common
+
 #    = Supporting bits =
 
 acpi-support
@@ -172,6 +191,7 @@ firejail
 firejail-profiles
 fonts-arphic-ukai
 fonts-arphic-uming
+fonts-freefont-ttf
 fonts-ipafont-gothic
 fonts-ipafont-mincho
 fonts-liberation
@@ -187,11 +207,12 @@ intel-microcode
 install-info
 inputattach
 iucode-tool
-language-selector-common
 laptop-detect
-libqca2-plugins
 libboost-filesystem1.65.1
 libboost-system1.65.1
+libdmusmenu-gtk3-4
+libqca2-plugins
+libqt5webengine5
 mscompress
 netplan.io
 pcmciautils
@@ -228,20 +249,20 @@ zip
 x11-session-utils
 xinit
 xorg
-xserver-xorg-input-all
-# xserver-xorg-input-wacom - Servidor X de X.Org -- controlador de entrada Wacom
-# xserver-xorg-input-libinput - X.Org X server -- libinput input driver
+# xserver-xorg-input-all -- Meta package
+xserver-xorg-input-wacom
+xserver-xorg-input-libinput
 # xserver-xorg-input-aiptek - X.Org X server -- Aiptek input driver
 # xserver-xorg-input-elographics - X.Org X server -- ELOGraphics input driver
-# xserver-xorg-input-joystick - X.Org X server -- joystick input driver
-# xserver-xorg-input-kbd - X.Org X server -- keyboard input driver
-# xserver-xorg-input-mouse - X.Org X server -- mouse input driver
+xserver-xorg-input-joystick
+xserver-xorg-input-kbd
+xserver-xorg-input-mouse
 # xserver-xorg-input-mutouch - X.Org X server -- muTouch input driver
 # xserver-xorg-input-void - X.Org X server -- void input driver
-# xserver-xorg-input-evdev - X.Org X server -- evdev input driver
-# xserver-xorg-input-mtrack - Multitouch X input driver
+xserver-xorg-input-evdev
+xserver-xorg-input-mtrack
 # xserver-xorg-input-multitouch - Multitouch X input driver
-# xserver-xorg-input-synaptics - Synaptics TouchPad driver for X.Org server
+xserver-xorg-input-synaptics
 # xserver-xorg-input-xwiimote - X.Org Wii remote input driver
 xserver-xorg-video-amdgpu
 xserver-xorg-video-intel
