@@ -210,7 +210,7 @@ iucode-tool
 laptop-detect
 libboost-filesystem1.65.1
 libboost-system1.65.1
-libdmusmenu-gtk3-4
+libdbusmenu-gtk3-4
 libqca2-plugins
 libqt5webengine5
 mscompress
