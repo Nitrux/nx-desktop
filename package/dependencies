@@ -8,6 +8,9 @@ nitrux-standard
 
 #    = Hardware and Architecture Support =
 
+broadcom-sta-dkms
+bcmwl-kernel-source
+# firmware-b43-installer -- Use if requested.
 dkms
 exfat-fuse
 exfat-utils
@@ -118,7 +121,7 @@ kde-baseapps-bin
 kmenuedit
 latte-dock
 libqt5websockets5
-# qapt-deb-installer -- deprecate use of Debian packages in favor of AppImage
+# qapt-deb-installer -- Deprecate use of Debian packages in favor of AppImage
 # oxygen-icon-theme
 python-qt4-dbus
 qpdfview
@@ -146,8 +149,8 @@ nomad-separator-applet
 nomad-simplemenu-applet
 nomad-systemtray
 nomad-welcome-wizard
-#   nx-software-updater -- deprecated in favor of znx
-#   nx-software-center -- don't install until it's fixed
+#   nx-software-updater -- Deprecated in favor of znx
+#   nx-software-center -- Don't install until it's fixed
 plymouth-theme-nomad
 
 #    = Other Desktop GUI Apps =
