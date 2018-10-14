@@ -10,10 +10,10 @@ nitrux-standard
 
 broadcom-sta-dkms
 bcmwl-kernel-source
-# firmware-b43-installer -- Use if requested.
 dkms
 exfat-fuse
 exfat-utils
+# firmware-b43-installer -- Use if requested.
 go-mtpfs
 mesa-va-drivers
 mesa-vdpau-drivers
