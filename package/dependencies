@@ -9,7 +9,7 @@ nitrux-standard
 #    = Hardware and Architecture Support =
 
 broadcom-sta-dkms
-# bcmwl-kernel-source -- Results in problems during Travis build
+# bcmwl-kernel-source -- Results in problems during Travis build, fails to be configured.
 dkms
 exfat-fuse
 exfat-utils
@@ -71,6 +71,9 @@ qt5-image-formats-plugins
 
 #    == Plasma ==
 
+#   breeze -- This is the metapackage for Breeze artwork.
+breeze-cursor-theme
+breeze-icon-theme
 baloo-kf5
 bluedevil
 kde-cli-tools
@@ -78,15 +81,19 @@ kde-config-gtk-style
 kde-config-screenlocker
 kde-config-plymouth
 kde-config-sddm
+kde-style-breeze
 khotkeys
 kio
 kio-extras
 kwin
 kwin-addons
+kwin-style-breeze
 kscreen
+oxygen-icon-theme
 oxygen-sounds
 plasma-browser-integration
 #   plasma-desktop -- This is the Plasma 5 meta package. To only install the "Desktop" aka plasmashell use plasma-workspace.
+plasma-look-and-feel-org-kde-breezedark-desktop
 plasma-workspace
 plasma-framework
 # plasma-widgets-addons -- Installs additional widgets. We don't need them.
@@ -95,14 +102,15 @@ plasma-pa
 plasma-vault
 powerdevil
 polkit-kde-agent-1
+qml-module-qtquick-controls-styles-breeze
 user-manager
 system-config-printer
 
 #    = KDE Applications =
 
 ark
-# dolphin
-# gwenview
+dolphin
+# gwenview -- Replaced by Pix.
 kate
 kinfocenter
 kcalc
@@ -121,11 +129,10 @@ kde-baseapps-bin
 kmenuedit
 latte-dock
 libqt5websockets5
-# qapt-deb-installer -- Deprecate use of Debian packages in favor of AppImage
-# oxygen-icon-theme
+# qapt-deb-installer -- Deprecate use of Debian packages in favor of AppImage.
 python-qt4-dbus
 qpdfview
-vlc
+#   vlc -- Use AppImage from https://github.com/anupam-git/vlc-appimage
 
 #    = Nomad Customization Layer =
 
@@ -149,8 +156,8 @@ nomad-separator-applet
 nomad-simplemenu-applet
 nomad-systemtray
 nomad-welcome-wizard
-#   nx-software-updater -- Deprecated in favor of znx
-#   nx-software-center -- Don't install until it's fixed
+#   nx-software-updater -- Deprecated in favor of znx.
+#   nx-software-center -- Don't install package from repos until it's fixed.
 plymouth-theme-nomad
 
 #    = Other Desktop GUI Apps =
@@ -255,25 +262,25 @@ x11-session-utils
 xinit
 # xorg -- Meta package
 xserver-xorg-core
-# xserver-xorg-input-all -- Meta package
+# xserver-xorg-input-all -- Meta package.
 xserver-xorg-input-wacom
 xserver-xorg-input-libinput
-# xserver-xorg-input-aiptek - X.Org X server -- Aiptek input driver
-# xserver-xorg-input-elographics - X.Org X server -- ELOGraphics input driver
+# xserver-xorg-input-aiptek - X.Org X server -- Aiptek input driver.
+# xserver-xorg-input-elographics - X.Org X server -- ELOGraphics input driver.
 xserver-xorg-input-joystick
 xserver-xorg-input-kbd
 xserver-xorg-input-mouse
-# xserver-xorg-input-mutouch - X.Org X server -- muTouch input driver
-# xserver-xorg-input-void - X.Org X server -- void input driver
+# xserver-xorg-input-mutouch - X.Org X server -- muTouch input driver.
+# xserver-xorg-input-void - X.Org X server -- void input driver.
 xserver-xorg-input-evdev
 xserver-xorg-input-mtrack
-# xserver-xorg-input-multitouch - Multitouch X input driver
+# xserver-xorg-input-multitouch - Multitouch X input driver.
 xserver-xorg-input-synaptics
-# xserver-xorg-input-xwiimote - X.Org Wii remote input driver
+# xserver-xorg-input-xwiimote - X.Org Wii remote input driver.
 xserver-xorg-video-amdgpu
 xserver-xorg-video-intel
 xserver-xorg-video-intel-arbiter
 xserver-xorg-video-radeon
-# xserver-xorg-video-nouveau -- FOSS Nvidia Driver
+# xserver-xorg-video-nouveau -- FOSS Nvidia Driver.
 xserver-xorg-video-nvidia-390
 xserver-xorg-video-vmware
