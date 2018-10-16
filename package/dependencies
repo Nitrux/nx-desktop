@@ -9,7 +9,7 @@ nitrux-standard
 #    = Hardware and Architecture Support =
 
 broadcom-sta-dkms
-bcmwl-kernel-source
+# bcmwl-kernel-source -- Results in problems during Travis build
 dkms
 exfat-fuse
 exfat-utils
