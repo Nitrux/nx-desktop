@@ -155,7 +155,7 @@ plymouth-theme-nomad
 
 #    = Other Desktop GUI Apps =
 
-chromium-browser
+#   chromium-browser -- Use AppImage from https://www.linux-apps.com/p/1266054/
 
 #    = Locales =
 #   == Unless requested use English by default ==
