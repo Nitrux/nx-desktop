@@ -15,11 +15,6 @@ exfat-fuse
 exfat-utils
 #    firmware-b43-installer -- Use if requested.
 go-mtpfs
-mesa-va-drivers
-mesa-vdpau-drivers
-mesa-vulkan-drivers
-pm-utils
-pulseaudio-module-bluetooth
 
 #    = Printers =
 
@@ -160,6 +155,8 @@ acpid
 alsa-base
 amd64-microcode
 appimagethumbs
+appmenu-gtk2-module
+appmenu-gtk3-module
 avahi-autoipd
 avahi-daemon
 binutils-multiarch
@@ -197,14 +194,18 @@ libboost-system1.65.1
 libdbusmenu-gtk3-4
 libqca2-plugins
 libqt5webengine5
+libvdpau-va-gl1
+libxcb-xf86dri
 mscompress
 netplan.io
 pcmciautils
+pm-utils
 plymouth
 plymouth-label
 plymouth-themes
 policykit-desktop-privileges
 preload
+pulseaudio-module-bluetooth
 python-cairo
 python-gi-cairo
 qtdeclarative5-xmllistmodel-plugin
@@ -223,6 +224,7 @@ update-inetd
 upower
 usb-modeswitch
 usb-modeswitch-data
+vdpau-va-driver
 wireless-tools
 xdg-utils
 xdg-user-dirs
@@ -242,15 +244,18 @@ xserver-xorg-input-mouse
 xserver-xorg-input-evdev
 xserver-xorg-input-mtrack
 xserver-xorg-input-synaptics
+xserver-xorg-input-void
 xserver-xorg-video-amdgpu
+xserver-xorg-video-fbdev
 xserver-xorg-video-intel
 xserver-xorg-video-intel-arbiter
 xserver-xorg-video-radeon
+xserver-xorg-video-vesa
 #    xserver-xorg-video-nouveau -- FOSS Nvidia Driver.
 xserver-xorg-video-nvidia-410
 xserver-xorg-video-vmware
 
-#    = Nvidia Supporting bits =
+#    = Nvidia supporting bits =
 
 libnvidia-cfg1-410
 libnvidia-common-410
@@ -266,7 +271,24 @@ nvidia-kernel-common-410
 nvidia-kernel-source-410
 nvidia-utils-410
 
-#    = AMD and Radeon Supporting bits =
+#    = AMD and Radeon supporting bits =
 
 libdrm-amdgpu1
 libdrm-radeon1
+
+#    = Intel supporting bits =
+
+i965-va-driver
+i965-va-driver-shaders
+libdrm-intel1
+libva-drm2
+libva-glx2
+libva-x11-2
+libva2
+thunderbolt-tools
+
+#    = Mesa supporting bits =
+
+mesa-va-drivers
+mesa-vdpau-drivers
+mesa-vulkan-drivers
