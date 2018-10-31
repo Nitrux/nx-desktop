@@ -265,3 +265,8 @@ nvidia-dkms-410
 nvidia-kernel-common-410
 nvidia-kernel-source-410
 nvidia-utils-410
+
+#    = AMD and Radeon Supporting bits =
+
+libdrm-amdgpu1
+libdrm-radeon1

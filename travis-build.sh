@@ -15,7 +15,7 @@ Priority: optional
 Homepage: https://nxos.org
 
 Package: nomad-desktop
-Version: 1.4.5.2-${GIT_COMMIT}
+Version: 1.4.5.3-${GIT_COMMIT}
 Maintainer: Luis Lavaire <llavaire01@gmail.com>
 Depends: $DEPENDS
 Architecture: amd64
