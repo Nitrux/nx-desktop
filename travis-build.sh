@@ -15,8 +15,8 @@ Priority: optional
 Homepage: https://nxos.org
 
 Package: nomad-desktop
-Version: 1.4.5.4-${GIT_COMMIT}
-Maintainer: Luis Lavaire <llavaire01@gmail.com>
+Version: 1.4.5.5-${GIT_COMMIT}
+Maintainer: Uri Herrera <uri_herrera@nxos.org>
 Depends: $DEPENDS
 Architecture: amd64
 Description: Nomad Desktop metapackage for Nitrux.
