@@ -9,11 +9,11 @@ nitrux-standard
 #    = Hardware and Architecture Support =
 
 broadcom-sta-dkms
-# bcmwl-kernel-source -- Results in problems during Travis build, fails to be configured.
+#    bcmwl-kernel-source -- Results in problems during Travis build, fails to be configured.
 dkms
 exfat-fuse
 exfat-utils
-# firmware-b43-installer -- Use if requested.
+#    firmware-b43-installer -- Use if requested.
 go-mtpfs
 mesa-va-drivers
 mesa-vdpau-drivers
@@ -27,31 +27,13 @@ hplip
 hplip-data
 openprinting-ppds
 print-manager
-# printer-driver-all -- Meta package
 printer-driver-foo2zjs
 printer-driver-foo2zjs-common
-# printer-driver-gutenprint
-# printer-driver-hpcups
-# printer-driver-hpijs
 printer-driver-m2300w 
-# printer-driver-pnm2ppa
-# printer-driver-splix
-# printer-driver-brlaser
 printer-driver-c2esp
 printer-driver-min12xxw
-# printer-driver-postscript-hp
-# printer-driver-ptouch
-# printer-driver-pxljr
 printer-driver-sag-gdi
-# gutenprint-locales
-# printer-driver-c2050
-# printer-driver-cjet
 printer-driver-cups-pdf
-# printer-driver-dymo 
-# printer-driver-escpr
-# printer-driver-fujixerox
-# printer-driver-indexbraille
-# printer-driver-oki
 
 #    = Network Services =
 
@@ -71,9 +53,9 @@ phonon-backend-gstreamer-common
 phonon4qt5-backend-gstreamer
 qt5-image-formats-plugins
 
-#    == Plasma ==
+#     == Plasma ==
 
-#   breeze -- This is the metapackage for Breeze artwork.
+#    breeze -- This is the metapackage for Breeze artwork.
 breeze-cursor-theme
 breeze-icon-theme
 baloo-kf5
@@ -94,11 +76,11 @@ kscreen
 oxygen-icon-theme
 oxygen-sounds
 plasma-browser-integration
-#   plasma-desktop -- This is the Plasma 5 meta package. To only install the "Desktop" aka plasmashell use plasma-workspace.
+#    plasma-desktop -- This is the Plasma 5 meta package. To only install the "Desktop" aka plasmashell use plasma-workspace.
 plasma-look-and-feel-org-kde-breezedark-desktop
 plasma-workspace
 plasma-framework
-# plasma-widgets-addons -- Installs additional widgets. We don't need them.
+#    plasma-widgets-addons -- Installs additional widgets. We don't need them.
 plasma-nm
 plasma-pa
 plasma-vault
@@ -112,7 +94,7 @@ system-config-printer
 
 ark
 dolphin
-# gwenview -- Replaced by Pix.
+#    gwenview -- Replaced by Pix.
 kate
 kinfocenter
 kcalc
@@ -131,10 +113,10 @@ kde-baseapps-bin
 kmenuedit
 latte-dock
 libqt5websockets5
-# qapt-deb-installer -- Deprecate use of Debian packages in favor of AppImage.
+#    qapt-deb-installer -- Deprecate use of Debian packages in favor of AppImage.
 python-qt4-dbus
 qpdfview
-#   vlc -- Use AppImage from https://github.com/anupam-git/vlc-appimage
+#    vlc -- Use AppImage.
 
 #    = Nomad Customization Layer =
 
@@ -158,29 +140,17 @@ nomad-separator-applet
 nomad-simplemenu-applet
 nomad-systemtray
 nomad-welcome-wizard
-#   nx-software-updater -- Deprecated in favor of znx.
-#   nx-software-center -- Don't install package from repos until it's fixed.
+#    nx-software-updater -- Deprecated in favor of znx.
+#    nx-software-center -- Don't install package from repos until it's fixed.
 plymouth-theme-nomad
 
 #    = Other Desktop GUI Apps =
 
-#   chromium-browser -- Use AppImage from https://www.linux-apps.com/p/1266054/
+#    chromium-browser -- Use AppImage from https://www.linux-apps.com/p/1266054/
 
 #    = Locales =
 #   == Unless requested use English by default ==
 
-# language-pack-en
-# language-pack-en-base
-# kde-l10n-en
-# language-pack-es
-# language-pack-es-base
-# kde-l10n-es
-# language-pack-de
-# language-pack-de-base
-# kde-l10n-de
-# language-pack-fr
-# language-pack-fr-base
-# kde-l10n-fr
 language-selector-common
 
 #    = Supporting bits =
@@ -214,6 +184,7 @@ fonts-ubuntu
 fuse
 fwupd
 fwupdate
+fwupdate-signed
 gnupg-agent
 haveged
 intel-microcode
@@ -255,34 +226,42 @@ usb-modeswitch-data
 wireless-tools
 xdg-utils
 xdg-user-dirs
+xz-utils
 zip
-
 
 #    = XORG =
 
 x11-session-utils
 xinit
-# xorg -- Meta package
 xserver-xorg-core
-# xserver-xorg-input-all -- Meta package.
 xserver-xorg-input-wacom
 xserver-xorg-input-libinput
-# xserver-xorg-input-aiptek - X.Org X server -- Aiptek input driver.
-# xserver-xorg-input-elographics - X.Org X server -- ELOGraphics input driver.
 xserver-xorg-input-joystick
 xserver-xorg-input-kbd
 xserver-xorg-input-mouse
-# xserver-xorg-input-mutouch - X.Org X server -- muTouch input driver.
-# xserver-xorg-input-void - X.Org X server -- void input driver.
 xserver-xorg-input-evdev
 xserver-xorg-input-mtrack
-# xserver-xorg-input-multitouch - Multitouch X input driver.
 xserver-xorg-input-synaptics
-# xserver-xorg-input-xwiimote - X.Org Wii remote input driver.
 xserver-xorg-video-amdgpu
 xserver-xorg-video-intel
 xserver-xorg-video-intel-arbiter
 xserver-xorg-video-radeon
-# xserver-xorg-video-nouveau -- FOSS Nvidia Driver.
-xserver-xorg-video-nvidia-390
+#    xserver-xorg-video-nouveau -- FOSS Nvidia Driver.
+xserver-xorg-video-nvidia-410
 xserver-xorg-video-vmware
+
+#    = Nvidia Supporting bits =
+
+libnvidia-cfg1-410
+libnvidia-common-410
+libnvidia-compute-410
+libnvidia-decode-410
+libnvidia-encode-410
+libnvidia-fbc1-410
+libnvidia-gl-410
+libnvidia-ifr1-410
+libxnvctrl0
+nvidia-dkms-410
+nvidia-kernel-common-410
+nvidia-kernel-source-410
+nvidia-utils-410
