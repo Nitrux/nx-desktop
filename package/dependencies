@@ -157,6 +157,7 @@ amd64-microcode
 appimagethumbs
 appmenu-gtk2-module
 appmenu-gtk3-module
+appmenu-qt
 avahi-autoipd
 avahi-daemon
 binutils-multiarch
