@@ -253,25 +253,25 @@ xserver-xorg-video-intel
 xserver-xorg-video-intel-arbiter
 xserver-xorg-video-radeon
 #    xserver-xorg-video-nouveau -- FOSS Nvidia Driver.
-xserver-xorg-video-nvidia-410
+xserver-xorg-video-nvidia-415
 #    xserver-xorg-video-vesa -- X.Org X server -- VESA display driver.
 xserver-xorg-video-vmware
 
 #    = Nvidia supporting bits =
 
-libnvidia-cfg1-410
-libnvidia-common-410
-libnvidia-compute-410
-libnvidia-decode-410
-libnvidia-encode-410
-libnvidia-fbc1-410
-libnvidia-gl-410
-libnvidia-ifr1-410
+libnvidia-cfg1-415
+libnvidia-common-415
+libnvidia-compute-415
+libnvidia-decode-415
+libnvidia-encode-415
+libnvidia-fbc1-415
+libnvidia-gl-415
+libnvidia-ifr1-415
 libxnvctrl0
-nvidia-dkms-410
-nvidia-kernel-common-410
-nvidia-kernel-source-410
-nvidia-utils-410
+nvidia-dkms-415
+nvidia-kernel-common-415
+nvidia-kernel-source-415
+nvidia-utils-415
 
 #    = AMD and Radeon supporting bits =
 
