@@ -147,6 +147,8 @@ qmltermwidget
 #    = Locales =
 #   == Unless requested use English by default ==
 
+language-pack-en
+language-pack-en-base
 language-selector-common
 
 #    = Supporting bits =
@@ -200,6 +202,7 @@ libvdpau-va-gl1
 #    libxcb-xf86dri0 -- X C Binding, xf86dri extension.
 mscompress
 netplan.io
+open-vm-tools
 pcmciautils
 pm-utils
 plymouth
