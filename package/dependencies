@@ -43,6 +43,7 @@ gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
 pulseaudio
 phonon
+phonon4qt5
 phonon-backend-gstreamer
 phonon-backend-gstreamer-common
 phonon4qt5-backend-gstreamer
