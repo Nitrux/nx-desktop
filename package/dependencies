@@ -141,6 +141,17 @@ nomad-welcome-wizard
 plymouth-theme-nomad
 qmltermwidget
 
+#    = Maui Applications =
+
+nota
+station
+vvave
+index
+buho
+mauikit
+#   pix -- deb package errors
+
+
 #    = Other Desktop GUI Apps =
 
 #    chromium-browser -- Use AppImage from https://www.linux-apps.com/p/1266054/
