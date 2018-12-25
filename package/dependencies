@@ -148,7 +148,8 @@ station
 vvave
 index
 buho
-mauikit
+libmauikit
+qml-module-org-kde-mauikit
 pix
 
 
