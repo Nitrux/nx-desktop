@@ -139,17 +139,14 @@ nomad-welcome-wizard
 #    nx-software-updater -- Deprecated in favor of znx-GUI.
 #    nx-software-center -- Don't install package from repos until it's fixed.
 plymouth-theme-nomad
-qmltermwidget
 
 #    = Maui Applications =
 
 nota
-station
+#   station
 vvave
 index
 buho
-libmauikit
-qml-module-org-kde-mauikit
 pix
 
 
