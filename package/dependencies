@@ -73,7 +73,7 @@ oxygen-icon-theme
 oxygen-sounds
 plasma-browser-integration
 #    plasma-desktop -- This is the Plasma 5 meta package. To only install the "Desktop" aka plasmashell use plasma-workspace.
-plasma-look-and-feel-org-kde-breezedark-desktop
+#    plasma-look-and-feel-org-kde-breezedark-desktop
 plasma-workspace
 plasma-framework
 #    plasma-widgets-addons -- Installs additional widgets. We don't need them.
