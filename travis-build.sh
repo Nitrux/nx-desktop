@@ -13,7 +13,6 @@ echo "
 Section: misc
 Priority: optional
 Homepage: https://nxos.org
-
 Package: nomad-desktop
 Version: 1.4.6.6-${GIT_COMMIT}
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
