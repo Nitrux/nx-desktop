@@ -157,6 +157,9 @@ pix
 #    = Locales =
 #   == Unless requested use English by default ==
 
+kde-l10n-es
+language-pack-es
+language-pack-es-base
 language-pack-en
 language-pack-en-base
 language-selector-common
