@@ -158,10 +158,13 @@ pix
 #   == Unless requested use English by default ==
 
 kde-l10n-es
-language-pack-es
-language-pack-es-base
+kde-l10n-pt
 language-pack-en
 language-pack-en-base
+language-pack-es
+language-pack-es-base
+language-pack-pt
+language-pack-pt-base
 language-selector-common
 
 #    = Supporting bits =
