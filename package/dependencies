@@ -42,11 +42,11 @@ gstreamer1.0-pulseaudio
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
 pulseaudio
-phonon
-phonon4qt5
+#    phonon
+#    phonon4qt5 -- This is a metapackage.
+#    phonon4qt5-backend-gstreamer -- Provides same file as phonon-backend-gstreamer but in a different path.
 phonon-backend-gstreamer
 phonon-backend-gstreamer-common
-phonon4qt5-backend-gstreamer
 qt5-image-formats-plugins
 
 #     == Plasma ==
@@ -71,9 +71,9 @@ kwin-style-breeze
 kscreen
 oxygen-icon-theme
 oxygen-sounds
-plasma-browser-integration
+#    plasma-browser-integration -- Doesn't work with Chromium AppImage
 #    plasma-desktop -- This is the Plasma 5 meta package. To only install the "Desktop" aka plasmashell use plasma-workspace.
-#    plasma-look-and-feel-org-kde-breezedark-desktop
+#    plasma-look-and-feel-org-kde-breezedark-desktop -- Old dependency of Plasma.
 plasma-workspace
 plasma-framework
 #    plasma-widgets-addons -- Installs additional widgets. We don't need them.
@@ -132,7 +132,7 @@ nomad-gtk-themes
 nomad-networkmanagement-applet
 nomad-notifications-applet
 nomad-plasma-look-and-feel
-nomad-separator-applet
+#    nomad-separator-applet -- It's broken.
 nomad-simplemenu-applet
 nomad-systemtray
 nomad-welcome-wizard
