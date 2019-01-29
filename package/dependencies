@@ -45,8 +45,9 @@ pulseaudio
 #    phonon
 #    phonon4qt5 -- This is a metapackage.
 #    phonon4qt5-backend-gstreamer -- Provides same file as phonon-backend-gstreamer but in a different path.
-phonon-backend-gstreamer
-phonon-backend-gstreamer-common
+#    phonon-backend-gstreamer
+#    phonon-backend-gstreamer-common
+phonon-backend-vlc
 qt5-image-formats-plugins
 
 #     == Plasma ==
