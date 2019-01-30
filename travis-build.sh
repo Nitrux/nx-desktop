@@ -14,7 +14,7 @@ Section: misc
 Priority: optional
 Homepage: https://nxos.org
 Package: nomad-desktop
-Version: 1.4.8.2-${GIT_COMMIT}
+Version: 1.4.8.3-${GIT_COMMIT}
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
 Depends: $DEPENDS
 Architecture: amd64

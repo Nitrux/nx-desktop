@@ -121,7 +121,7 @@ kvantum
 kvantum-theme-kvnomad
 luv-icon-theme
 libappimage
-libappimageinfo
+#    libappimageinfo -- 
 nomad-audio-applet
 nomad-clock-applet
 nomad-desktop-settings
@@ -135,7 +135,7 @@ nomad-simplemenu-applet
 nomad-systemtray
 nomad-welcome-wizard
 #    nx-software-updater -- Deprecated in favor of znx-GUI.
-nx-software-center-plasma
+#    nx-software-center-plasma -- 
 plymouth-theme-nomad
 
 #    = Maui Applications =
