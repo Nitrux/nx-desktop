@@ -5,30 +5,7 @@
 
 nitrux-minimal
 nitrux-standard
-
-#    = Hardware and Architecture Support =
-
-broadcom-sta-dkms
-#    bcmwl-kernel-source -- Results in problems during Travis build, fails to be configured.
-dkms
-exfat-fuse
-exfat-utils
-#    firmware-b43-installer -- Use if requested.
-go-mtpfs
-
-#    = Printers =
-
-hplip
-hplip-data
-openprinting-ppds
-print-manager
-printer-driver-foo2zjs
-printer-driver-foo2zjs-common
-printer-driver-m2300w 
-printer-driver-c2esp
-printer-driver-min12xxw
-printer-driver-sag-gdi
-printer-driver-cups-pdf
+nitrux-hardware-drivers
 
 #    = Network Services =
 
@@ -48,7 +25,6 @@ qt5-image-formats-plugins
 
 #     == Plasma ==
 
-#    breeze -- This is the metapackage for Breeze artwork.
 breeze-cursor-theme
 breeze-icon-theme
 baloo-kf5
@@ -68,12 +44,8 @@ kwin-style-breeze
 kscreen
 oxygen-icon-theme
 oxygen-sounds
-#    plasma-browser-integration -- Doesn't work with Chromium AppImage
-#    plasma-desktop -- This is the Plasma 5 meta package. To only install the "Desktop" aka plasmashell use plasma-workspace.
-#    plasma-look-and-feel-org-kde-breezedark-desktop -- Old dependency of Plasma.
 plasma-workspace
 plasma-framework
-#    plasma-widgets-addons -- Installs additional widgets. We don't need them.
 plasma-nm
 plasma-pa
 plasma-vault
@@ -87,7 +59,6 @@ system-config-printer
 
 ark
 dolphin
-#    gwenview -- Replaced by Pix.
 kate
 kinfocenter
 kcalc
@@ -106,10 +77,8 @@ kde-baseapps-bin
 kmenuedit
 latte-dock
 libqt5websockets5
-#    qapt-deb-installer -- Deprecate use of Debian packages in favor of AppImage.
 python-qt4-dbus
 qpdfview
-#    vlc -- Use AppImage.
 
 #    = Nomad Customization Layer =
 
@@ -121,7 +90,6 @@ kvantum
 kvantum-theme-kvnomad
 luv-icon-theme
 libappimage
-#    libappimageinfo -- 
 nomad-audio-applet
 nomad-clock-applet
 nomad-desktop-settings
@@ -130,44 +98,44 @@ nomad-gtk-themes
 nomad-networkmanagement-applet
 nomad-notifications-applet
 nomad-plasma-look-and-feel
-#    nomad-separator-applet -- It's broken.
 nomad-simplemenu-applet
 nomad-systemtray
 nomad-welcome-wizard
-#    nx-software-updater -- Deprecated in favor of znx-GUI.
-#    nx-software-center-plasma -- 
 plymouth-theme-nomad
 
 #    = Maui Applications =
 
 nota
-#   station
 vvave
 index
 buho
 pix
 
-
 #    = Other Desktop GUI Apps =
 
-#    chromium-browser -- Use AppImage from https://www.linux-apps.com/p/1266054/
+
 
 #    = Locales =
 #   == Unless requested use English by default ==
 
 kde-l10n-es
+kde-l10n-de
+kde-l10n-fr
 kde-l10n-pt
+language-pack-de
+language-pack-de-base
 language-pack-en
 language-pack-en-base
 language-pack-es
 language-pack-es-base
+language-pack-fr
+language-pack-fr-base
 language-pack-pt
 language-pack-pt-base
 language-selector-common
 
 #    = Supporting bits =
 
-p7zip-full
 acpi-support
 acpid
 alsa-base
@@ -182,10 +150,9 @@ binutils-multiarch
 bluez-cups
 coreutils
 cups-bsd
-desktop-file-utils
 dc
+desktop-file-utils
 dnsmasq
-ghostscript-x
 firejail
 firejail-profiles
 fonts-arphic-ukai
@@ -195,17 +162,18 @@ fonts-ipafont-gothic
 fonts-ipafont-mincho
 fonts-liberation
 fonts-opensymbol
-fonts-unfonts-core
 fonts-ubuntu
+fonts-unfonts-core
 fuse
 fwupd
 fwupdate
 fwupdate-signed
+ghostscript-x
 gnupg-agent
 haveged
-intel-microcode
-install-info
 inputattach
+install-info
+intel-microcode
 iucode-tool
 laptop-detect
 libboost-filesystem1.65.1
@@ -214,14 +182,14 @@ libdbusmenu-gtk3-4
 libqca2-plugins
 libqt5webengine5
 libvdpau-va-gl1
-#    libxcb-xf86dri0 -- X C Binding, xf86dri extension.
 mscompress
 open-vm-tools
+p7zip-full
 pcmciautils
-pm-utils
 plymouth
 plymouth-label
 plymouth-themes
+pm-utils
 policykit-desktop-privileges
 preload
 pulseaudio-module-bluetooth
@@ -245,68 +213,7 @@ usb-modeswitch
 usb-modeswitch-data
 vdpau-va-driver
 wireless-tools
-xdg-utils
 xdg-user-dirs
+xdg-utils
 xz-utils
 zip
-
-#    = XORG =
-
-x11-session-utils
-xinit
-xserver-xorg-core
-xserver-xorg-input-wacom
-xserver-xorg-input-libinput
-xserver-xorg-input-joystick
-xserver-xorg-input-kbd
-xserver-xorg-input-mouse
-xserver-xorg-input-evdev
-xserver-xorg-input-mtrack
-xserver-xorg-input-synaptics
-xserver-xorg-input-void
-xserver-xorg-video-amdgpu
-#    xserver-xorg-video-fbdev -- Servidor X de X.Org -- controlador de vídeo fbdev.
-xserver-xorg-video-intel
-xserver-xorg-video-qxl
-xserver-xorg-video-radeon
-#    xserver-xorg-video-nouveau -- FOSS Nvidia Driver.
-xserver-xorg-video-nvidia-415
-#    xserver-xorg-video-vesa -- X.Org X server -- VESA display driver.
-xserver-xorg-video-vmware
-
-#    = Nvidia supporting bits =
-
-libnvidia-cfg1-415
-libnvidia-common-415
-libnvidia-compute-415
-libnvidia-decode-415
-libnvidia-encode-415
-libnvidia-fbc1-415
-libnvidia-gl-415
-libnvidia-ifr1-415
-libxnvctrl0
-nvidia-dkms-415
-nvidia-kernel-common-415
-nvidia-kernel-source-415
-nvidia-utils-415
-
-#    = AMD and Radeon supporting bits =
-
-libdrm-amdgpu1
-libdrm-radeon1
-
-#    = Intel supporting bits =
-
-i965-va-driver-shaders
-libdrm-intel1
-libva-drm2
-libva-glx2
-libva-x11-2
-libva2
-thunderbolt-tools
-
-#    = Mesa supporting bits =
-
-mesa-va-drivers
-mesa-vdpau-drivers
-mesa-vulkan-drivers
