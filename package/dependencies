@@ -132,7 +132,6 @@ language-pack-fr
 language-pack-fr-base
 language-pack-pt
 language-pack-pt-base
-language-selector-common
 
 #    = Supporting bits =
 
@@ -150,6 +149,7 @@ binutils-multiarch
 bluez-cups
 coreutils
 cups-bsd
+cifs-utils
 dc
 desktop-file-utils
 dnsmasq
