@@ -82,14 +82,11 @@ qpdfview
 
 #    = Nomad Customization Layer =
 
-#   appimage-desktop-integration-first-run
-#   appimage-desktop-integration-user-apps-monitor
 fonts-nomad-desktop
 grub2-theme-nomad
 kvantum
 kvantum-theme-kvnomad
 luv-icon-theme
-#   libappimage
 nomad-audio-applet
 nomad-clock-applet
 nomad-desktop-settings
@@ -105,11 +102,12 @@ plymouth-theme-nomad
 
 #    = Maui Applications =
 
-#   nota
-#   vvave
-#   index
-#   buho
-#   pix
+buho
+index
+nota
+station
+pix
+vvave
 
 #    = Other Desktop GUI Apps =
 
