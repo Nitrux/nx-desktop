@@ -87,17 +87,17 @@ grub2-theme-nomad
 kvantum
 kvantum-theme-kvnomad
 luv-icon-theme
-nomad-audio-applet
-nomad-clock-applet
 nomad-desktop-settings
-nomad-firewall
-nomad-gtk-themes
-nomad-networkmanagement-applet
-nomad-notifications-applet
-nomad-plasma-look-and-feel
-nomad-simplemenu-applet
-nomad-systemtray
 nomad-welcome-wizard
+nx-audio-applet
+nx-clock-applet
+nx-firewall
+nx-gtk-themes
+nx-networkmanagement-applet
+nx-notifications-applet
+nx-plasma-look-and-feel
+nx-simplemenu-applet
+nx-systemtray
 plymouth-theme-nomad
 
 #    = Maui Applications =
