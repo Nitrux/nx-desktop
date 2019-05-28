@@ -20,7 +20,6 @@ gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
 pulseaudio
 phonon4qt5
-phonon4qt5-backend-gstreamer
 phonon4qt5-backend-vlc
 qt5-image-formats-plugins
 
