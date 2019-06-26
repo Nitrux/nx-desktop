@@ -13,12 +13,12 @@ echo "
 Section: misc
 Priority: optional
 Homepage: https://nxos.org
-Package: nomad-desktop
-Version: 1.4.8.15-${GIT_COMMIT}
+Package: nx-desktop
+Version: 1.4.8.16-${GIT_COMMIT}
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
 Depends: $DEPENDS
 Architecture: amd64
-Description: Nomad Desktop metapackage for Nitrux.
+Description: NX Desktop metapackage for Nitrux.
 " > configuration
 
 equivs-build configuration

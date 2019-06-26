@@ -80,14 +80,14 @@ libqt5websockets5
 python-qt4-dbus
 qpdfview
 
-#    = Nomad Customization Layer =
+#    = NX Desktop Customization Layer =
 
-fonts-nomad-desktop
-grub2-theme-nomad
+fonts-nx-desktop
+grub2-theme-nitrux
 kvantum
-kvantum-theme-kvnomad
+kvantum-theme-kvnitrux
 luv-icon-theme
-nomad-desktop-settings
+nx-desktop-settings
 nx-audio-applet
 nx-clock-applet
 nx-firewall
@@ -96,9 +96,9 @@ nx-networkmanagement-applet
 nx-notifications-applet
 nx-plasma-look-and-feel
 nx-simplemenu-applet
-nx-systemtray
+nx-systemtray-applet
 nx-welcome-wizard
-plymouth-theme-nomad
+plymouth-theme-nitrux
 
 #    = Maui Applications =
 
