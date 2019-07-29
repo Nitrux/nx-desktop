@@ -70,6 +70,7 @@ systemsettings
 
 #   = Other KDE or Qt Software =
 
+bup
 gtk3-engines-breeze
 gtk2-engines-murrine
 kdeconnect
