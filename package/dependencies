@@ -235,3 +235,11 @@ xdg-user-dirs
 xdg-utils
 xz-utils
 zip
+
+#    = VMetal bits =
+
+mawk
+ovmf
+seabios
+ipxe-qemu
+
