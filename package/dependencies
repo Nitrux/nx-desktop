@@ -220,6 +220,7 @@ rfkill
 rsync
 rsyslog
 sbsigntool
+seabios
 secureboot-db
 ssh-askpass
 thermald
