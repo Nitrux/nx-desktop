@@ -218,6 +218,7 @@ python-gi-cairo
 qtdeclarative5-xmllistmodel-plugin
 resolvconf
 rfkill
+rng-tools
 rsync
 rsyslog
 sbsigntool
