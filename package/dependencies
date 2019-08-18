@@ -238,7 +238,7 @@ zip
 
 #    = VMetal bits =
 
-mawk
+gawk
 ovmf
 seabios
 ipxe-qemu
