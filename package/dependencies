@@ -159,9 +159,9 @@ avahi-autoipd
 avahi-daemon
 binutils-multiarch
 bluez-cups
+cifs-utils
 coreutils
 cups-bsd
-cifs-utils
 dc
 desktop-file-utils
 dnsmasq
@@ -188,6 +188,7 @@ haveged
 inputattach
 install-info
 intel-microcode
+ipxe-qemu
 iucode-tool
 laptop-detect
 libavahi-glib1
@@ -196,9 +197,9 @@ libboost-system1.65.1
 libdbusmenu-gtk3-4
 libgeoclue-2-0
 libkrb5-3
-libstartup-notification0
 libqca2-plugins
 libqt5webengine5
+libstartup-notification0
 libvdpau-va-gl1
 mscompress
 open-vm-tools
