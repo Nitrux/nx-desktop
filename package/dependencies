@@ -45,7 +45,7 @@ kscreen
 oxygen-icon-theme
 oxygen-sounds
 plasma-applet-redshift-control
-# plasma-workspace
+#	plasma-workspace -- Gets installed anyway
 plasma-framework
 plasma-nm
 plasma-pa
@@ -185,7 +185,7 @@ ghostscript-x
 git
 gnupg-agent
 haveged
-hsetroot
+#	hsetroot -- Use when plasmashell is no longer used
 inputattach
 install-info
 intel-microcode
