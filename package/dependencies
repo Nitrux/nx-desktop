@@ -45,7 +45,7 @@ kscreen
 oxygen-icon-theme
 oxygen-sounds
 plasma-applet-redshift-control
-plasma-workspace
+# plasma-workspace
 plasma-framework
 plasma-nm
 plasma-pa
@@ -185,6 +185,7 @@ ghostscript-x
 git
 gnupg-agent
 haveged
+hsetroot
 inputattach
 install-info
 intel-microcode
