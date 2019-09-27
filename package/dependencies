@@ -205,6 +205,7 @@ libstartup-notification0
 libvdpau-va-gl1
 mscompress
 open-vm-tools
+openresolv
 ovmf
 p7zip-full
 pcmciautils
@@ -219,7 +220,7 @@ pulseaudio-module-bluetooth
 python-cairo
 python-gi-cairo
 qtdeclarative5-xmllistmodel-plugin
-resolvconf
+#   resolvconf -- Replace with openresolv
 rfkill
 rng-tools5
 rsync
