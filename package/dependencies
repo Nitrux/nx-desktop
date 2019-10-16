@@ -222,7 +222,7 @@ python-gi-cairo
 qtdeclarative5-xmllistmodel-plugin
 #   resolvconf -- Replace with openresolv
 rfkill
-rng-tools5
+rng-tools
 rsync
 rsyslog
 sbsigntool
