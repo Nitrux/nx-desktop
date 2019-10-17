@@ -44,7 +44,7 @@ kwin-style-breeze
 kscreen
 oxygen-icon-theme
 oxygen-sounds
-plasma-applet-redshift-control
+#	plasma-applet-redshift-control -- Plasma 5.17 includes a night mode now
 #	plasma-workspace -- Gets installed anyway
 plasma-framework
 plasma-nm
@@ -73,7 +73,7 @@ user-manager
 ark
 dolphin
 kate
-kinfocenter
+#	kinfocenter -- Plasma 5.17 includes a KCM
 kcalc
 kde-spectacle
 konsole
@@ -194,15 +194,14 @@ ipxe-qemu
 iucode-tool
 laptop-detect
 libavahi-glib1
-libboost-filesystem1.65.1
-libboost-system1.65.1
+#	libboost-filesystem1.65.1 -- Nothing seems to use
+#	libboost-system1.65.1 -- These two libs anymore
 libdbusmenu-gtk3-4
 libgeoclue-2-0
 libkrb5-3
 libqca2-plugins
 libqt5webengine5
 libstartup-notification0
-libvdpau-va-gl1
 mscompress
 open-vm-tools
 openresolv
@@ -220,7 +219,6 @@ pulseaudio-module-bluetooth
 python-cairo
 python-gi-cairo
 qtdeclarative5-xmllistmodel-plugin
-#   resolvconf -- Replace with openresolv
 rfkill
 rng-tools
 rsync
@@ -237,7 +235,6 @@ update-inetd
 upower
 usb-modeswitch
 usb-modeswitch-data
-vdpau-va-driver
 wireless-tools
 xdg-user-dirs
 xdg-utils
