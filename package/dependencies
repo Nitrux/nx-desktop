@@ -194,8 +194,6 @@ ipxe-qemu
 iucode-tool
 laptop-detect
 libavahi-glib1
-#	libboost-filesystem1.65.1 -- Nothing seems to use
-#	libboost-system1.65.1 -- These two libs anymore
 libdbusmenu-gtk3-4
 libgeoclue-2-0
 libkrb5-3
@@ -218,7 +216,9 @@ preload
 pulseaudio-module-bluetooth
 python-cairo
 python-gi-cairo
+qt5-gtk-platformtheme
 qtdeclarative5-xmllistmodel-plugin
+qttranslations5-l10n
 rfkill
 rng-tools
 rsync
