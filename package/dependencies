@@ -131,20 +131,20 @@ plymouth-theme-nitrux
 #    = Locales =
 #   == Unless requested use English by default ==
 
-#	kde-l10n-es
-#	kde-l10n-de
-#	kde-l10n-fr
-#	kde-l10n-pt
-#	language-pack-de
-#	language-pack-de-base
+kde-l10n-es
+kde-l10n-de
+kde-l10n-fr
+kde-l10n-pt
+language-pack-de
+language-pack-de-base
 language-pack-en
 language-pack-en-base
-#	language-pack-es
-#	language-pack-es-base
-#	language-pack-fr
-#	language-pack-fr-base
-#	language-pack-pt
-#	language-pack-pt-base
+language-pack-es
+language-pack-es-base
+language-pack-fr
+language-pack-fr-base
+language-pack-pt
+language-pack-pt-base
 
 #    = Supporting bits =
 
@@ -156,6 +156,7 @@ amd64-microcode
 appmenu-gtk2-module
 appmenu-gtk3-module
 appmenu-qt
+appimagethumbs
 avahi-autoipd
 avahi-daemon
 binutils-multiarch
