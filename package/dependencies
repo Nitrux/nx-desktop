@@ -227,7 +227,7 @@ sbsigntool
 seabios
 secureboot-db
 ssh-askpass
-thermald
+#	thermald -- don't need it apparently
 ubuntu-drivers-common
 udisks2
 unzip
