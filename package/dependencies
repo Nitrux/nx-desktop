@@ -71,7 +71,7 @@ user-manager
 #    = KDE Applications =
 
 ark
-dolphin
+#   dolphin
 kate
 kinfocenter
 kcalc
