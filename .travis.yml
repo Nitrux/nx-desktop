@@ -22,7 +22,7 @@ deploy:
   script: "./nomad-repository-util.sh upload nomad-desktop package/*.deb"
   skip_cleanup: true
   on:
-    branch: master
+    branch: legacy
 notifications:
   email: false
   slack:
