@@ -14,7 +14,7 @@ kdenetwork-filesharing
 
 #    = GUI infrastructure =
 
-    calamares-settings-nitrux
+calamares-settings-nitrux
 frameworkintegration
 gstreamer1.0-pulseaudio
 gstreamer1.0-plugins-good
