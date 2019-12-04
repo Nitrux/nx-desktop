@@ -13,7 +13,7 @@ echo "
 Section: misc
 Priority: optional
 Homepage: https://nxos.org
-Package: nx-desktop
+Package: nx-desktop-legacy
 Version: 1.4.9.17-${GIT_COMMIT}
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
 Depends: $DEPENDS

@@ -71,7 +71,7 @@ user-manager
 #    = KDE Applications =
 
 ark
-#   dolphin
+dolphin
 kate
 kinfocenter
 kcalc
@@ -102,16 +102,17 @@ grub2-theme-nitrux
 kvantum
 kvantum-theme-kvnitrux
 luv-icon-theme
-nx-desktop-settings
-nx-audio-applet
-nx-clock-applet
+#   nx-desktop-settings
+nx-desktop-settings-legacy
+#   nx-audio-applet
+#   nx-clock-applet
 nx-firewall
 nx-gtk-themes
-nx-networkmanagement-applet
-nx-notifications-applet
-nx-plasma-look-and-feel
-nx-simplemenu-applet
-nx-systemtray-applet
+#   nx-networkmanagement-applet
+#   nx-notifications-applet
+#   nx-plasma-look-and-feel
+#   nx-simplemenu-applet
+#   nx-systemtray-applet
 nx-welcome-wizard
 plymouth-theme-nitrux
 
@@ -166,8 +167,6 @@ cups-bsd
 dc
 desktop-file-utils
 dnsmasq
-firejail
-firejail-profiles
 fonts-arphic-ukai
 fonts-arphic-uming
 fonts-freefont-ttf
@@ -190,7 +189,6 @@ haveged
 inputattach
 install-info
 intel-microcode
-ipxe-qemu
 iucode-tool
 laptop-detect
 libavahi-glib1
@@ -203,7 +201,6 @@ libstartup-notification0
 mscompress
 open-vm-tools
 openresolv
-ovmf
 p7zip-full
 pcmciautils
 plymouth
@@ -224,7 +221,6 @@ rng-tools
 rsync
 rsyslog
 sbsigntool
-seabios
 secureboot-db
 ssh-askpass
 #	thermald -- don't need it apparently
