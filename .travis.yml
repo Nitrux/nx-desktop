@@ -16,6 +16,7 @@ branches:
   only:
   - master
   - development
+  - legacy
 deploy:
 - provider: script
   script: "./nomad-repository-util.sh upload nomad-desktop package/*.deb"
