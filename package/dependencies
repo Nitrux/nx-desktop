@@ -14,6 +14,7 @@ kdenetwork-filesharing
 
 #    = GUI infrastructure =
 
+    calamares-settings-nitrux
 frameworkintegration
 gstreamer1.0-pulseaudio
 gstreamer1.0-plugins-good
@@ -110,7 +111,7 @@ nx-firewall
 nx-gtk-themes
 #   nx-networkmanagement-applet
 #   nx-notifications-applet
-#   nx-plasma-look-and-feel
+nx-plasma-look-and-feel
 #   nx-simplemenu-applet
 #   nx-systemtray-applet
 nx-welcome-wizard
