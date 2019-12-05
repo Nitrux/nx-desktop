@@ -73,6 +73,7 @@ user-manager
 
 ark
 dolphin
+falkon
 kate
 kinfocenter
 kcalc
@@ -91,7 +92,6 @@ kdeconnect
 kde-baseapps-bin
 kmenuedit
 kup-backup
-latte-dock
 libqt5websockets5
 python-qt4-dbus
 qpdfview
@@ -128,7 +128,7 @@ plymouth-theme-nitrux
 
 #    = Other Desktop GUI Apps =
 
-
+mpv
 
 #    = Locales =
 #   == Unless requested use English by default ==
@@ -150,7 +150,7 @@ language-pack-pt-base
 
 #    = Supporting bits =
 
-#	hsetroot -- Use when plasmashell is no longer used
+#   hsetroot -- Use when plasmashell is no longer used
 acpi-support
 acpid
 alsa-base
@@ -224,7 +224,7 @@ rsyslog
 sbsigntool
 secureboot-db
 ssh-askpass
-#	thermald -- don't need it apparently
+#   thermald -- don't need it apparently
 ubuntu-drivers-common
 udisks2
 unzip
