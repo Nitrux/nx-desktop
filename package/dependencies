@@ -73,7 +73,6 @@ user-manager
 
 ark
 dolphin
-falkon
 kate
 kinfocenter
 kcalc
@@ -128,6 +127,7 @@ plymouth-theme-nitrux
 
 #    = Other Desktop GUI Apps =
 
+firefox
 mpv
 
 #    = Locales =
