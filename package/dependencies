@@ -47,11 +47,12 @@ oxygen-icon-theme
 oxygen-sounds
 #	plasma-applet-redshift-control -- Plasma 5.17 includes a night mode now
 #	plasma-workspace -- Gets installed anyway
+plasma-desktop
 plasma-desktop-data
 plasma-framework
-plasma-nm
-plasma-pa
-plasma-vault
+#   plasma-nm
+#   plasma-pa
+#   plasma-vault
 powerdevil
 polkit-kde-agent-1
 print-manager
@@ -156,9 +157,9 @@ acpi-support
 acpid
 alsa-base
 amd64-microcode
-appmenu-gtk2-module
-appmenu-gtk3-module
-appmenu-qt
+#   appmenu-gtk2-module
+#   appmenu-gtk3-module
+#   appmenu-qt
 avahi-autoipd
 avahi-daemon
 binutils-multiarch
