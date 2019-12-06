@@ -47,6 +47,7 @@ oxygen-icon-theme
 oxygen-sounds
 #	plasma-applet-redshift-control -- Plasma 5.17 includes a night mode now
 #	plasma-workspace -- Gets installed anyway
+plasma-desktop-data
 plasma-framework
 plasma-nm
 plasma-pa
