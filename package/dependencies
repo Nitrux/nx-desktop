@@ -94,6 +94,7 @@ latte-dock
 libqt5websockets5
 python-qt4-dbus
 qpdfview
+qml-module-qt-labs-platform 
 
 #    = NX Desktop Customization Layer =
 
