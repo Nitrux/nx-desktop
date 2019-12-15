@@ -3,9 +3,9 @@
 
 #    = Nitrux OS CORE =
 
-nitrux-minimal
-nitrux-standard
-nitrux-hardware-drivers
+nitrux-minimal-legacy
+nitrux-standard-legacy
+nitrux-hardware-drivers-legacy
 
 #    = Network Services =
 
