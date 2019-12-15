@@ -72,12 +72,13 @@ user-manager
 
 ark
 #   dolphin
-kate
+#   kate
 kinfocenter
 kcalc
 kde-spectacle
 konsole
 ksysguard
+gwenview
 sddm
 systemsettings
 
