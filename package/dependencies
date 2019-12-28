@@ -78,7 +78,7 @@ kcalc
 kde-spectacle
 konsole
 ksysguard
-gwenview
+#   gwenview
 sddm
 systemsettings
 
