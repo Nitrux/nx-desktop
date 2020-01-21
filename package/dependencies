@@ -96,6 +96,7 @@ libqt5websockets5
 python-qt4-dbus
 qpdfview
 qml-module-qt-labs-platform 
+qml-module-qtwebview
 
 #    = NX Desktop Customization Layer =
 
