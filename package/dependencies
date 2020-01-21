@@ -76,7 +76,7 @@ ark
 kinfocenter
 kcalc
 kde-spectacle
-konsole
+#   konsole
 ksysguard
 #   gwenview
 sddm
