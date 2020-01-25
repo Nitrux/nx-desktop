@@ -94,6 +94,8 @@ kdeconnect
 kmenuedit
 kup-backup
 latte-dock
+libkf5contacts-data
+libkf5contacts5
 libqt5multimedia5-plugins
 libqt5websockets5
 python-qt4-dbus
