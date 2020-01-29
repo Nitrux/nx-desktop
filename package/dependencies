@@ -164,7 +164,6 @@ avahi-autoipd
 avahi-daemon
 binutils-multiarch
 bluez-cups
-cifs-utils
 coreutils
 cups-bsd
 dc
