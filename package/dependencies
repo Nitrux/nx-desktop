@@ -114,7 +114,7 @@ nx-gtk-themes
 nx-plasma-look-and-feel
 #   nx-simplemenu-applet
 #   nx-systemtray-applet
-nx-welcome-wizard
+#   nx-welcome-wizard
 plymouth-theme-nitrux
 
 #    = Maui Applications =
