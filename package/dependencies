@@ -98,6 +98,8 @@ libkf5contacts-data
 libkf5contacts5
 libqt5multimedia5-plugins
 libqt5websockets5
+libkf5texteditor-bin
+ktexteditor-data
 python-qt4-dbus
 qml-module-qt-labs-platform
 qml-module-qtquick-shapes
