@@ -101,7 +101,7 @@ libqt5websockets5
 libkf5texteditor-bin
 ktexteditor-data
 ktexteditor-katepart
-python-qt4-dbus
+#   python-qt4-dbus
 qml-module-qt-labs-platform
 qml-module-qtquick-shapes
 qml-module-qtwebview
