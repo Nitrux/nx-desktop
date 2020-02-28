@@ -73,13 +73,13 @@ user-manager
 #    = KDE Applications =
 
 ark
-dolphin
-gwenview
-kate
+#   dolphin
+#   gwenview
+#   kate
 kinfocenter
 kcalc
 kde-spectacle
-konsole
+#   konsole
 ksysguard
 sddm
 systemsettings
