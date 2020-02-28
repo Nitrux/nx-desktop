@@ -93,7 +93,7 @@ kdeconnect
 kmenuedit
 kup-backup
 libqt5websockets5
-python-qt4-dbus
+#   python-qt4-dbus
 qpdfview
 
 #    = NX Desktop Customization Layer =
