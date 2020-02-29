@@ -94,7 +94,9 @@ kmenuedit
 kup-backup
 libqt5websockets5
 #   python-qt4-dbus
+qml-module-qt-labs-platform
 qml-module-qtquick-shapes
+qml-module-qtwebview
 qpdfview
 
 #    = NX Desktop Customization Layer =
