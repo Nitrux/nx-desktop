@@ -171,6 +171,8 @@ cups-bsd
 dc
 desktop-file-utils
 dnsmasq
+firejail
+firejail-profiles
 fonts-arphic-ukai
 fonts-arphic-uming
 fonts-freefont-ttf
