@@ -84,7 +84,7 @@ systemsettings
 
 #   = Other KDE or Qt Software =
 
-bup
+#   bup
 gstreamer1.0-libav
 gstreamer1.0-qt5
 gtk2-engines-murrine
@@ -92,7 +92,7 @@ gtk3-engines-breeze
 kde-baseapps-bin
 kdeconnect
 kmenuedit
-kup-backup
+#   kup-backup
 latte-dock
 libkf5contacts-data
 libkf5contacts5
