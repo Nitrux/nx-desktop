@@ -218,6 +218,7 @@ libslirp0
 libstartup-notification0
 mscompress
 nsnake
+npm
 open-vm-tools
 openresolv
 ovmf
