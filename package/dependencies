@@ -174,9 +174,11 @@ avahi-autoipd
 avahi-daemon
 binutils-multiarch
 bluez-cups
+build-essential
 cifs-utils
 coreutils
 cups-bsd
+curl
 dc
 desktop-file-utils
 dnsmasq
@@ -231,6 +233,7 @@ preload
 pulseaudio-module-bluetooth
 python-cairo
 python-gi-cairo
+python-setuptools
 qml-module-qtquick-xmllistmodel
 qt5-gtk-platformtheme
 qttranslations5-l10n
