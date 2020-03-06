@@ -78,7 +78,7 @@ ark
 kcalc
 kde-spectacle
 kinfocenter
-ksysguard
+#   ksysguard
 sddm
 systemsettings
 
