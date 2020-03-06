@@ -53,7 +53,7 @@ plasma-vault
 powerdevil
 polkit-kde-agent-1
 print-manager
-qml-module-qtquick-controls-styles-breeze
+#   qml-module-qtquick-controls-styles-breeze
 user-manager
 
 #     == Plasma Wayland ==
