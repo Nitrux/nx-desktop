@@ -161,6 +161,7 @@ language-pack-pt-base
 #    = Supporting bits =
 
 #	hsetroot -- Use when plasmashell is no longer used
+#	thermald -- don't need it apparently
 acpi-support
 acpid
 alsa-base
@@ -197,6 +198,7 @@ fwupdate-signed
 geoclue-2.0
 ghostscript-x
 git
+gnome-keyring
 gnupg-agent
 haveged
 inputattach
@@ -211,8 +213,10 @@ libgeoclue-2-0
 libkrb5-3
 libqca2-plugins
 libqt5webengine5
+libslirp0
 libstartup-notification0
 mscompress
+nsnake
 open-vm-tools
 openresolv
 ovmf
@@ -239,7 +243,6 @@ sbsigntool
 seabios
 secureboot-db
 ssh-askpass
-#	thermald -- don't need it apparently
 ubuntu-drivers-common
 udisks2
 unzip
