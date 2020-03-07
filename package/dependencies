@@ -210,6 +210,7 @@ ipxe-qemu
 iucode-tool
 laptop-detect
 libavahi-glib1
+libdbus-glib-1-2
 libdbusmenu-gtk3-4
 libgeoclue-2-0
 libkrb5-3
@@ -217,8 +218,8 @@ libqt5webengine5
 libslirp0
 libstartup-notification0
 mscompress
-nsnake
 npm
+nsnake
 open-vm-tools
 openresolv
 ovmf
