@@ -209,7 +209,7 @@ p7zip-full
 pcmciautils
 plymouth
 plymouth-label
-plymouth-themes
+#   plymouth-themes -- do we actually need it?
 pm-utils
 policykit-desktop-privileges
 powerline
