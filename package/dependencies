@@ -192,7 +192,7 @@ fonts-ipafont-mincho
 fonts-liberation
 fonts-opensymbol
 fonts-powerline
-fonts-ubuntu
+#   fonts-ubuntu
 fonts-unfonts-core
 fuse3
 fwupd
