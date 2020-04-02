@@ -25,35 +25,35 @@ qt5-image-formats-plugins
 
 #     == Plasma ==
 
-breeze-cursor-theme
-breeze-icon-theme
+#	plasma-applet-redshift-control -- Plasma 5.17 includes a night mode now
+#	plasma-workspace -- Gets installed anyway
+#   plasma-nm
+#   plasma-pa
+#   plasma-vault
 baloo-kf5
 bluedevil
+breeze-cursor-theme
+breeze-icon-theme
 kde-cli-tools
 kde-config-gtk-style
-kde-config-screenlocker
 kde-config-plymouth
+kde-config-screenlocker
 kde-config-sddm
 kde-style-breeze
 khotkeys
 kio
 kio-extras
+kscreen
 kwin
 kwin-addons
 kwin-style-breeze
-kscreen
 oxygen-icon-theme
 oxygen-sounds
-#	plasma-applet-redshift-control -- Plasma 5.17 includes a night mode now
-#	plasma-workspace -- Gets installed anyway
 plasma-desktop
 plasma-desktop-data
 plasma-framework
-#   plasma-nm
-#   plasma-pa
-#   plasma-vault
-powerdevil
 polkit-kde-agent-1
+powerdevil
 print-manager
 qml-module-qtquick-controls-styles-breeze
 user-manager
@@ -72,14 +72,14 @@ user-manager
 
 #    = KDE Applications =
 
-ark
 #   dolphin
 #   gwenview
 #   kate
-kinfocenter
+#   konsole
+ark
 kcalc
 kde-spectacle
-#   konsole
+kinfocenter
 ksysguard
 sddm
 systemsettings
@@ -87,13 +87,13 @@ systemsettings
 #   = Other KDE or Qt Software =
 
 #   bup
-gtk3-engines-breeze
+#   python-qt4-dbus
 gtk2-engines-murrine
+gtk3-engines-breeze
 kdeconnect
 kmenuedit
 kup-backup
 libqt5websockets5
-#   python-qt4-dbus
 qml-module-qt-labs-platform
 qml-module-qtquick-shapes
 qml-module-qtwebview
@@ -101,24 +101,24 @@ qpdfview
 
 #    = NX Desktop Customization Layer =
 
-fonts-nx-desktop
-grub2-theme-nitrux
-qt5-style-kvantum
-kvantum-theme-kvnitrux
-luv-icon-theme
-#   nx-desktop-settings
-nx-desktop-settings-legacy
 #   nx-audio-applet
 #   nx-clock-applet
-nx-firewall
-nx-gtk-themes
+#   nx-desktop-settings
 #   nx-networkmanagement-applet
 #   nx-notifications-applet
-nx-plasma-look-and-feel
 #   nx-simplemenu-applet
 #   nx-systemtray-applet
 #   nx-welcome-wizard
+fonts-nx-desktop
+grub2-theme-nitrux
+kvantum-theme-kvnitrux
+luv-icon-theme
+nx-desktop-settings-legacy
+nx-firewall
+nx-gtk-themes
+nx-plasma-look-and-feel
 plymouth-theme-nitrux
+qt5-style-kvantum
 
 #    = Maui Applications =
 
@@ -154,14 +154,16 @@ language-pack-pt-base
 
 #    = Supporting bits =
 
+#   appmenu-gtk2-module
+#   appmenu-gtk3-module
+#   appmenu-qt
 #   hsetroot -- Use when plasmashell is no longer used
+#   plymouth-themes -- do we actually need it?
+#   thermald -- don't need it apparently
 acpi-support
 acpid
 alsa-base
 amd64-microcode
-#   appmenu-gtk2-module
-#   appmenu-gtk3-module
-#   appmenu-qt
 avahi-autoipd
 avahi-daemon
 binutils-multiarch
@@ -209,7 +211,6 @@ p7zip-full
 pcmciautils
 plymouth
 plymouth-label
-#   plymouth-themes -- do we actually need it?
 pm-utils
 policykit-desktop-privileges
 powerline
@@ -227,7 +228,6 @@ rsyslog
 sbsigntool
 secureboot-db
 ssh-askpass
-#   thermald -- don't need it apparently
 ubuntu-drivers-common
 udisks2
 unzip
