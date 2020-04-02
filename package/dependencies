@@ -86,7 +86,6 @@ systemsettings
 
 #   bup
 #   kde-baseapps-bin
-kup-backup
 #   python-qt4-dbus
 gstreamer1.0-libav
 gstreamer1.0-qt5
@@ -96,6 +95,7 @@ kdeconnect
 kmenuedit
 ktexteditor-data
 ktexteditor-katepart
+kup-backup
 latte-dock
 libkf5contacts-data
 libkf5contacts5
