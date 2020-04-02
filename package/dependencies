@@ -86,7 +86,7 @@ systemsettings
 
 #   bup
 #   kde-baseapps-bin
-#   kup-backup
+kup-backup
 #   python-qt4-dbus
 gstreamer1.0-libav
 gstreamer1.0-qt5
