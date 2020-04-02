@@ -74,11 +74,11 @@ user-manager
 #   gwenview
 #   kate
 #   konsole
+#   ksysguard
 ark
 kcalc
 kde-spectacle
 kinfocenter
-#   ksysguard
 sddm
 systemsettings
 
@@ -160,10 +160,12 @@ language-pack-pt-base
 
 #    = Supporting bits =
 
-#   hsetroot -- Use when plasmashell is no longer used
 #   appmenu-qt
+#   fonts-ubuntu
 #   fwupdate-signed
+#   hsetroot -- Use when plasmashell is no longer used
 #   libqca2-plugins
+#   plymouth-themes -- we don't need it
 acpi-support
 acpid
 alsa-base
@@ -192,7 +194,6 @@ fonts-ipafont-mincho
 fonts-liberation
 fonts-opensymbol
 fonts-powerline
-#   fonts-ubuntu
 fonts-unfonts-core
 fuse3
 fwupd
@@ -227,7 +228,6 @@ p7zip-full
 pcmciautils
 plymouth
 plymouth-label
-#   plymouth-themes -- we don't need it
 pm-utils
 policykit-desktop-privileges
 powerline
