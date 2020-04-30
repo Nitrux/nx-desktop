@@ -31,7 +31,7 @@ qt5-image-formats-plugins
 #   plasma-pa
 #   plasma-vault
 baloo-kf5
-bluedevil
+#   bluedevil
 breeze-cursor-theme
 breeze-icon-theme
 kde-cli-tools
@@ -165,9 +165,9 @@ acpid
 alsa-base
 amd64-microcode
 avahi-autoipd
-avahi-daemon
+#   avahi-daemon
 binutils-multiarch
-bluez-cups
+#   bluez-cups
 coreutils
 cups-bsd
 dc
@@ -205,7 +205,7 @@ libqca2-plugins
 libqt5webengine5
 libstartup-notification0
 mscompress
-open-vm-tools
+#   open-vm-tools
 openresolv
 p7zip-full
 pcmciautils
@@ -215,14 +215,14 @@ pm-utils
 policykit-desktop-privileges
 powerline
 preload
-pulseaudio-module-bluetooth
+#   pulseaudio-module-bluetooth
 python-cairo
 python-gi-cairo
 qt5-gtk-platformtheme
 qtdeclarative5-xmllistmodel-plugin
 qttranslations5-l10n
 rfkill
-rng-tools
+#   rng-tools
 rsync
 rsyslog
 sbsigntool
