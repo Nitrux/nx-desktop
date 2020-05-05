@@ -76,6 +76,7 @@ libqt5websockets5
 qml-module-qt-labs-platform
 qml-module-qtquick-shapes
 qml-module-qtwebview
+qml-module-qmltermwidget
 
 #    = NX Desktop Customization Layer =
 
