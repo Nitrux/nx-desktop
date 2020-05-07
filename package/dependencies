@@ -168,6 +168,7 @@ libkrb5-3
 libqt5webengine5
 libslirp0
 libstartup-notification0
+linuxbrew-wrapper
 mscompress
 npm
 nsnake
