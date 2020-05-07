@@ -25,11 +25,7 @@ qt5-image-formats-plugins
 
 #     == Plasma ==
 
-#   plasma-applet-redshift-control -- Plasma 5.17 includes a night mode now
-#   plasma-workspace -- Gets installed anyway
-#   qml-module-qtquick-controls-styles-breeze
 baloo-kf5
-#   bluedevil
 breeze-cursor-theme
 breeze-icon-theme
 kde-cli-tools
@@ -54,6 +50,7 @@ plasma-vault
 polkit-kde-agent-1
 powerdevil
 print-manager
+qml-module-qtquick-controls-styles-breeze
 user-manager
 
 #     == Plasma Wayland ==
@@ -67,36 +64,13 @@ user-manager
 #   qtwayland5 
 #   xwayland
 
-
-#    = KDE Applications =
-
-#   dolphin
-#   gwenview
-#   kate
-#   konsole
-#   ksysguard
-ark
-kcalc
-kde-spectacle
-kinfocenter
-sddm
-systemsettings
-
 #   = Other KDE or Qt Software =
 
-#   bup
-#   kde-baseapps-bin
-#   python-qt4-dbus
 gstreamer1.0-libav
 gstreamer1.0-qt5
 gtk2-engines-murrine
 gtk3-engines-breeze
-kdeconnect
-kmenuedit
-ktexteditor-data
-ktexteditor-katepart
 kup-backup
-latte-dock
 libkf5contacts-data
 libkf5contacts5
 libkf5texteditor-bin
@@ -105,18 +79,18 @@ libqt5websockets5
 qml-module-qt-labs-platform
 qml-module-qtquick-shapes
 qml-module-qtwebview
-qpdfview
+qml-module-qmltermwidget
 
 #    = NX Desktop Customization Layer =
 
 fonts-nx-desktop
 grub2-theme-nitrux
-qt5-style-kvantum
 kvantum-theme-kvnitrux
 luv-icon-theme
-nx-desktop-settings
+nitrux-wallpapers-free
 nx-audio-applet
 nx-clock-applet
+nx-desktop-settings
 nx-firewall
 nx-gtk-themes
 nx-networkmanagement-applet
@@ -126,27 +100,11 @@ nx-simplemenu-applet
 nx-systemtray-applet
 nx-welcome-wizard
 plymouth-theme-nitrux
-
-#    = Maui Applications =
-
-#   buho
-#   index
-#   nota
-#   station
-#   pix
-#   vvave
-
-#    = Other Desktop GUI Apps =
-
-
+qt5-style-kvantum
 
 #    = Locales =
 #   == Unless requested use English by default ==
 
-#   kde-l10n-es
-#   kde-l10n-de
-#   kde-l10n-fr
-#   kde-l10n-pt
 language-pack-de
 language-pack-de-base
 language-pack-en
@@ -160,12 +118,6 @@ language-pack-pt-base
 
 #    = Supporting bits =
 
-#   appmenu-qt
-#   fonts-ubuntu
-#   fwupdate-signed
-#   hsetroot -- Use when plasmashell is no longer used
-#   libqca2-plugins
-#   plymouth-themes -- we don't need it
 acpi-support
 acpid
 alsa-base
@@ -173,9 +125,7 @@ amd64-microcode
 appmenu-gtk2-module
 appmenu-gtk3-module
 avahi-autoipd
-#   avahi-daemon
 binutils-multiarch
-#   bluez-cups
 build-essential
 cifs-utils
 coreutils
@@ -221,7 +171,6 @@ libstartup-notification0
 mscompress
 npm
 nsnake
-#   open-vm-tools
 openresolv
 ovmf
 p7zip-full
@@ -232,7 +181,6 @@ pm-utils
 policykit-desktop-privileges
 powerline
 preload
-#   pulseaudio-module-bluetooth
 python-cairo
 python-gi-cairo
 python-setuptools
@@ -240,7 +188,6 @@ qml-module-qtquick-xmllistmodel
 qt5-gtk-platformtheme
 qttranslations5-l10n
 rfkill
-#   rng-tools
 rsync
 rsyslog
 sbsigntool
