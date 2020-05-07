@@ -25,10 +25,6 @@ qt5-image-formats-plugins
 
 #     == Plasma ==
 
-#   bluedevil
-#   plasma-nm
-#   plasma-pa
-#   plasma-vault
 baloo-kf5
 breeze-cursor-theme
 breeze-icon-theme
@@ -84,14 +80,6 @@ qml-module-qmltermwidget
 
 #    = NX Desktop Customization Layer =
 
-#   nx-audio-applet
-#   nx-clock-applet
-#   nx-desktop-settings
-#   nx-networkmanagement-applet
-#   nx-notifications-applet
-#   nx-simplemenu-applet
-#   nx-systemtray-applet
-#   nx-welcome-wizard
 fonts-nx-desktop
 grub2-theme-nitrux
 kvantum-theme-kvnitrux
@@ -120,15 +108,6 @@ language-pack-pt-base
 
 #    = Supporting bits =
 
-#   appmenu-gtk2-module
-#   appmenu-gtk3-module
-#   appmenu-qt
-#   avahi-daemon
-#   bluez-cups
-#   hsetroot -- Use when plasmashell is no longer used
-#   open-vm-tools
-#   pulseaudio-module-bluetooth
-#   rng-tools
 acpi-support
 acpid
 alsa-base
