@@ -26,7 +26,6 @@ qt5-image-formats-plugins
 #     == Plasma ==
 
 baloo-kf5
-breeze-cursor-theme
 breeze-icon-theme
 kde-cli-tools
 kde-config-gtk-style
