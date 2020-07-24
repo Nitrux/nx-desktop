@@ -1,7 +1,7 @@
 #! /bin/sh
 
-apt-get --yes update
-apt-get --yes install wget equivs curl git
+apt -qq update
+apt -qq install equivs curl git
 
 cd package/
 
@@ -14,7 +14,7 @@ Section: misc
 Priority: optional
 Homepage: https://nxos.org
 Package: nx-desktop
-Version: 1.4.9.49-${GIT_COMMIT}
+Version: 1.4.9.50-${GIT_COMMIT}
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
 Depends: $DEPENDS
 Architecture: amd64
