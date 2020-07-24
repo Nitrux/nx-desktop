@@ -1,7 +1,7 @@
 #! /bin/sh
 
 apt -qq update
-apt -qq install equivs curl git
+apt -qq -yy install equivs curl git
 
 cd package/
 
