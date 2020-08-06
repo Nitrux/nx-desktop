@@ -1,7 +1,7 @@
 #! /bin/sh
 
-apt-get --yes update
-apt-get --yes install wget equivs curl git
+apt -qq update
+apt -qq -yy install equivs curl git
 
 deps=$(sed -e '/^#.*$/d; /^$/d; /^\s*$/d' package/dependencies | paste -sd ,)
 git_commit=$(git rev-parse --short HEAD)
