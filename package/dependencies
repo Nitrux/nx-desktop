@@ -7,17 +7,32 @@ nitrux-minimal
 nitrux-standard
 nitrux-hardware-drivers
 
+#    = CLI Apps =
+
+cmus
+dc
+ftp
+hdparm
+htop
+mc
+ncdu
+nsnake
+w3m
+wget
+
+
 #    = Network Services =
 
 mobile-broadband-provider-info
-kdenetwork-filesharing
 
-#    = GUI infrastructure =
+#    = Multimedia =
 
-frameworkintegration
 gstreamer1.0-pulseaudio
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
+gstreamer1.0-libav
+gstreamer1.0-qt5
+libqt5multimedia5-plugins
 pulseaudio
 phonon4qt5
 phonon4qt5-backend-vlc
@@ -27,12 +42,14 @@ qt5-image-formats-plugins
 
 baloo-kf5
 breeze-icon-theme
+frameworkintegration
 kde-cli-tools
 kde-config-gtk-style
 kde-config-plymouth
 kde-config-screenlocker
 kde-config-sddm
 kde-style-breeze
+kdenetwork-filesharing
 khotkeys
 kio
 kio-extras
@@ -65,15 +82,12 @@ user-manager
 
 #   = Other KDE or Qt Software =
 
-gstreamer1.0-libav
-gstreamer1.0-qt5
 gtk2-engines-murrine
 gtk3-engines-breeze
 kup-backup
 libkf5contacts-data
 libkf5contacts5
 libkf5texteditor-bin
-libqt5multimedia5-plugins
 libqt5websockets5
 qml-module-qt-labs-platform
 qml-module-qtquick-shapes
@@ -87,6 +101,7 @@ grub2-theme-nitrux
 kvantum-theme-kvnitrux
 luv-icon-theme
 nitrux-wallpapers-free
+nitrux-vfio-enablement
 nx-audio-applet
 nx-clock-applet
 nx-desktop-settings
@@ -114,6 +129,15 @@ language-pack-fr
 language-pack-fr-base
 language-pack-pt
 language-pack-pt-base
+language-pack-kde-de 
+language-pack-kde-en 
+language-pack-kde-es 
+language-pack-kde-fr 
+language-pack-kde-pt 
+kde-l10n-de
+kde-l10n-es 
+kde-l10n-fr 
+kde-l10n-pt
 
 #    = Supporting bits =
 
@@ -124,13 +148,14 @@ amd64-microcode
 appmenu-gtk2-module
 appmenu-gtk3-module
 avahi-autoipd
+axel
 binutils-multiarch
 build-essential
+bzip2
 cifs-utils
 coreutils
 cups-bsd
 curl
-dc
 desktop-file-utils
 dnsmasq
 firejail
@@ -170,7 +195,6 @@ libstartup-notification0
 linuxbrew-wrapper
 mscompress
 npm
-nsnake
 openresolv
 ovmf
 p7zip-full
