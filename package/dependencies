@@ -99,6 +99,7 @@ fonts-nx-desktop
 grub2-theme-nitrux
 kvantum-theme-kvnitrux
 luv-icon-theme
+mauikit
 nitrux-wallpapers-free
 nx-desktop-settings-legacy
 nx-firewall
@@ -106,7 +107,6 @@ nx-gtk-themes
 nx-plasma-look-and-feel
 plymouth-theme-nitrux
 qt5-style-kvantum
-mauikit
 
 #    = Locales =
 #   == Unless requested use English by default ==
