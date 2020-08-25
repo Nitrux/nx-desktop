@@ -70,14 +70,14 @@ user-manager
 
 #     == Plasma Wayland ==
 
-#   kwayland-integration 
-#   kwin-wayland 
-#   kwin-wayland-backend-drm 
-#   libqt5waylandclient5 
-#   libqt5waylandcompositor5 
-#   plasma-workspace-wayland 
-#   qtwayland5 
-#   xwayland
+kwayland-integration
+kwin-wayland
+kwin-wayland-backend-drm
+libqt5waylandclient5
+libqt5waylandcompositor5
+plasma-workspace-wayland
+qtwayland5
+xwayland
 
 #   = Other KDE or Qt Software =
 
@@ -99,12 +99,18 @@ fonts-nx-desktop
 grub2-theme-nitrux
 kvantum-theme-kvnitrux
 luv-icon-theme
-mauikit
 nitrux-wallpapers-free
-nx-desktop-settings-legacy
+nx-audio-applet
+nx-clock-applet
+nx-desktop-settings
 nx-firewall
 nx-gtk-themes
+nx-networkmanagement-applet
+nx-notifications-applet
 nx-plasma-look-and-feel
+nx-simplemenu-applet
+nx-systemtray-applet
+nx-welcome-wizard
 plymouth-theme-nitrux
 qt5-style-kvantum
 
@@ -178,6 +184,7 @@ laptop-detect
 libavahi-glib1
 libdbus-glib-1-2
 libdbusmenu-gtk3-4
+libexiv2-27
 libgeoclue-2-0
 libkrb5-3
 libqt5webengine5
@@ -206,6 +213,7 @@ secureboot-db
 ssh-askpass
 ubuntu-drivers-common
 udisks2
+unrar
 unzip
 update-inetd
 upower
