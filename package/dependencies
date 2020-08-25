@@ -7,19 +7,6 @@ nitrux-minimal-legacy
 nitrux-standard-legacy
 nitrux-hardware-drivers-legacy
 
-#    = CLI Apps =
-
-cmus
-dc
-ftp
-hdparm
-htop
-mc
-ncdu
-nsnake
-w3m
-wget
-
 #    = Network Services =
 
 mobile-broadband-provider-info
