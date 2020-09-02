@@ -13,15 +13,16 @@ mobile-broadband-provider-info
 
 #    = Multimedia =
 
-gstreamer1.0-pulseaudio
+gstreamer1.0-libav
+gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
-gstreamer1.0-libav
+gstreamer1.0-pulseaudio
 gstreamer1.0-qt5
 libqt5multimedia5-plugins
-pulseaudio
 phonon4qt5
 phonon4qt5-backend-vlc
+pulseaudio
 qt5-image-formats-plugins
 
 #     == Plasma ==
@@ -100,7 +101,6 @@ nx-plasma-look-and-feel
 nx-simplemenu-applet
 nx-systemtray-applet
 plymouth-theme-nitrux
-qt5-style-kvantum
 
 #    = Locales =
 #   == Unless requested use English by default ==
@@ -134,14 +134,12 @@ amd64-microcode
 appmenu-gtk2-module
 appmenu-gtk3-module
 avahi-autoipd
-axel
 binutils-multiarch
 build-essential
 bzip2
 cifs-utils
 coreutils
 cups-bsd
-curl
 desktop-file-utils
 dnsmasq
 firejail
@@ -160,7 +158,6 @@ fwupd
 fwupdate
 geoclue-2.0
 ghostscript-x
-git
 gnome-keyring
 gnupg-agent
 haveged
@@ -181,7 +178,6 @@ libstartup-notification0
 libxvmc1
 mscompress
 openresolv
-p7zip-full
 pcmciautils
 plymouth
 plymouth-label
@@ -196,15 +192,12 @@ qml-module-qtquick-xmllistmodel
 qt5-gtk-platformtheme
 qttranslations5-l10n
 rfkill
-rsync
 rsyslog
 sbsigntool
 secureboot-db
 ssh-askpass
 ubuntu-drivers-common
 udisks2
-unrar
-unzip
 update-inetd
 upower
 usb-modeswitch
@@ -213,4 +206,18 @@ wireless-tools
 xdg-user-dirs
 xdg-utils
 xz-utils
-zip
+
+#    = XORG =
+
+x11-session-utils
+xinit
+
+#    = Wayland =
+
+libnvidia-egl-wayland1
+libwayland-client++0
+libwayland-client-extra++0
+libwayland-cursor++0
+libwayland-egl++0
+libwayland-egl1-mesa
+qml-module-qtwayland-compositor
