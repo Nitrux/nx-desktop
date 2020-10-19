@@ -57,7 +57,7 @@ polkit-kde-agent-1
 powerdevil
 print-manager
 qml-module-qtquick-controls-styles-breeze
-user-manager
+#   user-manager
 
 #     == Plasma Wayland ==
 
