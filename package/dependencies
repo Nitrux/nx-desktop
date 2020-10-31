@@ -193,6 +193,7 @@ qml-module-qtquick-xmllistmodel
 qt5-gtk-platformtheme
 qttranslations5-l10n
 rfkill
+rofi
 rsyslog
 sbsigntool
 secureboot-db
