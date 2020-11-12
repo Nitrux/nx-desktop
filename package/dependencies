@@ -9,10 +9,9 @@ nitrux-hardware-drivers-legacy
 
 #    = Network Services =
 
-mobile-broadband-provider-info
-
 #    = Multimedia =
 
+alsa-utils
 gstreamer1.0-libav
 gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
@@ -22,33 +21,29 @@ gstreamer1.0-qt5
 libqt5multimedia5-plugins
 phonon4qt5
 phonon4qt5-backend-vlc
-pulseaudio
 qt5-image-formats-plugins
 
 #     == Plasma ==
 
 baloo-kf5
 bluedevil
-breeze-icon-theme
-frameworkintegration
+bluez
 kde-cli-tools
 kde-config-gtk-style
 kde-config-plymouth
 kde-config-screenlocker
 kde-config-sddm
-kde-style-breeze
-kdenetwork-filesharing
 khotkeys
 kio
 kio-extras
 kscreen
 kwin
 kwin-addons
-kwin-style-breeze
-oxygen-icon-theme
 oxygen-sounds
 plasma-desktop
-plasma-framework
+plasma-discover
+plasma-discover-backend-flatpak
+plasma-discover-common
 plasma-nm
 plasma-pa
 plasma-thunderbolt
@@ -56,7 +51,6 @@ plasma-vault
 polkit-kde-agent-1
 powerdevil
 print-manager
-qml-module-qtquick-controls-styles-breeze
 
 #     == Plasma Wayland ==
 
@@ -129,15 +123,9 @@ acpi-support
 acpid
 alsa-base
 amd64-microcode
-appmenu-gtk2-module
-appmenu-gtk3-module
-avahi-autoipd
+avahi-daemon
 binutils-multiarch
-build-essential
-bzip2
-cifs-utils
 coreutils
-cups-bsd
 desktop-file-utils
 dnsmasq
 firejail
@@ -151,38 +139,29 @@ fonts-liberation
 fonts-opensymbol
 fonts-powerline
 fonts-unfonts-core
-fuse3
 fwupd
 fwupdate
-geoclue-2.0
 ghostscript-x
 gnome-keyring
 gnupg-agent
 haveged
-inputattach
-install-info
 intel-microcode
 iucode-tool
 laptop-detect
 libavahi-glib1
 libdbus-glib-1-2
 libdbusmenu-gtk3-4
-libelf1
 libexiv2-27
-libgeoclue-2-0
-libkrb5-3
 libqt5webengine5
 libstartup-notification0
 libxvmc1
 mscompress
 openresolv
-pcmciautils
-plymouth
-plymouth-label
 pm-utils
 policykit-desktop-privileges
 powerline
 preload
+pulseaudio-module-bluetooth
 python-cairo
 python-gi-cairo
 python-setuptools
@@ -194,20 +173,17 @@ qt5-gtk-platformtheme
 qttranslations5-l10n
 rfkill
 rofi
+rng-tools
 rsyslog
 sbsigntool
 secureboot-db
 ssh-askpass
 ubuntu-drivers-common
-udisks2
-update-inetd
 upower
 usb-modeswitch
-usb-modeswitch-data
 wireless-tools
 xdg-user-dirs
 xdg-utils
-xz-utils
 
 #    = XORG =
 
