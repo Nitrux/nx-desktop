@@ -73,7 +73,6 @@ libkf5itemmodels5
 libkf5texteditor-bin
 libkf5xmlgui-data
 libkf5xmlgui5
-libqt5webkit5
 libqt5websockets5
 qml-module-qmltermwidget
 qml-module-qt-labs-platform
