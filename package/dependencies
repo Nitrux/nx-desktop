@@ -116,6 +116,7 @@ language-pack-pt-base
 
 #    = Supporting bits =
 
+accountsservice
 acpi-support
 acpid
 alsa-base
