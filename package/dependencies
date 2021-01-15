@@ -141,6 +141,7 @@ fwupd
 ghostscript-x
 gnome-keyring
 gnupg-agent
+graphviz
 haveged
 intel-microcode
 iucode-tool
@@ -169,8 +170,8 @@ qml-module-qtquick-xmllistmodel
 qt5-gtk-platformtheme
 qttranslations5-l10n
 rfkill
-rofi
 rng-tools
+rofi
 rsyslog
 sbsigntool
 secureboot-db
