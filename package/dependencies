@@ -65,8 +65,6 @@ xwayland
 
 #   = Other KDE or Qt Software =
 
-gtk2-engines-murrine
-gtk3-engines-breeze
 kup-backup
 libkf5contacts-data
 libkf5contacts5
@@ -78,6 +76,8 @@ libqt5websockets5
 qml-module-qmltermwidget
 qml-module-qt-labs-platform
 qml-module-qtquick-shapes
+qml-module-qtquick-xmllistmodel
+qml-module-qtwayland-compositor
 qml-module-qtwebview
 
 #    = NX Desktop Customization Layer =
@@ -143,6 +143,8 @@ ghostscript-x
 gnome-keyring
 gnupg-agent
 graphviz
+gtk2-engines-murrine
+gtk3-engines-breeze
 haveged
 intel-microcode
 iucode-tool
@@ -167,7 +169,6 @@ python-setuptools
 python3-dbus
 python3-setproctitle
 python3-xlib
-qml-module-qtquick-xmllistmodel
 qt5-gtk-platformtheme
 qttranslations5-l10n
 rfkill
@@ -197,4 +198,3 @@ libwayland-client-extra++0
 libwayland-cursor++0
 libwayland-egl++0
 libwayland-egl1-mesa
-qml-module-qtwayland-compositor
