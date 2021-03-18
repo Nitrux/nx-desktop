@@ -65,6 +65,10 @@ xwayland
 
 #   = Other KDE or Qt Software =
 
+kaccounts-integration
+kaccounts-providers
+kio-fuse
+kio-gdrive
 kup-backup
 libkf5contacts-data
 libkf5contacts5
@@ -73,6 +77,8 @@ libkf5texteditor-bin
 libkf5xmlgui-data
 libkf5xmlgui5
 libqt5websockets5
+qml-module-org-kde-activities
+qml-module-org-kde-newstuff
 qml-module-qmltermwidget
 qml-module-qt-labs-platform
 qml-module-qtquick-shapes
