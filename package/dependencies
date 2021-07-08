@@ -165,6 +165,8 @@ libexiv2-27
 libqt5webengine5
 libstartup-notification0
 libxvmc1
+libzstd1
+libzstd-dev
 mscompress
 openresolv
 pm-utils
@@ -193,6 +195,7 @@ usb-modeswitch
 wireless-tools
 xdg-user-dirs
 xdg-utils
+zstd
 
 #    = XORG =
 
