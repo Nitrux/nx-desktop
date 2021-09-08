@@ -165,8 +165,8 @@ libexiv2-27
 libqt5webengine5
 libstartup-notification0
 libxvmc1
-libzstd1
 libzstd-dev
+libzstd1
 mscompress
 openresolv
 pm-utils
@@ -189,6 +189,8 @@ rsyslog
 sbsigntool
 secureboot-db
 ssh-askpass
+tlp
+tlp-rdw
 ubuntu-drivers-common
 upower
 usb-modeswitch
