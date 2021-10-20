@@ -90,7 +90,7 @@ qml-module-qtwebview
 
 #    = NX Desktop Customization Layer =
 
-#   applet-window-buttons
+applet-window-buttons
 fonts-nx-desktop
 grub2-theme-nitrux
 kvantum-theme-kvnitrux
