@@ -118,6 +118,7 @@ acpi-support
 acpid
 apparmor-profiles
 apparmor-profiles-extra
+apparmor-utils
 amd64-microcode
 avahi-daemon
 binutils-multiarch
