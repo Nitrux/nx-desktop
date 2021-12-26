@@ -116,6 +116,8 @@ language-pack-pt-base
 accountsservice
 acpi-support
 acpid
+apparmor-profiles
+apparmor-profiles-extra
 amd64-microcode
 avahi-daemon
 binutils-multiarch
