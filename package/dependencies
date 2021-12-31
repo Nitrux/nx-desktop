@@ -122,6 +122,7 @@ apparmor-utils
 amd64-microcode
 avahi-daemon
 binutils-multiarch
+bup
 coreutils
 desktop-file-utils
 dnsmasq
