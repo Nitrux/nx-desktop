@@ -54,6 +54,7 @@ print-manager
 
 kaccounts-integration
 kaccounts-providers
+kde-config-updates
 kio-fuse
 kio-gdrive
 kup-backup
@@ -145,6 +146,8 @@ libavahi-glib1
 libdbus-glib-1-2
 libdbusmenu-gtk3-4
 libexiv2-27
+libkf5dbusaddons-bin
+libkf5kdelibs4support5-bin
 libstartup-notification0
 libxvmc1
 libzstd-dev
