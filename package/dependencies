@@ -9,6 +9,9 @@ nitrux-hardware-drivers-legacy
 
 #    = Network Services =
 
+dnsmasq
+openresolv
+
 #    = Multimedia =
 
 alsa-utils
@@ -119,7 +122,6 @@ binutils-multiarch
 bup
 coreutils
 desktop-file-utils
-dnsmasq
 firejail
 firejail-profiles
 fonts-arphic-ukai
@@ -153,7 +155,6 @@ libxvmc1
 libzstd-dev
 libzstd1
 mscompress
-openresolv
 pm-utils
 policykit-desktop-privileges
 powerline
