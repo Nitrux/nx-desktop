@@ -98,6 +98,7 @@ nx-simplemenu-applet
 nx-systemtray-applet
 nx-window-deco
 plymouth-theme-nitrux
+sddm-config
 
 #    = Locales =
 #   == Unless requested use English by default ==
