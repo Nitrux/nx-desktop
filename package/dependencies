@@ -156,6 +156,7 @@ libdbusmenu-gtk3-4
 libexiv2-27
 libkf5dbusaddons-bin
 libkf5kdelibs4support5-bin
+libnotify-bin
 libstartup-notification0
 libxvmc1
 libzstd-dev
