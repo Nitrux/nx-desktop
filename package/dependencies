@@ -164,6 +164,7 @@ libxvmc1
 libzstd-dev
 libzstd1
 mscompress
+packagekit-utils
 pm-utils
 policykit-desktop-privileges
 powerline
