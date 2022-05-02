@@ -127,6 +127,7 @@ avahi-daemon
 binutils-multiarch
 bup
 coreutils
+cups-pk-helper
 desktop-file-utils
 firejail
 firejail-profiles
@@ -185,6 +186,7 @@ sbsigntool
 secureboot-db
 ssh-askpass
 system-config-printer-common
+system-config-printer-udev
 tlp
 tlp-rdw
 ubuntu-drivers-common
