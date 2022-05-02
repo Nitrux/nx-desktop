@@ -184,6 +184,7 @@ rsyslog
 sbsigntool
 secureboot-db
 ssh-askpass
+system-config-printer-common
 tlp
 tlp-rdw
 ubuntu-drivers-common
