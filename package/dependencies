@@ -62,7 +62,6 @@ print-manager
 
 kaccounts-integration
 kaccounts-providers
-kde-config-updates
 kio-fuse
 kio-gdrive
 kup-backup
