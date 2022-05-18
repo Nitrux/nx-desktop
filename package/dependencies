@@ -202,5 +202,3 @@ x11-session-utils
 xinit
 
 #    = Wayland =
-
-libnvidia-egl-wayland1
