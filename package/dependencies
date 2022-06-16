@@ -123,7 +123,6 @@ apparmor-profiles
 apparmor-profiles-extra
 apparmor-utils
 avahi-daemon
-binutils-multiarch
 bup
 coreutils
 cups-pk-helper
