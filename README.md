@@ -1,4 +1,4 @@
-# Nitrux NX Desktop Meta package [![Build Status](https://travis-ci.org/Nitrux/nx-desktop.svg?branch=master)](https://travis-ci.org/Nitrux/nx-desktop)
+# Nitrux NX Desktop Meta package
 
 This repository contains the source to create the `nx-desktop` metapackage.
 
