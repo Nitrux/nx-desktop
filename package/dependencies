@@ -183,7 +183,6 @@ rsyslog
 sbsigntool
 secureboot-db
 ssh-askpass
-system-config-printer-common
 system-config-printer-udev
 tlp
 tlp-rdw
