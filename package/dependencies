@@ -45,15 +45,17 @@ khotkeys
 kio
 kio-extras
 kscreen
-kwin
 kwin-addons
+kwin-bismuth
+kwin-x11
 oxygen-sounds
+partitionmanager
 plasma-desktop
 plasma-nm
 plasma-pa
 plasma-thunderbolt
-plasma-widgets-addons
 plasma-vault
+plasma-widgets-addons
 polkit-kde-agent-1
 powerdevil
 print-manager
@@ -114,7 +116,6 @@ language-pack-pt
 language-pack-pt-base
 
 #    = Supporting bits =
-
 accountsservice
 acpi-support
 acpid
@@ -125,8 +126,13 @@ apparmor-utils
 avahi-daemon
 bup
 coreutils
+cryptsetup
+cryptsetup-initramfs
 cups-pk-helper
 desktop-file-utils
+dialog
+dmcrypt-openrc
+dmsetup
 firejail
 firejail-profiles
 fonts-arphic-ukai
@@ -149,6 +155,7 @@ haveged
 ideviceinstaller
 intel-microcode
 iucode-tool
+keyutils
 laptop-detect
 libavahi-glib1
 libdbus-glib-1-2
@@ -163,6 +170,8 @@ libxvmc1
 libzstd-dev
 libzstd1
 mscompress
+nohang
+open-vm-tools-dekstop
 packagekit-tools
 pm-utils
 policykit-desktop-privileges
@@ -189,9 +198,13 @@ tlp-rdw
 ubuntu-drivers-common
 upower
 usb-modeswitch
+vkbasalt
+wireless-regdb
 wireless-tools
+xclip
 xdg-user-dirs
 xdg-utils
+xsel
 zstd
 
 #    = XORG =
