@@ -199,6 +199,7 @@ ubuntu-drivers-common
 upower
 usb-modeswitch
 vkbasalt
+virtualbox-guest-x11
 wireless-regdb
 wireless-tools
 xclip
