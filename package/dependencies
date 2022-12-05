@@ -115,6 +115,7 @@ language-pack-pt
 language-pack-pt-base
 
 #    = Supporting bits =
+
 accountsservice
 acpi-support
 acpid
@@ -157,6 +158,7 @@ iucode-tool
 keyutils
 laptop-detect
 libavahi-glib1
+libblockdev-crypto2
 libdbus-glib-1-2
 libdbusmenu-gtk3-4
 libexiv2-27
