@@ -181,7 +181,6 @@ policykit-desktop-privileges
 powerline
 preload
 pulseaudio-module-bluetooth
-python-setuptools
 python3-dbus
 python3-plist
 python3-setproctitle
