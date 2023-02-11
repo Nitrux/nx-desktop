@@ -27,9 +27,24 @@ gstreamer1.0-plugins-ugly
 gstreamer1.0-pulseaudio
 gstreamer1.0-qt5
 libqt5multimedia5-plugins
+libspa-0.2-bluetooth
+libspa-0.2-jack
+libspa-0.2-modules
 phonon4qt5
 phonon4qt5-backend-vlc
 qt5-image-formats-plugins
+
+#     == PipeWire ==
+
+gstreamer1.0-pipewire
+libpipewire-0.3-0
+libpipewire-0.3-common
+libpipewire-0.3-modules
+pipewire-bin
+pipewire-jack
+pipewire-pulse
+pipewire-v4l2
+wireplumber
 
 #     == Plasma ==
 
@@ -149,10 +164,10 @@ ghostscript-x
 gir1.2-gtk-3.0
 gnome-keyring
 gnupg-agent
+gobject-introspection
 graphviz
 gtk2-engines-murrine
 gtk3-engines-breeze
-gobject-introspection
 haveged
 ideviceinstaller
 intel-microcode
@@ -180,8 +195,10 @@ pm-utils
 policykit-desktop-privileges
 powerline
 preload
+pulseaudio-equalizer-ladspa
 pulseaudio-module-bluetooth
 python3-dbus
+python3-gi
 python3-plist
 python3-setproctitle
 python3-xlib
@@ -191,8 +208,10 @@ rfkill
 rng-tools
 rofi
 rsyslog
+samba
 sbsigntool
 secureboot-db
+smbclient
 ssh-askpass
 system-config-printer-udev
 tlp
@@ -201,8 +220,8 @@ ubuntu-drivers-common
 uidmap
 upower
 usb-modeswitch
-vkbasalt
 virtualbox-guest-x11
+vkbasalt
 wireless-regdb
 wireless-tools
 xclip
@@ -217,3 +236,5 @@ x11-session-utils
 xinit
 
 #    = Wayland =
+
+plasma-workspace-wayland
