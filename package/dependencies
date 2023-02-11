@@ -10,10 +10,6 @@ nitrux-hardware-drivers-legacy
 #    = Network Services =
 
 dnsmasq
-libnl-3-200
-libnl-genl-3-200
-libnl-route-3-200
-libpcsclite1
 openresolv
 wpasupplicant
 
@@ -34,7 +30,7 @@ phonon4qt5
 phonon4qt5-backend-vlc
 qt5-image-formats-plugins
 
-#     == PipeWire ==
+#     = PipeWire =
 
 gstreamer1.0-pipewire
 libpipewire-0.3-0
@@ -61,6 +57,7 @@ kio
 kio-extras
 kscreen
 kwin-addons
+kwin-bismuth
 kwin-x11
 oxygen-sounds
 partitionmanager
@@ -129,6 +126,18 @@ language-pack-fr-base
 language-pack-pt
 language-pack-pt-base
 
+#   = Fonts =
+
+fonts-arphic-ukai
+fonts-arphic-uming
+fonts-freefont-ttf
+fonts-ipafont-gothic
+fonts-ipafont-mincho
+fonts-liberation
+fonts-opensymbol
+fonts-powerline
+fonts-unfonts-core
+
 #    = Supporting bits =
 
 accountsservice
@@ -150,15 +159,6 @@ dmcrypt-openrc
 dmsetup
 firejail
 firejail-profiles
-fonts-arphic-ukai
-fonts-arphic-uming
-fonts-freefont-ttf
-fonts-ipafont-gothic
-fonts-ipafont-mincho
-fonts-liberation
-fonts-opensymbol
-fonts-powerline
-fonts-unfonts-core
 fwupd
 ghostscript-x
 gir1.2-gtk-3.0
@@ -229,6 +229,25 @@ xdg-user-dirs
 xdg-utils
 xsel
 zstd
+
+#    = Supporting libraries =
+
+libavahi-glib1
+libdbus-glib-1-2
+libdbusmenu-gtk3-4
+libexiv2-27
+libgtk2.0-0
+libkf5kdelibs4support5-bin
+libnl-3-200
+libnl-genl-3-200
+libnl-route-3-200
+libnotify-bin
+libpcsclite1
+libqt5multimedia5-plugins
+libstartup-notification0
+libxvmc1
+libzstd-dev
+libzstd1
 
 #    = XORG =
 
