@@ -204,6 +204,7 @@ python3-plist
 python3-setproctitle
 python3-setuptools
 python3-pip
+python3-venv
 python3-xlib
 qt5-gtk-platformtheme
 qttranslations5-l10n
