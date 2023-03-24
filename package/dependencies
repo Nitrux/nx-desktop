@@ -174,19 +174,6 @@ intel-microcode
 iucode-tool
 keyutils
 laptop-detect
-libavahi-glib1
-libblockdev-crypto2
-libdbus-glib-1-2
-libdbusmenu-gtk3-4
-libexiv2-27
-libkf5dbusaddons-bin
-libkf5kdelibs4support5-bin
-libnotify-bin
-libplist3
-libstartup-notification0
-libxvmc1
-libzstd-dev
-libzstd1
 mesa-utils
 mscompress
 nohang
@@ -237,16 +224,19 @@ zstd
 #    = Supporting libraries =
 
 libavahi-glib1
+libblockdev-crypto2
 libdbus-glib-1-2
 libdbusmenu-gtk3-4
 libexiv2-27
 libgtk2.0-0
+libkf5dbusaddons-bin
 libkf5kdelibs4support5-bin
 libnl-3-200
 libnl-genl-3-200
 libnl-route-3-200
 libnotify-bin
 libpcsclite1
+libplist3
 libqt5multimedia5-plugins
 libstartup-notification0
 libxvmc1
