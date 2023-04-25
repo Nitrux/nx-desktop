@@ -10,6 +10,8 @@ nitrux-hardware-drivers-legacy
 #    = Network Services =
 
 dnsmasq
+network-manager-openvpn
+nfs-common
 openresolv
 wpasupplicant
 
@@ -115,6 +117,10 @@ sddm-config
 #    = Locales =
 #   == Unless requested use English by default ==
 
+language-pack-ar
+language-pack-ar-base
+language-pack-bn
+language-pack-bn-base
 language-pack-de
 language-pack-de-base
 language-pack-en
@@ -131,6 +137,7 @@ language-pack-pt-base
 fonts-arphic-ukai
 fonts-arphic-uming
 fonts-freefont-ttf
+fonts-indic
 fonts-ipafont-gothic
 fonts-ipafont-mincho
 fonts-liberation
@@ -157,6 +164,7 @@ desktop-file-utils
 dialog
 dmcrypt-openrc
 dmsetup
+fcitx-mozc
 firejail
 firejail-profiles
 fwupd
@@ -173,11 +181,13 @@ ideviceinstaller
 intel-microcode
 iucode-tool
 keyutils
+language-selector-common
 laptop-detect
 mesa-utils
 mscompress
 nohang
 open-vm-tools-desktop
+overlayroot
 pm-utils
 policykit-desktop-privileges
 powerline
@@ -187,10 +197,10 @@ pulseaudio-module-bluetooth
 python3-dbus
 python3-distro
 python3-gi
+python3-pip
 python3-plist
 python3-setproctitle
 python3-setuptools
-python3-pip
 python3-venv
 python3-xlib
 qt5-gtk-platformtheme
@@ -213,6 +223,8 @@ upower
 usb-modeswitch
 virtualbox-guest-x11
 vkbasalt
+waydroid
+waydroid-openrc
 wireless-regdb
 wireless-tools
 xclip
