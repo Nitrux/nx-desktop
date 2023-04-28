@@ -164,7 +164,8 @@ desktop-file-utils
 dialog
 dmcrypt-openrc
 dmsetup
-fcitx-mozc
+fcitx5-frontend-qt5
+fcitx5-mozc
 firejail
 firejail-profiles
 fwupd
@@ -180,6 +181,7 @@ haveged
 ideviceinstaller
 intel-microcode
 iucode-tool
+kde-config-fcitx5
 keyutils
 language-selector-common
 laptop-detect
