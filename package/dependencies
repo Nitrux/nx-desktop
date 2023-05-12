@@ -155,7 +155,6 @@ apparmor-profiles-extra
 apparmor-utils
 avahi-daemon
 bup
-busybox-syslogd
 coreutils
 cron
 cryptsetup
@@ -215,7 +214,6 @@ qttranslations5-l10n
 rfkill
 rng-tools
 rofi
-rsyslog
 samba
 sbsigntool
 secureboot-db
