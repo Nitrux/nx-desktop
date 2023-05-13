@@ -223,6 +223,7 @@ system-config-printer-udev
 tlp
 tlp-rdw
 tor
+torsocks
 ubuntu-drivers-common
 uidmap
 upower
