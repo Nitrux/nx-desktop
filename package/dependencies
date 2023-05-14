@@ -9,7 +9,7 @@ nitrux-hardware-drivers-legacy
 
 #    = Network Services =
 
-dnsmasq
+#   dnsmasq -- do not install because it doesn't allow dnscrypt-proxy to resolve properly
 network-manager-openvpn
 nfs-common
 openresolv
@@ -164,8 +164,6 @@ desktop-file-utils
 dialog
 dmcrypt-openrc
 dmsetup
-dnscrypt-proxy
-dnscrypt-openrc
 fcitx5-frontend-qt5
 fcitx5-mozc
 firejail
