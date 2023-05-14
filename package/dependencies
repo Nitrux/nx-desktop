@@ -164,6 +164,8 @@ desktop-file-utils
 dialog
 dmcrypt-openrc
 dmsetup
+dnscrypt-proxy
+dnscrypt-openrc
 fcitx5-frontend-qt5
 fcitx5-mozc
 firejail
