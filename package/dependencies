@@ -9,7 +9,7 @@ nitrux-hardware-drivers-legacy
 
 #    = Network Services =
 
-#   dnsmasq -- do not install because it doesn't allow dnscrypt-proxy to resolve properly
+dnsmasq
 network-manager-openvpn
 nfs-common
 openresolv
