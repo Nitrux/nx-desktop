@@ -63,6 +63,7 @@ kwin-bismuth
 kwin-x11
 oxygen-sounds
 plasma-desktop
+plasma-firewall
 plasma-nm
 plasma-pa
 plasma-thunderbolt
@@ -101,7 +102,6 @@ nx-audio-applet
 nx-clock-applet
 nx-desktop-apps-legacy
 nx-desktop-settings-legacy
-nx-firewall
 nx-gtk-themes
 nx-kstyle-theme
 nx-networkmanagement-applet
