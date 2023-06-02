@@ -151,6 +151,9 @@ ibus-mozc
 ibus-wayland
 im-config
 kde-config-fcitx5
+maliit-inputcontext-gtk2
+maliit-inputcontext-gtk3
+maliit-keyboard
 mozc-utils-gui
 
 #   = Fonts =
