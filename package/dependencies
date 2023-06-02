@@ -131,6 +131,26 @@ language-pack-fr-base
 language-pack-pt
 language-pack-pt-base
 
+#   = Input Methods =
+fcitx5-frontend-gtk2
+fcitx5-frontend-gtk3
+fcitx5-frontend-gtk4
+fcitx5-frontend-qt5
+fcitx5-frontend-qt6
+fcitx5-module-dbus
+fcitx5-module-lua
+fcitx5-module-wayland
+fcitx5-module-xorg
+fcitx5-mozc
+ibus-gtk
+ibus-gtk3
+ibus-gtk4
+ibus-mozc
+ibus-wayland
+im-config
+kde-config-fcitx5
+mozc-utils-gui
+
 #   = Fonts =
 
 fonts-arphic-ukai
@@ -163,14 +183,13 @@ cron
 cryptsetup
 cryptsetup-initramfs
 cups-pk-helper
+dbab
 desktop-file-utils
 dialog
 dmcrypt-openrc
 dmsetup
 dnscrypt-openrc
 dnscrypt-proxy
-fcitx5-frontend-qt5
-fcitx5-mozc
 firejail
 firejail-profiles
 fscrypt
@@ -190,7 +209,6 @@ hyperv-daemons
 ideviceinstaller
 intel-microcode
 iucode-tool
-kde-config-fcitx5
 keyutils
 language-selector-common
 laptop-detect
@@ -235,6 +253,7 @@ tlp-rdw
 tor
 torsocks
 ubuntu-drivers-common
+ufw
 uidmap
 upower
 usb-modeswitch
@@ -242,9 +261,9 @@ virtualbox-guest-x11
 vkbasalt
 waydroid
 waydroid-openrc
+wireguard
 wireless-regdb
 wireless-tools
-wireguard
 xclip
 xdg-user-dirs
 xdg-utils
