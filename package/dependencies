@@ -10,6 +10,7 @@ nitrux-hardware-drivers-legacy
 #    = Network Services =
 
 dnsmasq
+network-manager-openconnect
 network-manager-openvpn
 nfs-common
 openresolv
@@ -171,6 +172,7 @@ fonts-unfonts-core
 
 #    = Supporting bits =
 
+0install
 accountsservice
 acpi-support
 acpid
@@ -197,6 +199,7 @@ dnscrypt-openrc
 dnscrypt-proxy
 firejail
 firejail-profiles
+flatpak-kcm
 fscrypt
 fwupd
 gcc-11
@@ -210,18 +213,23 @@ graphviz
 gtk2-engines-murrine
 gtk3-engines-breeze
 haveged
+hplip
+hplip-gui
 hyperv-daemons
 ideviceinstaller
 intel-microcode
 iucode-tool
+kexec-tools
 keyutils
 language-selector-common
 laptop-detect
 libpwquality-tools
+man-db
 mesa-utils
 mscompress
 net-tools
 nohang
+nuts
 open-vm-tools-desktop
 overlayroot
 pm-utils
@@ -292,6 +300,7 @@ libpam-cracklib
 libpcsclite1
 libplist3
 libqt5multimedia5-plugins
+libsane-hpaio
 libstartup-notification0
 libxvmc1
 libzstd-dev
