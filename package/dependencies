@@ -223,6 +223,9 @@ language-selector-common
 laptop-detect
 libpwquality-tools
 man-db
+mariadb-client-core-10.6
+mariadb-common
+mariadb-server-core-10.6
 mesa-utils
 mscompress
 net-tools
@@ -290,6 +293,7 @@ libexiv2-27
 libgtk2.0-0
 libkf5dbusaddons-bin
 libkf5kdelibs4support5-bin
+libmariadb3
 libnl-3-200
 libnl-genl-3-200
 libnl-route-3-200
