@@ -217,6 +217,7 @@ hyperv-daemons
 ideviceinstaller
 intel-microcode
 iucode-tool
+kboot
 kexec-tools
 keyutils
 language-selector-common
