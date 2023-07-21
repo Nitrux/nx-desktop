@@ -220,9 +220,11 @@ iucode-tool
 kboot
 kexec-tools
 keyutils
+kpatch
+kpatch-build
+kpatch-dkms
 language-selector-common
 laptop-detect
-libpwquality-tools
 man-db
 mariadb-client-core-10.6
 mariadb-common
@@ -240,6 +242,7 @@ powerline
 prelink
 preload
 pulseaudio-module-bluetooth
+pv
 python3-dbus
 python3-distro
 python3-gi
@@ -303,6 +306,7 @@ libnotify-bin
 libpam-cracklib
 libpcsclite1
 libplist3
+libpwquality-tools
 libqt5multimedia5-plugins
 libsane-hpaio
 libstartup-notification0
