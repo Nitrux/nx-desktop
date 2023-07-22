@@ -222,7 +222,6 @@ kexec-tools
 keyutils
 kpatch
 kpatch-build
-kpatch-dkms
 language-selector-common
 laptop-detect
 man-db
