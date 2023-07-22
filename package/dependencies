@@ -220,8 +220,6 @@ iucode-tool
 kboot
 kexec-tools
 keyutils
-kpatch
-kpatch-build
 language-selector-common
 laptop-detect
 man-db
