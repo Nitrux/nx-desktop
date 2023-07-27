@@ -51,6 +51,7 @@ baloo-kf5
 bluedevil
 bluez
 kde-cli-tools
+kde-config-flatpak
 kde-config-gtk-style
 kde-config-plymouth
 kde-config-screenlocker
@@ -199,7 +200,6 @@ dnscrypt-openrc
 dnscrypt-proxy
 firejail
 firejail-profiles
-flatpak-kcm
 fscrypt
 fwupd
 gcc-11
