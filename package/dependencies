@@ -271,7 +271,6 @@ ufw
 uidmap
 upower
 usb-modeswitch
-virtualbox-guest-x11
 vkbasalt
 waydroid
 waydroid-openrc
