@@ -198,6 +198,7 @@ dmcrypt-openrc
 dmsetup
 dnscrypt-openrc
 dnscrypt-proxy
+fdisk
 firejail
 firejail-profiles
 fscrypt
