@@ -146,11 +146,11 @@ fcitx5-module-lua
 fcitx5-module-wayland
 fcitx5-module-xorg
 fcitx5-mozc
-ibus-gtk
-ibus-gtk3
-ibus-gtk4
-ibus-mozc
-ibus-wayland
+# ibus-gtk
+# ibus-gtk3
+# ibus-gtk4
+# ibus-mozc
+# ibus-wayland
 im-config
 kde-config-fcitx5
 maliit-inputcontext-gtk2
