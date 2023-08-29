@@ -306,6 +306,7 @@ libnotify-bin
 libpam-cracklib
 libpcsclite1
 libplist3
+libpam-kwallet5
 libpwquality-tools
 libqt5multimedia5-plugins
 libsane-hpaio
