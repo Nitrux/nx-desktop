@@ -60,6 +60,7 @@ khotkeys
 kio
 kio-extras
 kscreen
+kwalletmanager
 kwin-addons
 kwin-bismuth
 kwin-x11
@@ -79,6 +80,7 @@ print-manager
 
 kaccounts-integration
 kaccounts-providers
+kgpg
 kio-fuse
 kio-gdrive
 kup-backup
@@ -282,6 +284,7 @@ xclip
 xdg-user-dirs
 xdg-utils
 xsel
+zenity
 zstd
 
 #    = Supporting libraries =
