@@ -295,6 +295,7 @@ libdbus-glib-1-2
 libdbusmenu-gtk3-4
 libexiv2-27
 libgtk2.0-0
+libkf5config-bin
 libkf5dbusaddons-bin
 libkf5kdelibs4support5-bin
 libmariadb3
@@ -304,9 +305,9 @@ libnl-genl-3-200
 libnl-route-3-200
 libnotify-bin
 libpam-cracklib
+libpam-kwallet5
 libpcsclite1
 libplist3
-libpam-kwallet5
 libpwquality-tools
 libqt5multimedia5-plugins
 libsane-hpaio
