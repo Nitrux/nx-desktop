@@ -44,7 +44,6 @@ libpipewire-0.3-modules-x11
 pipewire-bin
 pipewire-jack
 pipewire-pulse
-pipewire-alsa
 pipewire-v4l2
 wireplumber
 
