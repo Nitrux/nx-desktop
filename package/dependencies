@@ -39,9 +39,11 @@ gstreamer1.0-pipewire
 libpipewire-0.3-0
 libpipewire-0.3-common
 libpipewire-0.3-modules
+libpipewire-0.3-modules-x11
 pipewire-bin
 pipewire-jack
 pipewire-pulse
+pipewire-alsa
 pipewire-v4l2
 wireplumber
 
