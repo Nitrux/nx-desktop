@@ -263,6 +263,7 @@ sbsigntool
 secureboot-db
 selinux-basics
 smbclient
+spice-avahi-openrc
 spice-vdagent
 spice-webdavd
 ssh-askpass
@@ -288,7 +289,6 @@ xdg-utils
 xsel
 zenity
 zstd
-spice-avahi-openrc
 
 #    = Supporting libraries =
 
