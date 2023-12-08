@@ -255,7 +255,7 @@ python3-xlib
 qt5-gtk-platformtheme
 qttranslations5-l10n
 rfkill
-rng-tools
+rng-tools5
 rofi
 rsyslog
 samba
