@@ -288,6 +288,7 @@ xdg-utils
 xsel
 zenity
 zstd
+spice-avahi-openrc
 
 #    = Supporting libraries =
 
