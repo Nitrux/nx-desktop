@@ -242,6 +242,7 @@ prelink
 preload
 pulseaudio-module-bluetooth
 pv
+pwgen
 python3-dbus
 python3-distro
 python3-gi
@@ -262,6 +263,8 @@ sbsigntool
 secureboot-db
 selinux-basics
 smbclient
+spice-vdagent
+spice-webdavd
 ssh-askpass
 system-config-printer-udev
 tlp
@@ -305,6 +308,7 @@ libnl-route-3-200
 libnotify-bin
 libpam-cracklib
 libpam-kwallet5
+libpam-pwquality
 libpcsclite1
 libplist3
 libpwquality-tools
