@@ -108,9 +108,7 @@ nx-desktop-settings-legacy
 nx-gtk-themes
 nx-kstyle-theme
 nx-networkmanagement-applet
-nx-notifications-applet
 nx-plasma-look-and-feel
-nx-simplemenu-applet
 nx-window-deco
 plymouth-theme-nitrux
 sddm-config
