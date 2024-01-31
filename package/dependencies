@@ -215,6 +215,7 @@ ideviceinstaller
 intel-microcode
 iucode-tool
 kboot
+kdotool
 kexec-tools
 keyutils
 language-selector-common
