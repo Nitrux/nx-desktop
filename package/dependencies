@@ -179,6 +179,7 @@ apparmor-profiles
 apparmor-profiles-extra
 apparmor-utils
 avahi-daemon
+bpftool
 btrfs-progs
 bup
 coreutils
@@ -209,6 +210,7 @@ graphviz
 gtk2-engines-murrine
 gtk3-engines-breeze
 haveged
+hwdata
 hyperv-daemons
 hyperv-daemons-extra
 ideviceinstaller
@@ -220,6 +222,9 @@ kexec-tools
 keyutils
 language-selector-common
 laptop-detect
+linux-cpupower
+linux-perf
+linux-tools-common
 man-db
 mariadb-client-core-10.6
 mariadb-common
@@ -272,6 +277,7 @@ ufw
 uidmap
 upower
 usb-modeswitch
+usbip
 vkbasalt
 waydroid
 waydroid-openrc
