@@ -201,6 +201,7 @@ firejail-profiles
 fscrypt
 fwupd
 gcc-11
+geoclue-2.0
 ghostscript-x
 gir1.2-gtk-3.0
 git-lfs
