@@ -194,6 +194,7 @@ dmcrypt-openrc
 dmsetup
 dnscrypt-openrc
 dnscrypt-proxy
+ethtool
 fdisk
 firejail
 firejail-profiles
@@ -236,6 +237,7 @@ nuts
 open-vm-tools-desktop
 overlayroot
 policykit-desktop-privileges
+powercap-utils
 powerline
 prelink
 preload
