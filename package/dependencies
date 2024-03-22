@@ -260,6 +260,7 @@ rfkill
 rng-tools5
 rofi
 rsyslog
+saferm
 samba
 sbsigntool
 secureboot-db
@@ -292,7 +293,6 @@ xdg-utils
 xsel
 zenity
 zstd
-saferm
 
 #    = Supporting libraries =
 
