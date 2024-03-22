@@ -292,6 +292,7 @@ xdg-utils
 xsel
 zenity
 zstd
+saferm
 
 #    = Supporting libraries =
 
