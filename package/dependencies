@@ -58,6 +58,7 @@ kde-config-gtk-style
 kde-config-plymouth
 kde-config-screenlocker
 kde-config-sddm
+kde-config-tablet
 khotkeys
 kio
 kio-extras
