@@ -191,6 +191,7 @@ cups-pk-helper
 dbab
 desktop-file-utils
 dialog
+debugfs-openrc
 dmcrypt-openrc
 dmsetup
 dnscrypt-openrc
