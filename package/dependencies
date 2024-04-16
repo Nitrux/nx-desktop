@@ -276,6 +276,7 @@ system-config-printer-udev
 tlp
 tlp-rdw
 tor
+tor-openrc
 torsocks
 ubuntu-drivers-common
 ufw
