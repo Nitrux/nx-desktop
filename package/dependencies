@@ -262,7 +262,7 @@ rfkill
 rng-tools5
 rofi
 rsyslog
-saferm
+safe-rm
 samba
 sbsigntool
 secureboot-db
