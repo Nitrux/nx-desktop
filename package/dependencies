@@ -189,9 +189,9 @@ cryptsetup
 cryptsetup-initramfs
 cups-pk-helper
 dbab
+debugfs-openrc
 desktop-file-utils
 dialog
-debugfs-openrc
 dmcrypt-openrc
 dmsetup
 dnscrypt-openrc
@@ -242,6 +242,7 @@ overlayroot
 policykit-desktop-privileges
 powercap-utils
 powerline
+powertop
 prelink
 preload
 pulseaudio-module-bluetooth
