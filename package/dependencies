@@ -78,7 +78,7 @@ plasma-widgets-addons
 polkit-kde-agent-1
 powerdevil
 print-manager
-
+6
 #   = Other KDE or Qt Software =
 
 kaccounts-integration
@@ -305,6 +305,7 @@ libblockdev-crypto2
 libdbus-glib-1-2
 libdbusmenu-gtk3-4
 libexiv2-27
+libfprint-2-2
 libgtk2.0-0
 libkf5config-bin
 libkf5dbusaddons-bin
