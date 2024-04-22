@@ -200,6 +200,7 @@ ethtool
 fdisk
 firejail
 firejail-profiles
+fprintd
 fscrypt
 fwupd
 gcc-11
@@ -317,6 +318,7 @@ libnl-genl-3-200
 libnl-route-3-200
 libnotify-bin
 libpam-cracklib
+libpam-fprintd
 libpam-kwallet5
 libpam-pwquality
 libpcsclite1
