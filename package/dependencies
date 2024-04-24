@@ -169,7 +169,6 @@ fonts-unfonts-core
 
 #    = Supporting bits =
 
-0install
 accountsservice
 acpi-support
 acpid
@@ -200,7 +199,6 @@ ethtool
 fdisk
 firejail
 firejail-profiles
-fprintd
 fscrypt
 fwupd
 gcc-11
@@ -221,8 +219,6 @@ hyperv-daemons-extra
 ideviceinstaller
 intel-microcode
 iucode-tool
-kboot
-kdotool
 kexec-tools
 keyutils
 language-selector-common
@@ -240,6 +236,7 @@ nohang
 nuts
 open-vm-tools-desktop
 openrazer-meta
+openrazer-openrc
 overlayroot
 policykit-desktop-privileges
 powercap-utils
@@ -263,40 +260,22 @@ qt5-gtk-platformtheme
 qttranslations5-l10n
 rfkill
 rng-tools5
-rofi
-rsyslog
-safe-rm
-samba
-sbsigntool
 secureboot-db
 selinux-basics
-smbclient
-spice-avahi-openrc
-spice-vdagent
-spice-webdavd
 ssh-askpass
 system-config-printer-udev
-tlp
-tlp-rdw
-tor
 torsocks
 ubuntu-drivers-common
-ufw
 uidmap
 upower
 usb-modeswitch
 usbip
 vkbasalt
-waydroid
-waydroid-openrc
-wireguard
+vulkan-tools
 wireless-regdb
 wireless-tools
-xclip
 xdg-user-dirs
 xdg-utils
-xsel
-zenity
 zstd
 
 #    = Supporting libraries =
