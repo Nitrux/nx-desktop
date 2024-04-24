@@ -129,8 +129,16 @@ language-pack-es
 language-pack-es-base
 language-pack-fr
 language-pack-fr-base
+language-pack-it
+language-pack-it-base
+language-pack-nl
+language-pack-nl-base
+language-pack-pl
+language-pack-pl-base
 language-pack-pt
 language-pack-pt-base
+language-pack-ru
+language-pack-ru-base
 
 #   = Input Methods =
 
@@ -247,15 +255,6 @@ preload
 pulseaudio-module-bluetooth
 pv
 pwgen
-python3-dbus
-python3-distro
-python3-gi
-python3-pip
-python3-plist
-python3-setproctitle
-python3-setuptools
-python3-venv
-python3-xlib
 qt5-gtk-platformtheme
 qttranslations5-l10n
 rfkill
@@ -309,6 +308,18 @@ libstartup-notification0
 libxvmc1
 libzstd-dev
 libzstd1
+
+#    = Python packages =
+
+python3-dbus
+python3-distro
+python3-gi
+python3-pip
+python3-plist
+python3-setproctitle
+python3-setuptools
+python3-venv
+python3-xlib
 
 #    = XORG =
 
