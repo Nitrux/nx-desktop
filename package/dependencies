@@ -323,7 +323,6 @@ debugfs-openrc
 dmcrypt-openrc
 dnscrypt-openrc
 fprint-openrc
-openrazer-openrc
 powertop-openrc
 spice-avahi-openrc
 waydroid-openrc
