@@ -196,12 +196,9 @@ cryptsetup
 cryptsetup-initramfs
 cups-pk-helper
 dbab
-debugfs-openrc
 desktop-file-utils
 dialog
-dmcrypt-openrc
 dmsetup
-dnscrypt-openrc
 dnscrypt-proxy
 ethtool
 fdisk
@@ -244,7 +241,6 @@ nohang
 nuts
 open-vm-tools-desktop
 openrazer-meta
-openrazer-openrc
 overlayroot
 policykit-desktop-privileges
 powercap-utils
@@ -320,6 +316,17 @@ python3-setproctitle
 python3-setuptools
 python3-venv
 python3-xlib
+
+#    = OpenRC compatibility packages =
+
+debugfs-openrc
+dmcrypt-openrc
+dnscrypt-openrc
+fprint-openrc
+openrazer-openrc
+powertop-openrc
+spice-avahi-openrc
+waydroid-openrc
 
 #    = XORG =
 
