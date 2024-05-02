@@ -9,7 +9,7 @@ nitrux-hardware-drivers-legacy
 
 #    = Network Services =
 
-dnsmasq
+network-manager
 network-manager-openconnect
 network-manager-openvpn
 nfs-common
@@ -96,6 +96,8 @@ qml-module-qtquick-shapes
 qml-module-qtquick-xmllistmodel
 qml-module-qtwayland-compositor
 qml-module-qtwebview
+qt5-gtk-platformtheme
+qttranslations5-l10n
 
 #    = NX Desktop Customization Layer =
 
@@ -251,8 +253,6 @@ preload
 pulseaudio-module-bluetooth
 pv
 pwgen
-qt5-gtk-platformtheme
-qttranslations5-l10n
 rfkill
 rng-tools5
 secureboot-db
