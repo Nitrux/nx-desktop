@@ -325,6 +325,7 @@ dmcrypt-openrc
 dnscrypt-openrc
 fprint-openrc
 ntpsec-openrc
+nohang-openrc
 plymouth-openrc
 powertop-openrc
 spice-avahi-openrc
