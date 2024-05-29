@@ -193,6 +193,7 @@ avahi-daemon
 bpftool
 btrfs-progs
 bup
+clinfo
 coreutils
 cron
 cryptsetup
@@ -339,3 +340,4 @@ xinit
 #    = Wayland =
 
 plasma-workspace-wayland
+wayland-utils
