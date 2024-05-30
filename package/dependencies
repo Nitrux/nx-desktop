@@ -193,6 +193,7 @@ avahi-daemon
 bpftool
 btrfs-progs
 bup
+cabextract
 clinfo
 coreutils
 cron
