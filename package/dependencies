@@ -326,9 +326,10 @@ python3-xlib
 debugfs-openrc
 dmcrypt-openrc
 dnscrypt-openrc
+dnsmasq-openrc
 fprint-openrc
-ntpsec-openrc
 nohang-openrc
+ntpsec-openrc
 plymouth-openrc
 powertop-openrc
 spice-avahi-openrc
