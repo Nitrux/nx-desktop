@@ -13,7 +13,6 @@ network-manager
 network-manager-openconnect
 network-manager-openvpn
 nfs-common
-openresolv
 wpasupplicant
 
 #    = Multimedia =
