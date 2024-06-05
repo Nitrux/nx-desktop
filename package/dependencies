@@ -331,6 +331,7 @@ nohang-openrc
 ntpsec-openrc
 plymouth-openrc
 powertop-openrc
+rsyslog-openrc
 spice-avahi-openrc
 waydroid-openrc
 
