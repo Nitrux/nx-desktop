@@ -180,8 +180,6 @@ fonts-unfonts-core
 #    = Supporting bits =
 
 accountsservice
-acpi-support
-acpid
 aide
 aide-common
 amd64-microcode
