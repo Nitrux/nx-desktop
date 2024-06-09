@@ -231,6 +231,7 @@ language-selector-common
 laptop-detect
 linux-cpupower
 linux-perf
+lm-sensors
 man-db
 mariadb-client-core-10.6
 mariadb-common
