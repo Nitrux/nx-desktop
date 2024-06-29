@@ -329,6 +329,7 @@ plymouth-openrc
 powertop-openrc
 rsyslog-openrc
 spice-avahi-openrc
+usbmuxd-openrc
 waydroid-openrc
 
 #    = XORG =
