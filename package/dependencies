@@ -196,6 +196,7 @@ coreutils
 cron
 cryptsetup
 cryptsetup-initramfs
+cryptsetup-suspend
 cups-pk-helper
 dbab
 desktop-file-utils
