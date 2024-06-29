@@ -191,6 +191,7 @@ btrfs-progs
 bup
 cabextract
 clinfo
+colord
 coreutils
 cron
 cryptsetup
