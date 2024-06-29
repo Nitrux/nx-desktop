@@ -317,6 +317,7 @@ python3-xlib
 
 #    = OpenRC compatibility packages =
 
+bluetooth-openrc
 dbab-openrc
 debugfs-openrc
 dmcrypt-openrc
