@@ -24,11 +24,7 @@ gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
 gstreamer1.0-pulseaudio
 gstreamer1.0-qt5
-libqt5multimedia5-plugins
-libspa-0.2-bluetooth
-libspa-0.2-jack
-libspa-0.2-libcamera
-libspa-0.2-modules
+media-types
 phonon4qt5
 phonon4qt5-backend-vlc
 qt5-image-formats-plugins
@@ -36,10 +32,6 @@ qt5-image-formats-plugins
 #     = PipeWire =
 
 gstreamer1.0-pipewire
-libpipewire-0.3-0
-libpipewire-0.3-common
-libpipewire-0.3-modules
-libpipewire-0.3-modules-x11
 pipewire-bin
 pipewire-jack
 pipewire-pulse
@@ -61,7 +53,6 @@ khotkeys
 kio
 kio-extras
 kscreen
-kwalletmanager
 kwin-addons
 kwin-x11
 oxygen-sounds
@@ -73,7 +64,6 @@ plasma-pa
 plasma-thunderbolt
 plasma-vault
 plasma-widgets-addons
-polkit-kde-agent-1
 powerdevil
 print-manager
 
@@ -81,7 +71,6 @@ print-manager
 
 kaccounts-integration
 kaccounts-providers
-kgpg
 kio-fuse
 kio-gdrive
 kup-backup
@@ -96,6 +85,7 @@ qml-module-qtwayland-compositor
 qml-module-qtwebview
 qt5-gtk-platformtheme
 qttranslations5-l10n
+sddm
 
 #    = NX Desktop Customization Layer =
 
@@ -151,17 +141,11 @@ fcitx5-frontend-qt6
 fcitx5-modules
 fcitx5-module-lua
 fcitx5-mozc
-# ibus-gtk
-# ibus-gtk3
-# ibus-gtk4
-# ibus-mozc
-# ibus-wayland
 im-config
 kde-config-fcitx5
 maliit-inputcontext-gtk2
 maliit-inputcontext-gtk3
 maliit-keyboard
-mozc-utils-gui
 
 #   = Fonts =
 
@@ -176,100 +160,29 @@ fonts-opensymbol
 fonts-powerline
 fonts-unfonts-core
 
-#    = Supporting bits =
+#   = GTK =
 
-accountsservice
-aide
-aide-common
-amd64-microcode
-apparmor-profiles
-apparmor-profiles-extra
-apparmor-utils
-avahi-daemon
-bpftool
-btrfs-progs
-bup
-cabextract
-clinfo
-colord
-coreutils
-cron
-cryptsetup
-cryptsetup-initramfs
-cups-pk-helper
-dbab
-desktop-file-utils
-dialog
-dmsetup
-dnscrypt-proxy
-ethtool
-fdisk
-firejail
-firejail-profiles
-fscrypt
-fwupd
-gcc-11
-geoclue-2.0
-ghostscript-x
-gir1.2-gtk-3.0
-git-lfs
-gnome-keyring
-gnupg-agent
-gobject-introspection
-graphviz
 gtk2-engines-murrine
 gtk3-engines-breeze
-hwdata
-hyperv-daemons
-hyperv-daemons-extra
-ideviceinstaller
-intel-microcode
-iucode-tool
-kexec-tools
-keyutils
-language-selector-common
-laptop-detect
-linux-cpupower
-linux-perf
-lm-sensors
-man-db
-mariadb-client-core-10.6
-mariadb-common
-mariadb-server-core-10.6
-mesa-utils
-mscompress
-net-tools
-nohang
-nuts
-open-vm-tools-desktop
-openrazer-meta
-overlayroot
-policykit-desktop-privileges
-powercap-utils
-powerline
-powertop
-preload
-pulseaudio-module-bluetooth
-pv
-pwgen
-rfkill
-rng-tools5
-secureboot-db
-selinux-basics
-ssh-askpass
-system-config-printer-udev
-torsocks
-ubuntu-drivers-common
-uidmap
-upower
-usb-modeswitch
-usbip
-vulkan-tools
-wireless-regdb
-wireless-tools
+
+#   = XDG configuration =
+
+desktop-file-utils
 xdg-user-dirs
 xdg-utils
-zstd
+
+#   = PolicyKit =
+
+cups-pk-helper
+polkit-kde-agent-1
+policykit-desktop-privileges
+
+#    = Supporting bits =
+
+gir1.2-gtk-3.0
+keyutils
+unused-net-protocols
+vulkan-tools
 
 #    = Supporting libraries =
 
@@ -278,7 +191,6 @@ libblockdev-crypto2
 libdbus-glib-1-2
 libdbusmenu-gtk3-4
 libexiv2-27
-libfprint-2-2
 libgtk2.0-0
 libkf5config-bin
 libkf5dbusaddons-bin
@@ -290,16 +202,21 @@ libnl-genl-3-200
 libnl-route-3-200
 libnotify-bin
 libpam-cracklib
-libpam-fprintd
 libpam-kwallet5
 libpam-pwquality
 libpcsclite1
+libpipewire-0.3-0
+libpipewire-0.3-common
+libpipewire-0.3-modules
+libpipewire-0.3-modules-x11
 libplist3
 libpwquality-tools
 libqt5multimedia5-plugins
-libsane-hpaio
+libspa-0.2-bluetooth
+libspa-0.2-jack
+libspa-0.2-libcamera
+libspa-0.2-modules
 libstartup-notification0
-libxvmc1
 libzstd-dev
 libzstd1
 
