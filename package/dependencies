@@ -201,6 +201,7 @@ libnl-3-200
 libnl-genl-3-200
 libnl-route-3-200
 libnotify-bin
+libpam-apparmor
 libpam-cracklib
 libpam-kwallet5
 libpam-pwquality
