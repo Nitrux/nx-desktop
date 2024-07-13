@@ -9,6 +9,7 @@ nitrux-hardware-drivers-legacy
 
 #    = Network Services =
 
+dhcpcd-base
 network-manager
 network-manager-openconnect
 network-manager-openvpn
