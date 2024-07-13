@@ -248,7 +248,6 @@ plymouth-openrc
 powertop-openrc
 rsyslog-openrc
 spice-avahi-openrc
-supervisor-openrc
 usbmuxd-openrc
 waydroid-openrc
 
