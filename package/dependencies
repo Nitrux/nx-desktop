@@ -109,6 +109,8 @@ sddm-config
 
 language-pack-ar
 language-pack-ar-base
+language-pack-bg
+language-pack-bg-base
 language-pack-bn
 language-pack-bn-base
 language-pack-de
@@ -129,6 +131,8 @@ language-pack-pt
 language-pack-pt-base
 language-pack-ru
 language-pack-ru-base
+language-pack-uk
+language-pack-uk-base
 
 #   = Input Methods =
 
