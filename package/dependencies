@@ -301,6 +301,7 @@ libzstd1
 
 #    = Python packages =
 
+pipx
 python3-dbus
 python3-distro
 python3-gi
