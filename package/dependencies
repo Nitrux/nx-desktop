@@ -311,6 +311,7 @@ python3-setproctitle
 python3-setuptools
 python3-venv
 python3-xlib
+python3-yaml
 
 #    = OpenRC compatibility packages =
 
