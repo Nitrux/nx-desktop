@@ -324,6 +324,7 @@ dnsmasq-openrc
 fprint-openrc
 nohang-openrc
 ntpsec-openrc
+nvidia-openrc
 plymouth-openrc
 powertop-openrc
 rsyslog-openrc
