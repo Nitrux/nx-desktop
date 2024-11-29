@@ -70,6 +70,7 @@ print-manager
 
 #   = Other KDE or Qt Software =
 
+colord-kde
 kaccounts-integration
 kaccounts-providers
 kio-fuse
