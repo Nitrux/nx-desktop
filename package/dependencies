@@ -70,7 +70,6 @@ print-manager
 
 #   = Other KDE or Qt Software =
 
-colord-kde
 kaccounts-integration
 kaccounts-providers
 kio-fuse
@@ -259,6 +258,7 @@ policykit-desktop-privileges
 #    = Supporting bits =
 
 devmem2
+displaycal
 gir1.2-gtk-3.0
 keyutils
 msr-tools
