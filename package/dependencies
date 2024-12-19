@@ -287,6 +287,7 @@ libpam-apparmor
 libpam-cracklib
 libpam-kwallet5
 libpam-pwquality
+libpam-tmpdir
 libpcsclite1
 libpipewire-0.3-0
 libpipewire-0.3-common
