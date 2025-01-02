@@ -263,6 +263,7 @@ keyutils
 msr-tools
 policycoreutils
 powermgmt-base
+sb-manager
 unused-net-protocols
 vulkan-tools
 
