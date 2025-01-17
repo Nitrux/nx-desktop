@@ -11,6 +11,7 @@ nitrux-hardware-drivers-legacy
 
 dhcpcd-base
 network-manager
+network-manager-fortisslvpn
 network-manager-openconnect
 network-manager-openvpn
 nfs-common
