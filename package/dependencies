@@ -36,7 +36,6 @@ qt5-image-formats-plugins
 #     = PipeWire =
 
 gstreamer1.0-pipewire
-pipewire-alsa
 pipewire-bin
 pipewire-jack
 pipewire-pulse
