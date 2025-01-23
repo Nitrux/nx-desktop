@@ -19,6 +19,8 @@ wpasupplicant
 
 #    = Multimedia =
 
+alsa-tools
+alsa-ucm-conf
 alsa-utils
 gstreamer1.0-libav
 gstreamer1.0-plugins-base
@@ -34,6 +36,7 @@ qt5-image-formats-plugins
 #     = PipeWire =
 
 gstreamer1.0-pipewire
+pipewire-alsa
 pipewire-bin
 pipewire-jack
 pipewire-pulse
