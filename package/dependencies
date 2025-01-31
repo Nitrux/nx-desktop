@@ -340,7 +340,6 @@ power-profiles-daemon-openrc
 powertop-openrc
 rsyslog-openrc
 spice-avahi-openrc
-tlp-openrc
 usbmuxd-openrc
 waydroid-openrc
 
