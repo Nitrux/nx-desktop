@@ -336,6 +336,7 @@ nohang-openrc
 ntpsec-openrc
 nvidia-openrc
 plymouth-openrc
+power-profiles-daemon-openrc
 powertop-openrc
 rsyslog-openrc
 spice-avahi-openrc
