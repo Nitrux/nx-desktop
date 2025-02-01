@@ -81,6 +81,7 @@ kup-backup
 plasma-browser-integration
 qml-module-org-kde-activities
 qml-module-org-kde-newstuff
+qml-module-org-kde-pipewire
 qml-module-qt-labs-platform
 qml-module-qtquick-extras
 qml-module-qtquick-shapes
