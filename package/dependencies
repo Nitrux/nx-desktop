@@ -269,8 +269,6 @@ powermgmt-base
 sb-manager
 unused-net-protocols
 vulkan-tools
-xdotool
-ydotool
 
 #    = Supporting libraries =
 
