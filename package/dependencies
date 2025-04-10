@@ -299,6 +299,8 @@ libpipewire-0.3-modules-x11
 libplist3
 libpwquality-tools
 libqt5multimedia5-plugins
+librsvg2-2
+librsvg2-common
 libspa-0.2-bluetooth
 libspa-0.2-jack
 libspa-0.2-libcamera
