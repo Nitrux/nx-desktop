@@ -264,6 +264,7 @@ devmem2
 gir1.2-gtk-3.0
 keyutils
 msr-tools
+patchelf
 policycoreutils
 powermgmt-base
 sb-manager
