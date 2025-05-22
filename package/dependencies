@@ -53,7 +53,6 @@ kde-config-plymouth
 kde-config-screenlocker
 kde-config-sddm
 kde-config-tablet
-khotkeys
 kio
 kio-extras
 kscreen
@@ -81,7 +80,6 @@ kup-backup
 plasma-browser-integration
 qml-module-org-kde-activities
 qml-module-org-kde-newstuff
-qml-module-org-kde-pipewire
 qml-module-qt-labs-platform
 qml-module-qtquick-extras
 qml-module-qtquick-shapes
@@ -94,7 +92,6 @@ sddm
 
 #    = NX Desktop Customization Layer =
 
-applet-window-buttons
 fonts-nx-desktop
 grub2-theme-nitrux
 luv-icon-theme
@@ -102,9 +99,7 @@ nitrux-wallpapers-free
 nx-desktop-apps-legacy
 nx-desktop-settings-legacy
 nx-gtk-themes
-nx-kstyle-theme
 nx-plasma-look-and-feel
-nx-window-deco
 plymouth-theme-nitrux
 sddm-config
 
@@ -244,7 +239,6 @@ fonts-unfonts-core
 #   = GTK =
 
 gtk2-engines-murrine
-gtk3-engines-breeze
 
 #   = XDG configuration =
 
@@ -274,13 +268,10 @@ vulkan-tools
 #    = Supporting libraries =
 
 libavahi-glib1
-libblockdev-crypto2
+libblockdev-crypto3
 libdbus-glib-1-2
 libdbusmenu-gtk3-4
 libgtk2.0-0
-libkf5config-bin
-libkf5dbusaddons-bin
-libkf5kdelibs4support5-bin
 libmariadb3
 libmspack0
 libnl-3-200
@@ -288,7 +279,6 @@ libnl-genl-3-200
 libnl-route-3-200
 libnotify-bin
 libpam-apparmor
-libpam-cracklib
 libpam-kwallet5
 libpam-pwquality
 libpam-tmpdir
@@ -297,7 +287,7 @@ libpipewire-0.3-0
 libpipewire-0.3-common
 libpipewire-0.3-modules
 libpipewire-0.3-modules-x11
-libplist3
+libplist-2.0-4
 libpwquality-tools
 libqt5multimedia5-plugins
 librsvg2-2
@@ -353,5 +343,4 @@ xinit
 
 #    = Wayland =
 
-plasma-workspace-wayland
 wayland-utils
