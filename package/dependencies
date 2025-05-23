@@ -342,5 +342,3 @@ x11-session-utils
 xinit
 
 #    = Wayland =
-
-wayland-utils
