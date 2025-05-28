@@ -27,11 +27,11 @@ gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
 gstreamer1.0-pulseaudio
-gstreamer1.0-qt5
+gstreamer1.0-qt6
 media-types
-phonon4qt5
-phonon4qt5-backend-vlc
-qt5-image-formats-plugins
+phonon4qt6
+phonon4qt6-backend-vlc
+qt6-image-formats-plugins
 
 #     = PipeWire =
 
@@ -86,7 +86,7 @@ qml-module-qtquick-shapes
 qml-module-qtquick-xmllistmodel
 qml-module-qtwayland-compositor
 qml-module-qtwebview
-qt5-gtk-platformtheme
+qt6-gtk-platformtheme
 qttranslations5-l10n
 sddm
 
@@ -213,7 +213,7 @@ fcitx5
 fcitx5-frontend-gtk2
 fcitx5-frontend-gtk3
 fcitx5-frontend-gtk4
-fcitx5-frontend-qt5
+fcitx5-frontend-qt6
 fcitx5-modules
 fcitx5-module-lua
 fcitx5-mozc
@@ -289,7 +289,6 @@ libpipewire-0.3-modules
 libpipewire-0.3-modules-x11
 libplist-2.0-4
 libpwquality-tools
-libqt5multimedia5-plugins
 librsvg2-2
 librsvg2-common
 libspa-0.2-bluetooth
