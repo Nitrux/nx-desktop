@@ -1,20 +1,23 @@
 # Comments start with a '#'.
 # Empty lines are ignored.
 
-#    = Nitrux OS CORE =
+#    = Network services =
 
-nitrux-minimal-legacy
-nitrux-standard-legacy
-nitrux-hardware-drivers-legacy
-
-#    = Network Services =
-
+cifs-utils
 dhcpcd-base
 network-manager
 network-manager-fortisslvpn
 network-manager-openconnect
 network-manager-openvpn
 nfs-common
+samba
+slirp4netns
+smbclient
+ssh-askpass
+tor
+torsocks
+unused-net-protocols
+wireguard-tools
 wpasupplicant
 
 #    = Multimedia =
@@ -27,13 +30,9 @@ gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
 gstreamer1.0-pulseaudio
-gstreamer1.0-qt6
 media-types
-phonon4qt6
-phonon4qt6-backend-vlc
-qt6-image-formats-plugins
 
-#     = PipeWire =
+#    = PipeWire =
 
 gstreamer1.0-pipewire
 pipewire-bin
@@ -42,68 +41,45 @@ pipewire-pulse
 pipewire-v4l2
 wireplumber
 
-#     == Plasma ==
+#    = Hyprland =
 
-baloo-kf5
-bluedevil
-kde-cli-tools
-kde-config-flatpak
-kde-config-gtk-style
-kde-config-plymouth
-kde-config-screenlocker
-kde-config-sddm
-kde-config-tablet
-kio
-kio-extras
-kscreen
-kwin-addons
-kwin-x11
-oxygen-sounds
-plasma-desktop
-plasma-firewall
-plasma-gamemode
-plasma-nm
-plasma-pa
-plasma-thunderbolt
-plasma-vault
-plasma-widgets-addons
-powerdevil
-print-manager
+hyprcursor-util
+hyprland
+hyprland-backgrounds
+hyprland-protocols
+hyprpaper
+hyprwayland-scanner
 
-#   = Other KDE or Qt Software =
+#    = Other Hyprland software =
 
-kaccounts-integration
-kaccounts-providers
-kio-fuse
-kio-gdrive
-kup-backup
-plasma-browser-integration
-qml-module-org-kde-activities
-qml-module-org-kde-newstuff
-qml-module-qt-labs-platform
-qml-module-qtquick-extras
-qml-module-qtquick-shapes
-qml-module-qtquick-xmllistmodel
-qml-module-qtwayland-compositor
-qml-module-qtwebview
-qt6-gtk-platformtheme
-qttranslations5-l10n
+cliphist
+kitty
+mako-notifier
+swaylock
+waybar
+wlopm
+wofi
+wofi-pass
+
+#    = Other KDE or Qt software =
+
+corectrl
 sddm
 
-#    = NX Desktop Customization Layer =
+#    = NX Desktop customization =
 
 fonts-nx-desktop
 grub2-theme-nitrux
 luv-icon-theme
 nitrux-wallpapers-free
-nx-desktop-apps-legacy
-nx-desktop-settings-legacy
-nx-plasma-look-and-feel
 plymouth-theme-nitrux
 sddm-config
 
+#    = Nitrux OS customization =
+
+nitrux-system-settings
+
 #    = Locales =
-#   == Unless requested use English by default ==
 
 language-pack-ar
 language-pack-ar-base
@@ -206,23 +182,9 @@ language-pack-zh-hans-base
 language-pack-zh-hant
 language-pack-zh-hant-base
 
-#   = Input Methods =
+#    = Input Methods =
 
-fcitx5
-fcitx5-frontend-gtk2
-fcitx5-frontend-gtk3
-fcitx5-frontend-gtk4
-fcitx5-frontend-qt6
-fcitx5-modules
-fcitx5-module-lua
-fcitx5-mozc
-im-config
-kde-config-fcitx5
-maliit-inputcontext-gtk2
-maliit-inputcontext-gtk3
-maliit-keyboard
-
-#   = Fonts =
+#    = Fonts =
 
 fonts-arphic-ukai
 fonts-arphic-uming
@@ -235,13 +197,17 @@ fonts-opensymbol
 fonts-powerline
 fonts-unfonts-core
 
-#   = GTK =
+#    = GTK =
 
-gtk2-engines-murrine
+gnome-keyring
 
-#   = XDG configuration =
+#    = XDG configuration =
 
 desktop-file-utils
+xdg-desktop-portal-gnome
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-kde
+xdg-desktop-portal-wlr
 xdg-user-dirs
 xdg-utils
 
@@ -251,19 +217,6 @@ cups-pk-helper
 polkit-kde-agent-1
 policykit-desktop-privileges
 
-#    = Supporting bits =
-
-devmem2
-gir1.2-gtk-3.0
-keyutils
-msr-tools
-patchelf
-policycoreutils
-powermgmt-base
-sb-manager
-unused-net-protocols
-vulkan-tools
-
 #    = Supporting libraries =
 
 libavahi-glib1
@@ -271,6 +224,8 @@ libblockdev-crypto3
 libdbus-glib-1-2
 libdbusmenu-gtk3-4
 libgtk2.0-0
+libhyprlang2
+libhyprutils0
 libmariadb3
 libmspack0
 libnl-3-200
@@ -285,7 +240,6 @@ libpcsclite1
 libpipewire-0.3-0
 libpipewire-0.3-common
 libpipewire-0.3-modules
-libpipewire-0.3-modules-x11
 libplist-2.0-4
 libpwquality-tools
 librsvg2-2
@@ -336,7 +290,99 @@ waydroid-openrc
 
 #    = XORG =
 
-x11-session-utils
-xinit
+x11-xkb-utils
+xclip
+xfonts-base
+xfonts-encodings
+xfonts-utils
+xsel
+xserver-common
 
 #    = Wayland =
+
+libwayland-client++1
+libwayland-client-extra++1
+libwayland-cursor++1
+libwayland-egl++1
+libwayland-egl1
+wayland-protocols
+wayland-utils
+wdisplays
+xwayland
+
+#    = File compression =
+
+mscompress
+p7zip-full
+unrar
+unzip
+xz-utils
+zip
+zstd
+
+#    = Container packages =
+
+docker.io
+distrobox
+podman
+podman-toolbox
+
+#    = Security =
+
+aide
+aide-common
+apparmor-profiles
+apparmor-profiles-extra
+apparmor-utils
+dnscrypt-proxy
+firejail
+keyutils
+policycoreutils
+safe-rm
+selinux-basics
+ufw
+
+#    = System information =
+
+clinfo
+hdparm
+htop
+inxi
+
+#    = Power management =
+
+power-profiles-daemon
+powermgmt-base
+
+#    = Filesystem management =
+
+fscrypt
+lvm2
+lvm2-dbusd
+lvm2-lockd
+multipath-tools
+udisks2-lvm2
+
+#    = SPICE packages =
+
+spice-vdagent
+spice-webdavd
+
+#    = Other software =
+
+cgroupfs-mount
+coreutils
+gamemode
+ghostscript
+gir1.2-gtk-3.0
+git
+git-lfs
+gnupg-agent
+gobject-introspection
+graphviz
+man-db
+msr-tools
+rng-tools5
+uidmap
+vulkan-tools
+zenity

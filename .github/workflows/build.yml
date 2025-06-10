@@ -3,21 +3,29 @@ name: Build and push packages to PackageCloud.
 on:
   push:
     branches:
-      - 'legacy-plasma'
+      - 'main'
     paths-ignore:
       - 'README.md'
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+
+    container:
+      image: debian:testing
+      env:
+        DEBIAN_FRONTEND: noninteractive
+
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - name: Install dependencies.
-        run: |
-          sudo gem install package_cloud
+      - name: Install necessary packages
+        run: apt -q update && apt -yy install build-essential curl equivs git gnupg patchelf python3-pip ruby-full sudo wget
 
-      - name: Build.
+      - name: Install PackageCloud
+        run: gem install package_cloud
+
+      - name: Generate Debian package
         run: |
           sudo ./gh-build.sh
 
@@ -25,4 +33,4 @@ jobs:
         env:
           PACKAGECLOUD_TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
         run: |
-          package_cloud push nitrux/testing/debian/trixie $(pwd)/*.deb
+          package_cloud push nitrux/testing/debian/forky $(pwd)/*.deb
