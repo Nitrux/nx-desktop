@@ -64,19 +64,16 @@ wofi-pass
 #    = Other KDE or Qt software =
 
 corectrl
-sddm
 
-#    = NX Desktop customization =
+#    = Desktop customization =
 
-fonts-nx-desktop
-grub2-theme-nitrux
 luv-icon-theme
-nitrux-wallpapers-free
-plymouth-theme-nitrux
-sddm-config
+nitrux-wallpapers
 
 #    = Nitrux OS customization =
 
+grub2-theme-nitrux
+plymouth-theme-nitrux
 nitrux-system-settings
 
 #    = Locales =
@@ -197,7 +194,7 @@ fonts-opensymbol
 fonts-powerline
 fonts-unfonts-core
 
-#    = GTK =
+#    = GTK software =
 
 gnome-keyring
 
@@ -380,6 +377,7 @@ git-lfs
 gnupg-agent
 gobject-introspection
 graphviz
+greetd
 man-db
 msr-tools
 rng-tools5
