@@ -50,6 +50,12 @@ hyprland-protocols
 hyprpaper
 hyprwayland-scanner
 
+#    = Display Manager =
+
+greetd
+wayqt-qt6
+qtgreet
+
 #    = Other Hyprland software =
 
 cliphist
@@ -74,6 +80,7 @@ nitrux-wallpapers
 
 grub2-theme-nitrux
 plymouth-theme-nitrux
+nitrux-greetd-settings
 nitrux-system-settings
 
 #    = Locales =
@@ -377,7 +384,6 @@ git-lfs
 gnupg-agent
 gobject-introspection
 graphviz
-greetd
 man-db
 msr-tools
 rng-tools5
