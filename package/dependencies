@@ -48,7 +48,7 @@ Hyprland
 #    = Display Manager =
 
 greetd
-qtgreet
+greetd-qtgreet
 
 #    = Other Hyprland software =
 
