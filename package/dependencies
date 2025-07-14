@@ -209,18 +209,12 @@ gnome-keyring
 #    = XDG configuration =
 
 desktop-file-utils
-xdg-desktop-portal-gnome
 xdg-desktop-portal-hyprland
-xdg-desktop-portal-kde
 xdg-desktop-portal-wlr
 xdg-user-dirs
 xdg-utils
 
 #   = PolicyKit =
-
-cups-pk-helper
-polkit-kde-agent-1
-policykit-desktop-privileges
 
 #    = Supporting libraries =
 
@@ -236,7 +230,6 @@ libnl-genl-3-200
 libnl-route-3-200
 libnotify-bin
 libpam-apparmor
-libpam-kwallet5
 libpam-pwquality
 libpam-tmpdir
 libpcsclite1
@@ -293,14 +286,6 @@ waydroid-openrc
 
 #    = XORG =
 
-x11-xkb-utils
-xclip
-xfonts-base
-xfonts-encodings
-xfonts-utils
-xsel
-xserver-common
-
 #    = Wayland =
 
 libwayland-client++1
@@ -311,6 +296,7 @@ libwayland-egl1
 wayland-protocols
 wayland-utils
 wdisplays
+wl-clipboard
 xwayland
 
 #    = File compression =
@@ -342,7 +328,6 @@ firejail
 keyutils
 policycoreutils
 safe-rm
-selinux-basics
 ufw
 
 #    = System information =
@@ -360,11 +345,7 @@ powermgmt-base
 #    = Filesystem management =
 
 fscrypt
-lvm2
-lvm2-dbusd
-lvm2-lockd
 multipath-tools
-udisks2-lvm2
 
 #    = SPICE packages =
 
@@ -377,7 +358,6 @@ cgroupfs-mount
 coreutils
 gamemode
 ghostscript
-gir1.2-gtk-3.0
 git
 git-lfs
 gnupg-agent
