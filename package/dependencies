@@ -43,17 +43,11 @@ wireplumber
 
 #    = Hyprland =
 
-hyprcursor-util
-hyprland
-hyprland-backgrounds
-hyprland-protocols
-hyprpaper
-hyprwayland-scanner
+Hyprland
 
 #    = Display Manager =
 
 greetd
-wayqt-qt6
 qtgreet
 
 #    = Other Hyprland software =
@@ -66,6 +60,14 @@ waybar
 wlopm
 wofi
 wofi-pass
+
+#    = Desktop Framework Libraries
+
+dfl-ipc
+dfl-applications
+dfl-utils
+dfl-login1
+dfl-wayt-qt6
 
 #    = Other KDE or Qt software =
 
