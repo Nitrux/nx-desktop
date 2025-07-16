@@ -296,7 +296,6 @@ libwayland-egl1
 wayland-protocols
 wayland-utils
 wdisplays
-wl-clipboard
 xwayland
 
 #    = File compression =
