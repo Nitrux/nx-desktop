@@ -346,6 +346,7 @@ powermgmt-base
 
 fscrypt
 multipath-tools
+udisks2
 
 #    = SPICE packages =
 
