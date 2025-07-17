@@ -197,9 +197,6 @@ wireguard-tools
 
 #    = SPICE =
 
-spice-vdagent
-spice-webdavd
-
 #    = Other software =
 
 cgroupfs-mount
