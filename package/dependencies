@@ -97,7 +97,7 @@ xdg-desktop-portal-wlr
 xdg-user-dirs
 xdg-utils
 
-#   = PolicyKit =
+#    = PolicyKit =
 
 #    = Supporting libraries =
 
