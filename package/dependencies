@@ -4,6 +4,7 @@
 #    = Network management =
 
 dhcpcd-base
+dnsmasq
 network-manager
 ntpsec
 ntpsec-ntpdate
@@ -152,7 +153,6 @@ bluetooth-openrc
 debugfs-openrc
 dmcrypt-openrc
 dnscrypt-openrc
-dnsmasq-openrc
 nohang-openrc
 ntpsec-openrc
 nvidia-openrc
