@@ -1,30 +1,16 @@
 # Comments start with a '#'.
 # Empty lines are ignored.
 
-#    = Network services =
+#    = Network management =
 
-cifs-utils
 dhcpcd-base
 network-manager
-network-manager-fortisslvpn
-network-manager-openconnect
-network-manager-openvpn
-nfs-common
-samba
-slirp4netns
-smbclient
-ssh-askpass
-tor
-torsocks
-unused-net-protocols
-wireguard-tools
+ntpsec
+ntpsec-ntpdate
 wpasupplicant
 
-#    = Multimedia =
+#    = Multimedia support =
 
-alsa-tools
-alsa-ucm-conf
-alsa-utils
 gstreamer1.0-libav
 gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
@@ -32,8 +18,11 @@ gstreamer1.0-plugins-ugly
 gstreamer1.0-pulseaudio
 media-types
 
-#    = PipeWire =
+#    = Audio =
 
+alsa-tools
+alsa-ucm-conf
+alsa-utils
 gstreamer1.0-pipewire
 pipewire-bin
 pipewire-jack
@@ -50,7 +39,7 @@ hyprland
 greetd
 greetd-qtgreet
 
-#    = Other Hyprland software =
+#    = Other desktop software =
 
 cliphist
 kitty
@@ -61,7 +50,7 @@ wlopm
 wofi
 wofi-pass
 
-#    = Desktop Framework Libraries
+#    = Desktop Framework Libraries =
 
 dfl-ipc
 dfl-applications
@@ -69,134 +58,27 @@ dfl-utils
 dfl-login1
 dfl-wayqt-qt6
 
-#    = Other KDE or Qt software =
-
-corectrl
-
-#    = Desktop customization =
+#    = Desktop theming =
 
 luv-icon-theme
 nitrux-wallpapers
 
-#    = Nitrux OS customization =
+#    = System theming =
 
 grub2-theme-nitrux
 plymouth-theme-nitrux
-nitrux-system-settings
 
 #    = Locales =
 
-language-pack-ar
-language-pack-ar-base
-language-pack-bg
-language-pack-bg-base
-language-pack-bn
-language-pack-bn-base
-language-pack-ca
-language-pack-ca-base
-language-pack-ckb
-language-pack-ckb-base
-language-pack-crh
-language-pack-crh-base
-language-pack-cs
-language-pack-cs-base
-language-pack-cy
-language-pack-cy-base
-language-pack-da
-language-pack-da-base
-language-pack-de
-language-pack-de-base
-language-pack-el
-language-pack-el-base
 language-pack-en
 language-pack-en-base
 language-pack-es
 language-pack-es-base
-language-pack-et
-language-pack-et-base
-language-pack-fa
-language-pack-fa-base
-language-pack-fi
-language-pack-fi-base
-language-pack-fr
-language-pack-fr-base
-language-pack-ga
-language-pack-ga-base
-language-pack-hi
-language-pack-hi-base
-language-pack-hr
-language-pack-hr-base
-language-pack-hu
-language-pack-hu-base
-language-pack-id
-language-pack-id-base
-language-pack-is
-language-pack-is-base
-language-pack-it
-language-pack-it-base
-language-pack-ja
-language-pack-ja-base
-language-pack-ka
-language-pack-ka-base
-language-pack-ko
-language-pack-ko-base
-language-pack-ku
-language-pack-ku-base
-language-pack-lt
-language-pack-lt-base
-language-pack-lv
-language-pack-lv-base
-language-pack-mk
-language-pack-mk-base
-language-pack-ms
-language-pack-ms-base
-language-pack-my
-language-pack-my-base
-language-pack-nb
-language-pack-nb-base
-language-pack-nl
-language-pack-nl-base
-language-pack-nn
-language-pack-nn-base
-language-pack-pl
-language-pack-pl-base
-language-pack-pt
-language-pack-pt-base
-language-pack-ro
-language-pack-ro-base
-language-pack-ru
-language-pack-ru-base
-language-pack-sk
-language-pack-sk-base
-language-pack-sl
-language-pack-sl-base
-language-pack-sq
-language-pack-sq-base
-language-pack-sr
-language-pack-sr-base
-language-pack-sv
-language-pack-sv-base
-language-pack-tr
-language-pack-tr-base
-language-pack-uk
-language-pack-uk-base
-language-pack-vi
-language-pack-vi-base
-language-pack-zh-hans
-language-pack-zh-hans-base
-language-pack-zh-hant
-language-pack-zh-hant-base
 
 #    = Input Methods =
 
 #    = Fonts =
 
-fonts-arphic-ukai
-fonts-arphic-uming
-fonts-freefont-ttf
-fonts-indic
-fonts-ipafont-gothic
-fonts-ipafont-mincho
 fonts-liberation
 fonts-opensymbol
 fonts-powerline
@@ -248,7 +130,7 @@ libstartup-notification0
 libzstd-dev
 libzstd1
 
-#    = Python packages =
+#    = Python =
 
 pipx
 python3-dbus
@@ -264,15 +146,13 @@ python3-venv
 python3-xlib
 python3-yaml
 
-#    = OpenRC compatibility packages =
+#    = OpenRC services =
 
 bluetooth-openrc
-dbab-openrc
 debugfs-openrc
 dmcrypt-openrc
 dnscrypt-openrc
 dnsmasq-openrc
-fprint-openrc
 nohang-openrc
 ntpsec-openrc
 nvidia-openrc
@@ -280,7 +160,6 @@ plymouth-openrc
 power-profiles-daemon-openrc
 powertop-openrc
 rsyslog-openrc
-spice-avahi-openrc
 usbmuxd-openrc
 waydroid-openrc
 
@@ -290,64 +169,33 @@ waydroid-openrc
 
 libwayland-client++1
 libwayland-client-extra++1
+libwayland-client0
 libwayland-cursor++1
+libwayland-cursor0
 libwayland-egl++1
 libwayland-egl1
+libwayland-server0
 wayland-protocols
 wayland-utils
 wdisplays
 xwayland
 
-#    = File compression =
-
-mscompress
-p7zip-full
-unrar
-unzip
-xz-utils
-zip
-zstd
-
-#    = Container packages =
-
-docker.io
-distrobox
-podman
-podman-toolbox
-
-#    = Security =
+#    = Additional security software =
 
 aide
 aide-common
-apparmor-profiles
-apparmor-profiles-extra
-apparmor-utils
+cifs-utils
 dnscrypt-proxy
-firejail
 keyutils
 policycoreutils
 safe-rm
+tor
+torsocks
 ufw
+unused-net-protocols
+wireguard-tools
 
-#    = System information =
-
-clinfo
-hdparm
-htop
-inxi
-
-#    = Power management =
-
-power-profiles-daemon
-powermgmt-base
-
-#    = Filesystem management =
-
-fscrypt
-multipath-tools
-udisks2
-
-#    = SPICE packages =
+#    = SPICE =
 
 spice-vdagent
 spice-webdavd
@@ -355,17 +203,4 @@ spice-webdavd
 #    = Other software =
 
 cgroupfs-mount
-coreutils
-gamemode
-ghostscript
-git
-git-lfs
-gnupg-agent
-gobject-introspection
-graphviz
-man-db
-msr-tools
-rng-tools5
-uidmap
-vulkan-tools
 zenity
