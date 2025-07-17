@@ -99,37 +99,11 @@ xdg-utils
 
 #    = PolicyKit =
 
-#    = Supporting libraries =
+#    = PAM libraries =
 
-libavahi-glib1
-libblockdev-crypto3
-libdbus-glib-1-2
-libdbusmenu-gtk3-4
-libgtk2.0-0
-libmariadb3
-libmspack0
-libnl-3-200
-libnl-genl-3-200
-libnl-route-3-200
-libnotify-bin
 libpam-apparmor
 libpam-pwquality
 libpam-tmpdir
-libpcsclite1
-libpipewire-0.3-0
-libpipewire-0.3-common
-libpipewire-0.3-modules
-libplist-2.0-4
-libpwquality-tools
-librsvg2-2
-librsvg2-common
-libspa-0.2-bluetooth
-libspa-0.2-jack
-libspa-0.2-libcamera
-libspa-0.2-modules
-libstartup-notification0
-libzstd-dev
-libzstd1
 
 #    = Python =
 
@@ -167,14 +141,6 @@ waydroid-openrc
 
 #    = Wayland =
 
-libwayland-client++1
-libwayland-client-extra++1
-libwayland-client0
-libwayland-cursor++1
-libwayland-cursor0
-libwayland-egl++1
-libwayland-egl1
-libwayland-server0
 wayland-protocols
 wayland-utils
 wdisplays
@@ -201,3 +167,5 @@ wireguard-tools
 
 cgroupfs-mount
 zenity
+
+#    = Supporting libraries =
