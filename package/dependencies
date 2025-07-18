@@ -127,6 +127,7 @@ bluetooth-openrc
 debugfs-openrc
 dmcrypt-openrc
 dnscrypt-openrc
+network-manager-openrc
 nohang-openrc
 ntpsec-openrc
 nvidia-openrc
