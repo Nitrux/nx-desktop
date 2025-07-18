@@ -121,7 +121,10 @@ python3-yaml
 
 #    = OpenRC services =
 
+acpi-openrc
+apparmor-openrc
 bluetooth-openrc
+cron-openrc
 debugfs-openrc
 dmcrypt-openrc
 dnscrypt-openrc
@@ -133,6 +136,7 @@ plymouth-openrc
 power-profiles-daemon-openrc
 powertop-openrc
 rsyslog-openrc
+sudo-openrc
 usbmuxd-openrc
 waydroid-openrc
 
