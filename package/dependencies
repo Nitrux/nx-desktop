@@ -125,9 +125,11 @@ acpi-openrc
 apparmor-openrc
 bluetooth-openrc
 cron-openrc
+dbus-openrc
 debugfs-openrc
 dmcrypt-openrc
 dnscrypt-openrc
+elogind-openrc
 network-manager-openrc
 nohang-openrc
 ntpsec-openrc
