@@ -171,6 +171,8 @@ wireguard-tools
 
 #    = Other software =
 
+dbus
+dbus-bin
 cgroupfs-mount
 zenity
 
